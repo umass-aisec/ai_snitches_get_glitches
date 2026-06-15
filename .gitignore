@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# SurveilBench: downloaded dataset and evaluation outputs (the bundled
+# surveilbench/sample_data/ IS committed; the full downloaded set is not).
+/data/
+/out/
+out/

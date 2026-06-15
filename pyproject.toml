@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "surveilbench"
+version = "0.1.0"
+description = "Evaluate how AI agents handle institutional risk, internal review, external reporting, and surveillance-sensitive signals."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "UMass AI Security" }]
+keywords = ["benchmark", "agents", "governance", "surveillance", "whistleblowing", "llm-evaluation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "smolagents==1.24.0",
+    "litellm>=1.87,<2",
+    "python-dotenv>=1.0",
+    "tqdm>=4.66",
+    "huggingface_hub>=0.20",
+]
+
+[project.optional-dependencies]
+# Amazon Bedrock models (e.g. bedrock/us.anthropic.claude-sonnet-4-6) need boto3.
+# Anthropic / OpenAI / Gemini / etc. work through litellm with no extra SDK.
+bedrock = ["boto3>=1.34"]
+
+[project.urls]
+Homepage = "https://github.com/umass-aisec/ai_snitches_get_stitches"
+Dataset = "https://huggingface.co/datasets/juniworld/surveilbench"
+
+[project.scripts]
+surveilbench = "surveilbench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["surveilbench*"]
+
+[tool.setuptools.package-data]
+surveilbench = [
+    "optimized_prompts/*.txt",
+    "sample_data/*/*/*.md",
+    "sample_data/*/*/*.json",
+]
