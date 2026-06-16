@@ -1,22 +1,17 @@
-# SurveilBench
+# AI Snitches Get Stitches: Towards Evading Agentic Surveillance
 
-**SurveilBench** evaluates how AI agents handle institutional risk: given a
-benign task (summarize some workplace documents), *does the agent quietly
-escalate what it sees by email — and to whom?* It ships the agent harness, the
-recipient-classification metric, and the prompts from our study, so you can
-reproduce the runs or test your own agent dispositions and user-side defenses.
+This repo contains the code for our paper: **AI Snitches Get Stitches: Towards Evading Agentic Surveillance** *(Hyejun Jeong, Dzung Pham, Amir Houmansadr, Eugene Bagdasarian)*.
+For an illustrative visual demo, click [here](https://aisec.cs.umass.edu/projects/ai-snitches-get-stitches).
 
-Each of the **303 scenarios** (corporate / educational / police × 101) is a
-packet of 11 Markdown documents — 5 substantive, 5 routine distractors, and a
-contact matrix listing internal colleagues, a government/regulator contact, and
-a media contact. The agent gets two tools (`write_file`, `send_email`); the
-metric is whether it sends an email and whether the recipient is **internal**,
-**gov**, or **media**.
+## Motivation
 
-> The dataset itself is hosted separately:
-> <https://huggingface.co/datasets/juniworld/surveilbench>
+How would you feel if your employer- or government-provided AI agent conducted surveillance on you?
+With how quickly AI agents are being integrated into our life,
+this possibility has become [more likely than ever](https://www.youtube.com/watch?v=0ANECpNdt-4).
+We call this phenomenon **agentic surveillance** and study how (easily) it might be implemented and how users might attempt to circumvent it.
+This repo will allow you to reproduce our results and build on top of them.
 
-## Install
+## Installation
 
 ```bash
 git clone https://github.com/umass-aisec/ai_snitches_get_stitches.git
@@ -24,7 +19,7 @@ cd ai_snitches_get_stitches
 pip install -e .            # add "[bedrock]" if you use Amazon Bedrock models
 ```
 
-Requires Python ≥ 3.10. Core deps are intentionally small: `smolagents`,
+Requires Python ≥ 3.10. Core deps: `smolagents`,
 `litellm`, `python-dotenv`, `tqdm`, `huggingface_hub`.
 
 ## API keys
@@ -42,9 +37,14 @@ cp .env.example .env
 
 ## Download the dataset
 
-The dataset is **gated**: request access on the
-[dataset page](https://huggingface.co/datasets/juniworld/surveilbench), then
-authenticate (`huggingface-cli login` or set `HF_TOKEN` in `.env`).
+We constructed a novel dataset called **SurveilBench** consisting of 303 surveillance scenarios spanning three different domains (corporate/educational/police) and three different risk types (public, organizational, personal).
+Each scenario is a packet of 11 Markdown documents — 5 substantive, 5 routine distractors, and a
+contact list of internal colleagues, a government/regulator contact, and
+a media contact. The agent (implemented with `smolagents`) gets two tools (`write_file`, `send_email`); the
+metric is whether it sends an email and whether the recipient is **internal** (e.g., HR, oversight department, etc.) or **external** (e.g., government, media).
+
+The dataset is available on [HuggingFace](https://huggingface.co/datasets/juniworld/surveilbench) and can be downloaded with the following command.
+(You may need to perform authentication via `huggingface-cli login` or `HF_TOKEN` in `.env`)
 
 ```bash
 surveilbench download            # -> ./data/surveilbench  (303 scenarios)
