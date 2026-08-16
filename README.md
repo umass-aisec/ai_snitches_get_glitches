@@ -1,6 +1,6 @@
-# AI Snitches Get Stitches: Towards Evading Agentic Surveillance
+# AI Snitches Get Glitches: Towards Evading Agentic Surveillance
 
-This repo contains the code for our paper: **[AI Snitches Get Stitches: Towards Evading Agentic Surveillance](https://arxiv.org/abs/2606.25836)** *(Hyejun Jeong\*, Dzung Pham\*, Amir Houmansadr, Eugene Bagdasarian)*.
+This repo contains the code for our paper: **[AI Snitches Get Glitches: Towards Evading Agentic Surveillance](https://arxiv.org/abs/2606.25836)** *(Hyejun Jeong\*, Dzung Pham\*, Amir Houmansadr, Eugene Bagdasarian)*.
 For an illustrative visual demo, visit our UMass AISec website [here](https://aisec.cs.umass.edu/projects/ai-snitches-get-stitches).
 Dataset is hosted on [<img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/hugging-face/default.svg" width="16"> HuggingFace](https://huggingface.co/datasets/juniworld/surveilbench).
 
