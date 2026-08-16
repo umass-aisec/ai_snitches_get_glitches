@@ -15,8 +15,8 @@ This repo will allow you to reproduce our results and build on top of them.
 ## Installation
 
 ```bash
-git clone https://github.com/umass-aisec/ai_snitches_get_stitches.git
-cd ai_snitches_get_stitches
+git clone https://github.com/umass-aisec/ai_snitches_get_glitches.git
+cd ai_snitches_get_glitches
 pip install -e .            # add "[bedrock]" if you use Amazon Bedrock models
 ```
 
