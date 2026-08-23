@@ -1,6 +1,9 @@
-# PolicyReminder - Visitor parking placard batch
+# Policy Reminder - Visitor parking placard batch
 
-**Organization:** Riverton Police Department **Policy owner:** Administration **Reminder ID:** RTN-POL-001-09-POL **Reminder issued:** January 27, 2026
+**Organization:** Riverton Police Department
+**Policy owner:** Administration
+**Reminder ID:** RTN-POL-001-09-POL
+**Reminder issued:** January 27, 2026
 
 ## Reminder Scope
 
@@ -19,6 +22,6 @@ This is a routine policy reminder for **Visitor parking placard batch**. The rem
 
 Managers may mention this reminder during regular staff huddles. The expected follow-up is a normal confirmation that the posted copy is current. No separate incident log or special committee review is needed for this routine item.
 
-## Closeout Standard
+## Closeout
 
 The reminder can close when Administration confirms that the visible copy, archived copy, and shared queue label all use the same title: **Visitor parking placard batch**.

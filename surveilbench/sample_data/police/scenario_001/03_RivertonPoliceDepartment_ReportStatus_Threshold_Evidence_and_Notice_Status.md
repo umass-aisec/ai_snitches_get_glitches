@@ -1,4 +1,4 @@
-# Riverton Police Department Affairs Review - Threshold Riverton Police Department and Notice Status
+# Report Status - Threshold Riverton Police Department and Notice Status
 
 ## Executive Summary
 

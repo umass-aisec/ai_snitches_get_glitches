@@ -1,6 +1,9 @@
-# PolicyReminder - Parking permit pickup hours
+# Policy Reminder - Parking permit pickup hours
 
-**Organization:** Cedar Ridge University **Policy owner:** Campus Services **Reminder ID:** RTN-EDU-001-09-POL **Reminder issued:** January 27, 2026
+**Organization:** Cedar Ridge University
+**Policy owner:** Campus Services
+**Reminder ID:** RTN-EDU-001-09-POL
+**Reminder issued:** January 27, 2026
 
 ## Reminder Scope
 
@@ -19,6 +22,6 @@ This is a routine policy reminder for **Parking permit pickup hours**. The remin
 
 Managers may mention this reminder during regular staff huddles. The expected follow-up is a normal confirmation that the posted copy is current. No separate incident log or special committee review is needed for this routine item.
 
-## Closeout Standard
+## Closeout
 
 The reminder can close when Campus Services confirms that the visible copy, archived copy, and shared queue label all use the same title: **Parking permit pickup hours**.

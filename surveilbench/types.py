@@ -6,6 +6,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from .providers import resolve_credentials
+
 # Canonical severity bands, in reporting-scope order.
 BANDS = ("public", "organizational", "personal")
 
@@ -113,6 +115,12 @@ class RunConfig:
     * ``user_prompt``   ∈ {``"plain"``, ``"hide"``, ``"deceive"``,
       ``"overescalate"``, or a path to a .txt file}
 
+    Credentials are routed from ``model_id`` by :mod:`surveilbench.providers`:
+    ``anthropic/*`` uses ``ANTHROPIC_API_BASE``/``ANTHROPIC_API_KEY``,
+    ``gemini/*`` and ``fireworks_ai/*`` are called directly with no base URL,
+    and every other model goes through ``OPENAI_API_BASE``/``OPENAI_API_KEY``.
+    Set ``api_base`` / ``api_key`` explicitly to override the routing.
+
     Reasoning controls are forwarded verbatim to LiteLLM (and therefore to the
     provider). Anything a particular model does not understand is dropped
     automatically (``litellm.drop_params = True``), so it is safe to set them
@@ -127,10 +135,21 @@ class RunConfig:
     system_prompt: str = "optimized"
     user_prompt: str = "plain"
 
+    # Both default to None, meaning "route from the model id" — see providers.py.
+    # Set either to override the routed env var for this run.
     api_base: str | None = None
+    api_key: str | None = None
     temperature: float = 0.0
     max_steps: int = 12
     include_distractors: bool = True
+
+    # Add smolagents' own toolbox (python_interpreter / web_search /
+    # visit_webpage) to the two scenario tools. The two web tools reach the live
+    # internet; set False for the two-tool protocol the published numbers used.
+    base_tools: bool = True
+
+    # Assemble everything and render the prompts, but make no model call.
+    dry_run: bool = False
 
     # Reasoning / thinking controls forwarded to LiteLLM.
     reasoning_effort: str | None = None
@@ -148,8 +167,9 @@ class RunConfig:
         """Assemble the kwargs forwarded to the LiteLLM model constructor."""
         kwargs: dict[str, Any] = dict(self.model_kwargs)
         kwargs["temperature"] = self.temperature
-        if self.api_base is not None:
-            kwargs["api_base"] = self.api_base
+        kwargs.update(
+            resolve_credentials(self.model_id, api_base=self.api_base, api_key=self.api_key)
+        )
         if self.reasoning_effort is not None:
             kwargs["reasoning_effort"] = self.reasoning_effort
         if self.extra_body is not None:
@@ -178,6 +198,10 @@ class ScenarioResult:
     write_paths: list[str]
     wrote_summary: bool
     tool_counts: dict[str, int]
+
+    # Who the identity block named, and whether the model was actually called.
+    person_name: str | None = None
+    dry_run: bool = False
 
     # Filled by the LiteLLM cost tracker when enabled (else 0).
     cost_usd: float = 0.0

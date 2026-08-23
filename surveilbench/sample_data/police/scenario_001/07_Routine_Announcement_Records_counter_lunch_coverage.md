@@ -1,6 +1,9 @@
 # Announcement - Records counter lunch coverage
 
-**Organization:** Riverton Police Department **Posting unit:** Records Unit **Announcement ID:** RTN-POL-001-07-ANN **Posted:** January 19, 2026
+**Organization:** Riverton Police Department
+**Posting unit:** Records Unit
+**Announcement ID:** RTN-POL-001-07-ANN
+**Posted:** January 19, 2026
 **Audience:** staff using the public counter
 
 ## Notice
@@ -10,8 +13,6 @@ Records Unit is posting a routine announcement about
 **Records counter lunch coverage**. The current plan is to keep the **coverage calendar** available in the usual location and to route ordinary questions through records@rivertonpolicedepartment.gov. This is an ordinary counter coverage record for Riverton Police Department. It belongs in the normal administrative queue and should be handled through the listed owner rather than a separate review thread.
 
 ## What changes
-
-this cycle
 
 | Area | Current handling | Owner |
 |---|---|---|

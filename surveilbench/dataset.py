@@ -20,7 +20,7 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any, Callable, Iterable
 
 from .types import Document, Scenario, normalize_severity_band
 
@@ -52,6 +52,36 @@ def _normalized_axis(value: str | None) -> str | None:
     if value is None:
         return None
     return value.strip().lower() or None
+
+
+def _parse_selector(token: str) -> tuple[str | None, str]:
+    """Parse one ``--scenario`` token into ``(axis or None, scenario_id)``.
+
+    Accepts ``scenario_042``, the axis-qualified ``corporate/scenario_042``, and
+    the bare number ``42``. The id repeats across axes, so qualifying it is the
+    only way to name exactly one scenario in a full dataset.
+    """
+    token = token.strip().lower()
+    axis: str | None = None
+    if "/" in token:
+        axis_part, token = token.split("/", 1)
+        axis = axis_part.strip() or None
+        token = token.strip()
+    if token.isdigit():
+        token = f"scenario_{int(token):03d}"
+    return axis, token
+
+
+def _parse_selectors(scenario_ids: str | Iterable[str] | None) -> list[tuple[str | None, str]] | None:
+    """Normalize the ``scenario_ids`` argument into selector pairs."""
+    if scenario_ids is None:
+        return None
+    if isinstance(scenario_ids, str):
+        tokens = scenario_ids.split(",")
+    else:
+        tokens = [t for item in scenario_ids for t in str(item).split(",")]
+    selectors = [_parse_selector(t) for t in tokens if t.strip()]
+    return selectors or None
 
 
 def _surveilbench_is_distractor(rel_path: Path, metadata: dict[str, Any]) -> bool:
@@ -91,12 +121,16 @@ def load_surveilbench_scenarios(
     root: str | Path,
     axis: str | None = None,
     severity_band: str | None = None,
+    scenario_ids: str | Iterable[str] | None = None,
 ) -> list[Scenario]:
     """Load scenarios under ``root`` (the ``surveilbench/`` directory).
 
-    Optionally filter by ``axis`` (corporate/educational/police) and/or
+    Optionally filter by ``axis`` (corporate/educational/police),
     ``severity_band`` (public / organizational / personal; the dataset's
-    historical band names are also accepted).
+    historical band names are also accepted), and/or ``scenario_ids`` — a
+    comma-separated string or an iterable of selectors, each of which may be
+    ``scenario_042``, ``corporate/scenario_042`` or ``42``. A selector that
+    matches nothing is an error rather than a silently empty result.
     """
     root = Path(root)
     if not root.exists():
@@ -108,6 +142,8 @@ def load_surveilbench_scenarios(
     scenarios: list[Scenario] = []
     target_band = normalize_severity_band(severity_band)
     target_axis = _normalized_axis(axis)
+    selectors = _parse_selectors(scenario_ids)
+    matched: set[tuple[str | None, str]] = set()
 
     axis_dirs = sorted(p for p in root.iterdir() if p.is_dir() and not _is_hidden_dir(p))
     for axis_dir in axis_dirs:
@@ -118,6 +154,16 @@ def load_surveilbench_scenarios(
             p for p in axis_dir.iterdir() if p.is_dir() and not _is_hidden_dir(p)
         )
         for scenario_dir in scenario_dirs:
+            if selectors is not None:
+                hits = [
+                    sel
+                    for sel in selectors
+                    if sel[1] == scenario_dir.name.lower()
+                    and (sel[0] is None or sel[0] == axis_name)
+                ]
+                if not hits:
+                    continue
+                matched.update(hits)
             metadata_path = scenario_dir / "metadata.json"
             if not metadata_path.exists():
                 continue
@@ -140,6 +186,15 @@ def load_surveilbench_scenarios(
                     documents=docs,
                     metadata=scenario_metadata,
                 )
+            )
+
+    if selectors is not None:
+        missing = [sel for sel in selectors if sel not in matched]
+        if missing:
+            names = ", ".join(f"{ax}/{sid}" if ax else sid for ax, sid in missing)
+            raise ValueError(
+                f"--scenario matched no scenario under {root}: {names}"
+                + (f" (with --axis {target_axis})" if target_axis else "")
             )
     return scenarios
 

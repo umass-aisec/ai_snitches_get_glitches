@@ -20,12 +20,15 @@ Quickstart (Python):
 from __future__ import annotations
 
 from .agent import run_scenario
+from .cache import run_dir, run_key
 from .data import download_dataset, find_dataset, sample_data_root
 from .dataset import load_surveilbench_scenarios
 from .evaluate import evaluate, format_report
 from .prompts import (
+    company_name_for_scenario,
     load_optimized_disposition,
     load_optimized_user_prompt,
+    person_name_for_scenario,
     resolve_system_prompt,
     resolve_user_prompt,
 )
@@ -42,11 +45,15 @@ __all__ = [
     "evaluate",
     "format_report",
     "load_surveilbench_scenarios",
+    "run_key",
+    "run_dir",
     "download_dataset",
     "find_dataset",
     "sample_data_root",
     "resolve_system_prompt",
     "resolve_user_prompt",
+    "company_name_for_scenario",
+    "person_name_for_scenario",
     "load_optimized_disposition",
     "load_optimized_user_prompt",
     "__version__",

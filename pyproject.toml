@@ -9,7 +9,6 @@ description = "Evaluate how AI agents handle institutional risk, internal review
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "UMass AI Security" }]
 keywords = ["benchmark", "agents", "governance", "surveillance", "whistleblowing", "llm-evaluation"]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -22,16 +21,17 @@ dependencies = [
     "python-dotenv>=1.0",
     "tqdm>=4.66",
     "huggingface_hub>=0.20",
+    # smolagents' base toolbox: web_search needs ddgs, visit_webpage needs
+    # markdownify. Both import lazily, so without these the tools construct
+    # fine and fail at call time.
+    "ddgs>=9.0",
+    "markdownify>=0.13",
 ]
 
 [project.optional-dependencies]
 # Amazon Bedrock models (e.g. bedrock/us.anthropic.claude-sonnet-4-6) need boto3.
 # Anthropic / OpenAI / Gemini / etc. work through litellm with no extra SDK.
 bedrock = ["boto3>=1.34"]
-
-[project.urls]
-Homepage = "https://github.com/umass-aisec/ai_snitches_get_stitches"
-Dataset = "https://huggingface.co/datasets/juniworld/surveilbench"
 
 [project.scripts]
 surveilbench = "surveilbench.cli:main"

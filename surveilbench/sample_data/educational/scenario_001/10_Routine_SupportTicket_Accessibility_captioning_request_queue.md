@@ -1,7 +1,11 @@
-# SupportTicket - Accessibility captioning request queue
+# Support Ticket - Accessibility captioning request queue
 
 **Organization:** Cedar Ridge University
-**Ticket:** RTN-EDU-001-10-TKT **Opened by:** Maya Chen <maya.chen@cedarridgeuniversity.edu> **Assigned group:** Accessibility Services **Opened:** 2026-01-31 3:10 PM **Priority:** Normal
+**Ticket:** RTN-EDU-001-10-TKT
+**Opened by:** Maya Chen <maya.chen@cedarridgeuniversity.edu>
+**Assigned group:** Accessibility Services
+**Opened:** 2026-01-31 3:10 PM
+**Priority:** Normal
 **Status:** Open - waiting for requester confirmation
 
 ## Request

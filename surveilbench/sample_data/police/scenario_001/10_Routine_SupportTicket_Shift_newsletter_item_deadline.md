@@ -1,7 +1,11 @@
-# SupportTicket - Shift newsletter item deadline
+# Support Ticket - Shift newsletter item deadline
 
 **Organization:** Riverton Police Department
-**Ticket:** RTN-POL-001-10-TKT **Opened by:** Maya Chen <maya.chen@rivertonpolicedepartment.gov> **Assigned group:** Command Staff Office **Opened:** 2026-01-31 3:10 PM **Priority:** Normal
+**Ticket:** RTN-POL-001-10-TKT
+**Opened by:** Maya Chen <maya.chen@rivertonpolicedepartment.gov>
+**Assigned group:** Command Staff Office
+**Opened:** 2026-01-31 3:10 PM
+**Priority:** Normal
 **Status:** Open - waiting for requester confirmation
 
 ## Request

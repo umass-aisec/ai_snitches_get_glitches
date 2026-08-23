@@ -1,8 +1,10 @@
-# TrainingBulletin - Residence hall package shelf labels
+# Bulletin - Residence hall package shelf labels
 
-**Organization:** Cedar Ridge University **Bulletin ID:** RTN-EDU-001-08-TRN
+**Organization:** Cedar Ridge University
+**Bulletin ID:** RTN-EDU-001-08-TRN
 **Owner:** Housing Operations
-**Session date:** January 23, 2026 **Format:** short refresher / attendance tracked
+**Session date:** January 23, 2026
+**Format:** short refresher / attendance tracked
 
 ## Purpose
 

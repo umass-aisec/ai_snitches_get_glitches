@@ -18,6 +18,7 @@ import litellm
 from tqdm import tqdm
 
 from .agent import run_scenario
+from .cache import run_dir, run_key, slug_for_scenario, write_run_config
 from .data import find_dataset
 from .dataset import load_surveilbench_scenarios
 from .types import BANDS, RunConfig, Scenario, ScenarioResult
@@ -173,12 +174,13 @@ def _record_row(result: ScenarioResult) -> dict[str, Any]:
 def _run_or_resume(
     config: RunConfig,
     scenario: Scenario,
-    idx: int,
     records_dir: Path,
     transcripts_dir: Path | None,
     skip_existing: bool,
 ) -> tuple[dict[str, Any], bool]:
-    slug = f"{idx:03d}__{scenario.scenario_id}"
+    # Keyed by axis + scenario id, never by position in the filtered list, so
+    # any slice of the dataset reuses the same record. See cache.py.
+    slug = slug_for_scenario(scenario)
     record_file = records_dir / f"{slug}.json"
     if skip_existing and record_file.exists():
         try:
@@ -218,6 +220,7 @@ def evaluate(
     data_root: str | Path | None = None,
     axis: str | None = None,
     severity_band: str | None = None,
+    scenario_ids: str | list[str] | None = None,
     limit: int | None = None,
     workers: int = 8,
     out_dir: str | Path | None = None,
@@ -230,8 +233,10 @@ def evaluate(
 
     If ``scenarios`` is None they are loaded from ``data_root`` (or the resolved
     default dataset location) with the given ``axis`` / ``severity_band`` /
-    ``limit`` filters. Per-scenario records, transcripts and the summary are
-    written under ``out_dir`` (default ``./out``).
+    ``scenario_ids`` / ``limit`` filters. Per-scenario records, transcripts and
+    the summary are written under ``<out_dir>/<run_key>`` (default ``./out``) —
+    one directory per configuration, so configurations sharing an ``out_dir``
+    never read each other's records. See :mod:`surveilbench.cache`.
     """
     _silence_smolagents_logging()
     if track_cost:
@@ -239,18 +244,28 @@ def evaluate(
 
     if scenarios is None:
         root = find_dataset(data_root)
-        scenarios = load_surveilbench_scenarios(root, axis=axis, severity_band=severity_band)
+        scenarios = load_surveilbench_scenarios(
+            root, axis=axis, severity_band=severity_band, scenario_ids=scenario_ids
+        )
     if limit is not None:
         scenarios = scenarios[:limit]
     if not scenarios:
-        raise ValueError("no scenarios to evaluate (check --data / --axis / --severity-band)")
+        raise ValueError(
+            "no scenarios to evaluate (check --data / --axis / --severity-band / --scenario)"
+        )
 
     out_dir = Path(out_dir) if out_dir is not None else Path("out")
-    records_dir = out_dir / "records"
+    # One subtree per configuration; a dry run is nested one level deeper so it
+    # can never overwrite (or be resumed from) the records of a real run.
+    write_dir = run_dir(out_dir, config)
+    records_dir = write_dir / "records"
     records_dir.mkdir(parents=True, exist_ok=True)
-    transcripts_dir = out_dir / "transcripts" if save_transcripts else None
+    write_run_config(write_dir, config)
+    transcripts_dir = write_dir / "transcripts" if save_transcripts else None
     if transcripts_dir is not None:
         transcripts_dir.mkdir(parents=True, exist_ok=True)
+    if config.dry_run:
+        skip_existing = False  # rendering is free; never serve a stale prompt
 
     rows: list[dict[str, Any] | None] = [None] * len(scenarios)
     errors: list[dict[str, Any]] = []
@@ -259,7 +274,7 @@ def evaluate(
     with ThreadPoolExecutor(max_workers=max(1, workers)) as ex:
         fut_to_idx = {
             ex.submit(
-                _run_or_resume, config, sc, i + 1, records_dir, transcripts_dir, skip_existing
+                _run_or_resume, config, sc, records_dir, transcripts_dir, skip_existing
             ): (i, sc)
             for i, sc in enumerate(scenarios)
         }
@@ -291,6 +306,8 @@ def evaluate(
         "model": config.model_id,
         "system_prompt": config.system_prompt,
         "user_prompt": config.user_prompt,
+        "run_key": run_key(config),
+        "dry_run": config.dry_run,
         "scenarios_evaluated": len(good),
         "scenarios_failed": len(errors),
         "reused_from_cache": cached,
@@ -305,13 +322,13 @@ def evaluate(
             "output_tokens": sum(int(r.get("output_tokens", 0)) for r in good),
         }
 
-    (out_dir / "summary.json").write_text(
+    (write_dir / "summary.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    (out_dir / "by_band.json").write_text(
+    (write_dir / "by_band.json").write_text(
         json.dumps(report["by_band"], ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    report["out_dir"] = str(out_dir)
+    report["out_dir"] = str(write_dir)
     return report
 
 
@@ -321,6 +338,13 @@ def format_report(report: dict[str, Any]) -> str:
         f"model={report['model']}  system_prompt={report['system_prompt']}  "
         f"user_prompt={report['user_prompt']}",
         "",
+    ]
+    if report.get("dry_run"):
+        lines += [
+            "*** DRY RUN — prompts rendered, no model called; all rates below are 0 ***",
+            "",
+        ]
+    lines += [
         f"{'band':<24}{'n':>5}{'report':>9}{'internal':>10}{'gov':>8}{'media':>8}{'summary':>9}",
         "-" * 73,
     ]

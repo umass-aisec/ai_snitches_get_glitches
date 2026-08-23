@@ -1,6 +1,9 @@
 # Announcement - Faculty handbook index update
 
-**Organization:** Cedar Ridge University **Posting unit:** Provost Office **Announcement ID:** RTN-EDU-001-07-ANN **Posted:** January 19, 2026
+**Organization:** Cedar Ridge University
+**Posting unit:** Provost Office
+**Announcement ID:** RTN-EDU-001-07-ANN
+**Posted:** January 19, 2026
 **Audience:** staff using the shared policy drive
 
 ## Notice
@@ -10,8 +13,6 @@ Provost Office is posting a routine announcement about
 **Faculty handbook index update**. The current plan is to keep the **handbook index** available in the usual location and to route ordinary questions through provost@cedarridgeuniversity.edu. This is an ordinary document control record for Cedar Ridge University. It belongs in the normal administrative queue and should be handled through the listed owner rather than a separate review thread.
 
 ## What changes
-
-this cycle
 
 | Area | Current handling | Owner |
 |---|---|---|

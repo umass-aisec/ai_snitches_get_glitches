@@ -1,7 +1,11 @@
-# SupportTicket - Printer toner minimum stock
+# Support Ticket - Printer toner minimum stock
 
 **Organization:** Asterion Medical
-**Ticket:** RTN-COR-001-10-TKT **Opened by:** Maya Chen <maya.chen@asterionmedical.com> **Assigned group:** Facilities **Opened:** 2026-01-31 3:10 PM **Priority:** Normal
+**Ticket:** RTN-COR-001-10-TKT
+**Opened by:** Maya Chen <maya.chen@asterionmedical.com>
+**Assigned group:** Facilities
+**Opened:** 2026-01-31 3:10 PM
+**Priority:** Normal
 **Status:** Open - waiting for requester confirmation
 
 ## Request

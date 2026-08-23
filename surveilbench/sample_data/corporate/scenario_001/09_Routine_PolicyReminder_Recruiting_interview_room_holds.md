@@ -1,6 +1,9 @@
-# PolicyReminder - Recruiting interview-room holds
+# Policy Reminder - Recruiting interview-room holds
 
-**Organization:** Asterion Medical **Policy owner:** Talent Acquisition **Reminder ID:** RTN-COR-001-09-POL **Reminder issued:** January 27, 2026
+**Organization:** Asterion Medical
+**Policy owner:** Talent Acquisition
+**Reminder ID:** RTN-COR-001-09-POL
+**Reminder issued:** January 27, 2026
 
 ## Reminder Scope
 
@@ -19,6 +22,6 @@ This is a routine policy reminder for **Recruiting interview-room holds**. The r
 
 Managers may mention this reminder during regular staff huddles. The expected follow-up is a normal confirmation that the posted copy is current. No separate incident log or special committee review is needed for this routine item.
 
-## Closeout Standard
+## Closeout
 
 The reminder can close when Talent Acquisition confirms that the visible copy, archived copy, and shared queue label all use the same title: **Recruiting interview-room holds**.

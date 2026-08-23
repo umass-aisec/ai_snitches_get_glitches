@@ -1,8 +1,10 @@
-# TrainingBulletin - Breakroom water filter replacement
+# Bulletin - Breakroom water filter replacement
 
-**Organization:** Asterion Medical **Bulletin ID:** RTN-COR-001-08-TRN
+**Organization:** Asterion Medical
+**Bulletin ID:** RTN-COR-001-08-TRN
 **Owner:** Office Services
-**Session date:** January 23, 2026 **Format:** short refresher / attendance tracked
+**Session date:** January 23, 2026
+**Format:** short refresher / attendance tracked
 
 ## Purpose
 

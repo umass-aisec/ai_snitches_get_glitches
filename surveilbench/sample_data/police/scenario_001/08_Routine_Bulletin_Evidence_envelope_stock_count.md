@@ -1,8 +1,10 @@
-# TrainingBulletin - Evidence envelope stock count
+# Bulletin - Evidence envelope stock count
 
-**Organization:** Riverton Police Department **Bulletin ID:** RTN-POL-001-08-TRN
+**Organization:** Riverton Police Department
+**Bulletin ID:** RTN-POL-001-08-TRN
 **Owner:** Property Room
-**Session date:** January 23, 2026 **Format:** short refresher / attendance tracked
+**Session date:** January 23, 2026
+**Format:** short refresher / attendance tracked
 
 ## Purpose
 
