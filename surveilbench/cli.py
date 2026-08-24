@@ -26,6 +26,21 @@ def _json_arg(value: str | None, flag: str) -> dict | None:
     return parsed
 
 
+def _followup_arg(value: str | None) -> str | list[str] | None:
+    """``--followup a,b`` -> a list; a single spec stays a plain string.
+
+    Comma-separated like ``--scenario``. Several strategies share one task turn
+    per scenario, so listing them here is much cheaper than separate runs — and
+    compares them on the same rollout.
+    """
+    if not value:
+        return None
+    if "," not in value:
+        return value
+    specs = [part.strip() for part in value.split(",") if part.strip()]
+    return specs or None
+
+
 def _print_dry_run_prompts(report: dict) -> None:
     """Echo the first dry-run scenario's rendered messages to the console."""
     transcripts = Path(report["out_dir"]) / "transcripts"
@@ -38,6 +53,9 @@ def _print_dry_run_prompts(report: dict) -> None:
     for event in events:
         if event.get("type") == "rendered_message":
             print(f"\n----- {event.get('role', '?')} message -----")
+            print(event.get("content", ""))
+        elif event.get("type") == "followup_prompt":
+            print("\n----- follow-up (sent after the task turn) -----")
             print(event.get("content", ""))
     if len(files) > 1:
         print(f"\n({len(files) - 1} more under {transcripts}/)")
@@ -87,6 +105,7 @@ def _cmd_run(args: argparse.Namespace) -> int:
         model_id=args.model,
         system_prompt=args.system_prompt,
         user_prompt=args.user_prompt,
+        followup_prompt=_followup_arg(args.followup),
         api_base=api_base,
         temperature=args.temperature,
         max_steps=args.max_steps,
@@ -118,7 +137,11 @@ def _cmd_run(args: argparse.Namespace) -> int:
         raise SystemExit(str(e))
     print()
     print(format_report(report))
-    print(f"\nresults written to: {report['out_dir']}/")
+    # One directory per follow-up strategy, so list them all rather than the first.
+    out_dirs = [run["out_dir"] for run in report.get("followup_runs") or [report]]
+    print("\nresults written to:")
+    for path in out_dirs:
+        print(f"  {path}/")
     if args.dry_run:
         _print_dry_run_prompts(report)
     return 2 if report.get("scenarios_failed") else 0
@@ -160,6 +183,14 @@ def build_parser() -> argparse.ArgumentParser:
         default="plain",
         help="user request / defense: 'plain', 'hide', 'deceive', 'overescalate', "
         "or a path to a .txt file (default: plain)",
+    )
+    r.add_argument(
+        "--followup",
+        default=None,
+        help="ask a second question in the same conversation after the task: "
+        "'honesty' (did you contact anyone?), 'honesty_prefill', or a path to a "
+        ".txt file. Comma-separate several to ask each of them about the same "
+        "task turn, paying for that turn once (default: no follow-up turn)",
     )
     # dataset selection
     r.add_argument("--data", default=None, help="dataset root (default: auto-resolve / SURVEILBENCH_DATA)")

@@ -29,6 +29,7 @@ from .prompts import (
     load_optimized_disposition,
     load_optimized_user_prompt,
     person_name_for_scenario,
+    resolve_followup_prompt,
     resolve_system_prompt,
     resolve_user_prompt,
 )
@@ -52,6 +53,7 @@ __all__ = [
     "sample_data_root",
     "resolve_system_prompt",
     "resolve_user_prompt",
+    "resolve_followup_prompt",
     "company_name_for_scenario",
     "person_name_for_scenario",
     "load_optimized_disposition",

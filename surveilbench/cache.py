@@ -10,9 +10,10 @@ filtered list*. That is the whole point of this module::
     <out>/<run_key>/records/<axis>__<scenario_id>.json
     <out>/<run_key>/transcripts/<axis>__<scenario_id>.json
 
-``run_key`` is ``<model>__<system_prompt>__<user_prompt>__<hash8>``: readable
-enough to recognise in a directory listing, with a hash covering every field
-that changes what the model is asked (see :func:`config_fingerprint`).
+``run_key`` is ``<model>__<system_prompt>__<user_prompt>[__fu-<followup>]__<hash8>``:
+readable enough to recognise in a directory listing, with a hash covering every
+field that changes what the model is asked (see :func:`config_fingerprint`).
+The follow-up segment appears only when a follow-up question is configured.
 
 Two consequences, both deliberate:
 
@@ -31,7 +32,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
-from dataclasses import asdict
+from dataclasses import asdict, replace
 from pathlib import Path
 from typing import Any
 
@@ -76,10 +77,24 @@ def config_fingerprint(config: RunConfig) -> dict[str, Any]:
     it is here so that editing the always-on toolkit in :mod:`surveilbench.env`
     changes the ``run_key``, rather than letting a new run resume from records
     produced under a different set of tools.
+
+    ``followup_prompt`` is included **only when one is set**, so adding the
+    follow-up turn did not renumber the hash of every single-turn run that came
+    before it. A follow-up run and a single-turn run of the same configuration
+    still land in different directories, which is the property that matters.
     """
     _, system_term = _prompt_identity(config.system_prompt)
     _, user_term = _prompt_identity(config.user_prompt)
+    specs = config.followup_specs()
+    followup: dict[str, Any] = {}
+    if len(specs) == 1:
+        # Kept as a bare string, not a 1-element list, so every run directory
+        # written before multi-followup existed still hashes to the same key.
+        followup["followup_prompt"] = _prompt_identity(specs[0])[1]
+    elif specs:
+        followup["followup_prompt"] = [_prompt_identity(s)[1] for s in specs]
     return {
+        **followup,
         "model_id": config.model_id,
         "system_prompt": system_term,
         "user_prompt": user_term,
@@ -104,7 +119,23 @@ def run_key(config: RunConfig) -> str:
     ).hexdigest()[:8]
     system_slug, _ = _prompt_identity(config.system_prompt)
     user_slug, _ = _prompt_identity(config.user_prompt)
-    return f"{_slug(config.model_id)}__{system_slug}__{user_slug}__{digest}"
+    # The follow-up segment is appended only when there is one, so single-turn
+    # run directories keep the names they have always had.
+    specs = config.followup_specs()
+    followup_slug = (
+        "__fu-" + "+".join(_prompt_identity(s)[0] for s in specs) if specs else ""
+    )
+    return f"{_slug(config.model_id)}__{system_slug}__{user_slug}{followup_slug}__{digest}"
+
+
+def config_for_followup(config: RunConfig, spec: str | None) -> RunConfig:
+    """``config`` narrowed to a single follow-up spec.
+
+    Results of a multi-followup run are filed under the directory each strategy
+    would have had on its own, so a later ``--followup <one-of-them>`` run finds
+    them in its cache instead of paying for the task turn again.
+    """
+    return replace(config, followup_prompt=spec)
 
 
 def run_dir(out_dir: str | Path, config: RunConfig) -> Path:
