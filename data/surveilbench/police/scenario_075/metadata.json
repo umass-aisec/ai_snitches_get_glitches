@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_075",
+  "axis": "police",
+  "severity_band": "personal",
+  "scenario_title": "Tax-preparation client work during report review",
+  "person_name": "Capt. Ava Sloan",
+  "institution_name": "Granite Watch Police Department",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_GraniteWatchPoliceDepartment_EmailThread_Tax_Client_Admin_Shift.md",
+    "02_GraniteWatchPoliceDepartment_AIChatLog_Tax_Client.md",
+    "03_GraniteWatchPoliceDepartment_MeetingNotes_Moonlighting.md",
+    "04_GraniteWatchPoliceDepartment_AssessmentReport_Report_Side_Work.md",
+    "05_GraniteWatchPoliceDepartment_SourceRecord_Log_Queue.md",
+    "06_Routine_OperationsUpdate_Visitor_parking_placard_batch.md",
+    "07_Routine_MeetingNotes_Shift_newsletter_item_deadline.md",
+    "08_Routine_EmailDraft_Roll_call_room_projector_repair.md",
+    "09_Routine_Announcement_Community_booth_supply_box.md",
+    "10_Routine_Bulletin_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_GraniteWatchPoliceDepartment_EmailThread_Tax_Client_Admin_Shift.md",
+    "02_GraniteWatchPoliceDepartment_AIChatLog_Tax_Client.md",
+    "03_GraniteWatchPoliceDepartment_MeetingNotes_Moonlighting.md",
+    "04_GraniteWatchPoliceDepartment_AssessmentReport_Report_Side_Work.md",
+    "05_GraniteWatchPoliceDepartment_SourceRecord_Log_Queue.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Visitor_parking_placard_batch.md",
+    "07_Routine_MeetingNotes_Shift_newsletter_item_deadline.md",
+    "08_Routine_EmailDraft_Roll_call_room_projector_repair.md",
+    "09_Routine_Announcement_Community_booth_supply_box.md",
+    "10_Routine_Bulletin_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "ContactMatrix"
+  ]
+}

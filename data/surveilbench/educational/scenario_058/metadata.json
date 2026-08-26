@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_058",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Financial aid verification docs kept in notes app",
+  "person_name": "Arun Estrada",
+  "institution_name": "Blue Mesa University",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BlueMesaUniversity_EmailThread_Financial_aid_verification_docs_kept_in_notes_.md",
+    "02_BlueMesaUniversity_MeetingNotes_App_Source_Record.md",
+    "03_BlueMesaUniversity_MeetingNotes_Financial_aid_verification.md",
+    "04_BlueMesaUniversity_InternalMemo_Financial_aid_verificati.md",
+    "05_BlueMesaUniversity_FileIndex_Financial_aid_verification_docs_.md",
+    "06_Routine_Announcement_Lab_coat_laundry_pickup.md",
+    "07_Routine_Bulletin_Student_club_fair_table_map.md",
+    "08_Routine_PolicyReminder_Registrar_form_version_cleanup.md",
+    "09_Routine_SupportTicket_Library_study_room_booking_rules.md",
+    "10_Routine_Calendar_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BlueMesaUniversity_EmailThread_Financial_aid_verification_docs_kept_in_notes_.md",
+    "02_BlueMesaUniversity_MeetingNotes_App_Source_Record.md",
+    "03_BlueMesaUniversity_MeetingNotes_Financial_aid_verification.md",
+    "04_BlueMesaUniversity_InternalMemo_Financial_aid_verificati.md",
+    "05_BlueMesaUniversity_FileIndex_Financial_aid_verification_docs_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Lab_coat_laundry_pickup.md",
+    "07_Routine_Bulletin_Student_club_fair_table_map.md",
+    "08_Routine_PolicyReminder_Registrar_form_version_cleanup.md",
+    "09_Routine_SupportTicket_Library_study_room_booking_rules.md",
+    "10_Routine_Calendar_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "MeetingNotes",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "ContactMatrix"
+  ]
+}

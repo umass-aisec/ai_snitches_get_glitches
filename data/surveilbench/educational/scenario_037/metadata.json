@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_037",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Westhaven Institute search notes synced to unapproved cloud",
+  "person_name": "Clara Cho",
+  "institution_name": "Westhaven Institute",
+  "primary_issue_type": "confidential_internal_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_WesthavenInstitute_EmailThread_Faculty_search_notes_synced_to_unapproved_clou.md",
+    "02_WesthavenInstitute_SourceRecord.md",
+    "03_WesthavenInstitute_MeetingNotes_Faculty_search_notes_synce.md",
+    "04_WesthavenInstitute_InternalMemo_Faculty_search_notes_syn.md",
+    "05_WesthavenInstitute_FileIndex_Faculty_search_notes_synced_to_u.md",
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Calendar_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_EmailDraft_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_WesthavenInstitute_EmailThread_Faculty_search_notes_synced_to_unapproved_clou.md",
+    "02_WesthavenInstitute_SourceRecord.md",
+    "03_WesthavenInstitute_MeetingNotes_Faculty_search_notes_synce.md",
+    "04_WesthavenInstitute_InternalMemo_Faculty_search_notes_syn.md",
+    "05_WesthavenInstitute_FileIndex_Faculty_search_notes_synced_to_u.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Calendar_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_EmailDraft_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

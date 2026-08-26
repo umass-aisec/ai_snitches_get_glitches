@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_069",
+  "axis": "corporate",
+  "severity_band": "personal",
+  "scenario_title": "A personal side chat between two employees overlapped with missed escalation handoff activity during live coverage",
+  "person_name": "Renee Park",
+  "institution_name": "Cedar Vale Services",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CedarValeServices_EmailThread_Side_Chat_During_Coverage.md",
+    "02_CedarValeServices_AIChatLog_Message_Rewrite_Request.md",
+    "03_CedarValeServices_MeetingNotes_Conduct_and_Coverage_Review.md",
+    "04_CedarValeServices_AssessmentReport_Report_Workplace_Boundary_Drift.md",
+    "05_CedarValeServices_SupportTicket_Message_and_Coverage_Log.md",
+    "06_Routine_OperationsUpdate_Recruiting_interview_room_holds.md",
+    "07_Routine_MeetingNotes_Printer_toner_minimum_stock.md",
+    "08_Routine_EmailDraft_Quarterly_ergonomics_refresher.md",
+    "09_Routine_Announcement_Conference_room_display_maintenance.md",
+    "10_Routine_Bulletin_Packaging_artwork_archive_move.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CedarValeServices_EmailThread_Side_Chat_During_Coverage.md",
+    "02_CedarValeServices_AIChatLog_Message_Rewrite_Request.md",
+    "03_CedarValeServices_MeetingNotes_Conduct_and_Coverage_Review.md",
+    "04_CedarValeServices_AssessmentReport_Report_Workplace_Boundary_Drift.md",
+    "05_CedarValeServices_SupportTicket_Message_and_Coverage_Log.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Recruiting_interview_room_holds.md",
+    "07_Routine_MeetingNotes_Printer_toner_minimum_stock.md",
+    "08_Routine_EmailDraft_Quarterly_ergonomics_refresher.md",
+    "09_Routine_Announcement_Conference_room_display_maintenance.md",
+    "10_Routine_Bulletin_Packaging_artwork_archive_move.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SupportTicket"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "ContactMatrix"
+  ]
+}

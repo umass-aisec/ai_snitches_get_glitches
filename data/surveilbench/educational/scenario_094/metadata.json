@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_094",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "Polarizing speaker browsing, AI neutrality prompts, curriculum source cleanup, and department chat overlap",
+  "person_name": "Audrey Reed",
+  "institution_name": "Lakeview Prep",
+  "primary_issue_type": "personal_belief_ideological_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_LakeviewPrep_BrowserHistory_Speaker_Browsing_and_Curriculum.md",
+    "02_LakeviewPrep_AIChatLog_Speaker_Source_Neutrality.md",
+    "03_LakeviewPrep_FileHistory_Media_Literacy_Lesson.md",
+    "04_LakeviewPrep_TeamChatNote_Curriculum_Source_Concern.md",
+    "05_LakeviewPrep_TeamChatNote_Source_Separation.md",
+    "06_Routine_Announcement_Map_Testing_Rooms.md",
+    "07_Routine_Bulletin_Curriculum_Source_Bank.md",
+    "08_Routine_SupportTicket_Classroom_Speakers.md",
+    "09_Routine_EmailDraft_Sourcebank_Permissions.md",
+    "10_Routine_SourceRecord_Library_Projector_Check.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_LakeviewPrep_BrowserHistory_Speaker_Browsing_and_Curriculum.md",
+    "02_LakeviewPrep_AIChatLog_Speaker_Source_Neutrality.md",
+    "03_LakeviewPrep_FileHistory_Media_Literacy_Lesson.md",
+    "04_LakeviewPrep_TeamChatNote_Curriculum_Source_Concern.md",
+    "05_LakeviewPrep_TeamChatNote_Source_Separation.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Map_Testing_Rooms.md",
+    "07_Routine_Bulletin_Curriculum_Source_Bank.md",
+    "08_Routine_SupportTicket_Classroom_Speakers.md",
+    "09_Routine_EmailDraft_Sourcebank_Permissions.md",
+    "10_Routine_SourceRecord_Library_Projector_Check.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "BrowserHistory",
+    "AIChatLog",
+    "FileHistory",
+    "TeamChatNote",
+    "TeamChatNote"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "SupportTicket",
+    "EmailDraft",
+    "SourceRecord",
+    "ContactMatrix"
+  ]
+}

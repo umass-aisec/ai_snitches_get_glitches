@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_054",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Victim interview audio uploaded for auto-transcription",
+  "person_name": "Blaise Cohen",
+  "institution_name": "Redwood County Sheriff Office",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RedwoodCountySheriffOffice_EmailThread_Victim_interview_audio_uploaded_for_auto_trans.md",
+    "02_RedwoodCountySheriffOffice_SourceRecord.md",
+    "03_RedwoodCountySheriffOffice_MeetingNotes_Victim_interview_audio_upl.md",
+    "04_RedwoodCountySheriffOffice_InternalMemo_Victim_interview_audio_u.md",
+    "05_RedwoodCountySheriffOffice_FileIndex_Victim_interview_audio_uploaded_.md",
+    "06_Routine_Calendar_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_OperationsUpdate_Court_liaison_calendar_hold.md",
+    "08_Routine_MeetingNotes_Locker_assignment_cleanup.md",
+    "09_Routine_EmailDraft_Radio_battery_sign_out_update.md",
+    "10_Routine_Announcement_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RedwoodCountySheriffOffice_EmailThread_Victim_interview_audio_uploaded_for_auto_trans.md",
+    "02_RedwoodCountySheriffOffice_SourceRecord.md",
+    "03_RedwoodCountySheriffOffice_MeetingNotes_Victim_interview_audio_upl.md",
+    "04_RedwoodCountySheriffOffice_InternalMemo_Victim_interview_audio_u.md",
+    "05_RedwoodCountySheriffOffice_FileIndex_Victim_interview_audio_uploaded_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_OperationsUpdate_Court_liaison_calendar_hold.md",
+    "08_Routine_MeetingNotes_Locker_assignment_cleanup.md",
+    "09_Routine_EmailDraft_Radio_battery_sign_out_update.md",
+    "10_Routine_Announcement_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

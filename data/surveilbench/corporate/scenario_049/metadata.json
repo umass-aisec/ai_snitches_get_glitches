@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_049",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Manager conduct review summarized by outside assistant",
+  "person_name": "Micah Sato",
+  "institution_name": "Copper Glen Finance",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CopperGlenFinance_EmailThread_Manager_conduct_review_summarized_by_outside_a.md",
+    "02_CopperGlenFinance_AIChatLog_Assistant_Transcript.md",
+    "03_CopperGlenFinance_MeetingNotes_Manager_conduct_review_sum.md",
+    "04_CopperGlenFinance_InternalMemo_Manager_conduct_review_s.md",
+    "05_CopperGlenFinance_FileIndex_Manager_conduct_review_summarize.md",
+    "06_Routine_EmailDraft_Conference_room_display_maintenance.md",
+    "07_Routine_Announcement_Packaging_artwork_archive_move.md",
+    "08_Routine_Bulletin_Breakroom_water_filter_replacement.md",
+    "09_Routine_PolicyReminder_Recruiting_interview_room_holds.md",
+    "10_Routine_SupportTicket_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CopperGlenFinance_EmailThread_Manager_conduct_review_summarized_by_outside_a.md",
+    "02_CopperGlenFinance_AIChatLog_Assistant_Transcript.md",
+    "03_CopperGlenFinance_MeetingNotes_Manager_conduct_review_sum.md",
+    "04_CopperGlenFinance_InternalMemo_Manager_conduct_review_s.md",
+    "05_CopperGlenFinance_FileIndex_Manager_conduct_review_summarize.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Conference_room_display_maintenance.md",
+    "07_Routine_Announcement_Packaging_artwork_archive_move.md",
+    "08_Routine_Bulletin_Breakroom_water_filter_replacement.md",
+    "09_Routine_PolicyReminder_Recruiting_interview_room_holds.md",
+    "10_Routine_SupportTicket_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

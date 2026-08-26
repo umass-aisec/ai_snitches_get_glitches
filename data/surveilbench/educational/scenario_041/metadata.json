@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_041",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Graystone Seminary appeal files opened to department drive",
+  "person_name": "Holden Rivas",
+  "institution_name": "Graystone Seminary",
+  "primary_issue_type": "sensitive_student_or_research_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_GraystoneSeminary_EmailThread_Scholarship_appeal_files_opened_to_department_.md",
+    "02_GraystoneSeminary_SourceRecord_Permission_Source_Record.md",
+    "03_GraystoneSeminary_MeetingNotes_Scholarship_appeal_files_o.md",
+    "04_GraystoneSeminary_InternalMemo_Scholarship_appeal_files.md",
+    "05_GraystoneSeminary_FileIndex_Scholarship_appeal_files_opened_.md",
+    "06_Routine_EmailDraft_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_Bulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_GraystoneSeminary_EmailThread_Scholarship_appeal_files_opened_to_department_.md",
+    "02_GraystoneSeminary_SourceRecord_Permission_Source_Record.md",
+    "03_GraystoneSeminary_MeetingNotes_Scholarship_appeal_files_o.md",
+    "04_GraystoneSeminary_InternalMemo_Scholarship_appeal_files.md",
+    "05_GraystoneSeminary_FileIndex_Scholarship_appeal_files_opened_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_Bulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

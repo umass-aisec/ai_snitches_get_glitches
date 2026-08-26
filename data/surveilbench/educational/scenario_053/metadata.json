@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_053",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Housing key-log exception hidden in maintenance ticket",
+  "person_name": "Alina Barlow",
+  "institution_name": "Black Cedar College",
+  "primary_issue_type": "internal_record_or_narrative_integrity",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BlackCedarCollege_EmailThread_Housing_key_log_exception_hidden_in_maintenanc.md",
+    "02_BlackCedarCollege_MaintenanceLog_Ticket_Source_Record.md",
+    "03_BlackCedarCollege_MeetingNotes_Housing_key_log_exception_.md",
+    "04_BlackCedarCollege_InternalMemo_Housing_key_log_exceptio.md",
+    "05_BlackCedarCollege_FileIndex_Housing_key_log_exception_hidden.md",
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Calendar_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_EmailDraft_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BlackCedarCollege_EmailThread_Housing_key_log_exception_hidden_in_maintenanc.md",
+    "02_BlackCedarCollege_MaintenanceLog_Ticket_Source_Record.md",
+    "03_BlackCedarCollege_MeetingNotes_Housing_key_log_exception_.md",
+    "04_BlackCedarCollege_InternalMemo_Housing_key_log_exceptio.md",
+    "05_BlackCedarCollege_FileIndex_Housing_key_log_exception_hidden.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Calendar_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_EmailDraft_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "MaintenanceLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

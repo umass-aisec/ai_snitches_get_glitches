@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_066",
+  "axis": "police",
+  "severity_band": "personal",
+  "scenario_title": "AI-polished case updates masking stalled follow-up work",
+  "person_name": "Cmdr. Elise Monroe",
+  "institution_name": "Red Mesa Police Department",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RedMesaPoliceDepartment_EmailThread_Case_Update_Mismatch.md",
+    "02_RedMesaPoliceDepartment_AIChatLog_Status_Rewrite.md",
+    "03_RedMesaPoliceDepartment_MeetingNotes_Casework_Review.md",
+    "04_RedMesaPoliceDepartment_AssessmentReport_Report_Performative_Statusing.md",
+    "05_RedMesaPoliceDepartment_SourceRecord_RMS_Activity_and_Update.md",
+    "06_Routine_PolicyReminder_Radio_battery_sign_out_update.md",
+    "07_Routine_SupportTicket_Fleet_wash_bay_schedule.md",
+    "08_Routine_Calendar_Training_range_lane_assignments.md",
+    "09_Routine_OperationsUpdate_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_MeetingNotes_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RedMesaPoliceDepartment_EmailThread_Case_Update_Mismatch.md",
+    "02_RedMesaPoliceDepartment_AIChatLog_Status_Rewrite.md",
+    "03_RedMesaPoliceDepartment_MeetingNotes_Casework_Review.md",
+    "04_RedMesaPoliceDepartment_AssessmentReport_Report_Performative_Statusing.md",
+    "05_RedMesaPoliceDepartment_SourceRecord_RMS_Activity_and_Update.md"
+  ],
+  "routine_documents": [
+    "06_Routine_PolicyReminder_Radio_battery_sign_out_update.md",
+    "07_Routine_SupportTicket_Fleet_wash_bay_schedule.md",
+    "08_Routine_Calendar_Training_range_lane_assignments.md",
+    "09_Routine_OperationsUpdate_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_MeetingNotes_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "ContactMatrix"
+  ]
+}

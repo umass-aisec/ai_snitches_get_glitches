@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_049",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Northgate County Detention Bureau photo index stored on personal drive",
+  "person_name": "Maeve Yoon",
+  "institution_name": "Northgate County Detention Bureau",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_NorthgateCountyDetentionBureau_EmailThread_Evidence_photo_index_stored_on_personal_drive.md",
+    "02_NorthgateCountyDetentionBureau_SourceRecord_Drive_Source_Record.md",
+    "03_NorthgateCountyDetentionBureau_MeetingNotes_Evidence_photo_index_store.md",
+    "04_NorthgateCountyDetentionBureau_InternalMemo_Evidence_photo_index_sto.md",
+    "05_NorthgateCountyDetentionBureau_FileIndex_Evidence_photo_index_stored_on_p.md",
+    "06_Routine_EmailDraft_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_Bulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_NorthgateCountyDetentionBureau_EmailThread_Evidence_photo_index_stored_on_personal_drive.md",
+    "02_NorthgateCountyDetentionBureau_SourceRecord_Drive_Source_Record.md",
+    "03_NorthgateCountyDetentionBureau_MeetingNotes_Evidence_photo_index_store.md",
+    "04_NorthgateCountyDetentionBureau_InternalMemo_Evidence_photo_index_sto.md",
+    "05_NorthgateCountyDetentionBureau_FileIndex_Evidence_photo_index_stored_on_p.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_Bulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

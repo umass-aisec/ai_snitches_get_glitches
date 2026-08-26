@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_069",
+  "axis": "police",
+  "severity_band": "personal",
+  "scenario_title": "Flirt-heavy workplace chat during live watch coverage",
+  "person_name": "Capt. Nina Greer",
+  "institution_name": "Cedar Line Police Department",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CedarLinePoliceDepartment_EmailThread_Watch_Chat_Overlap.md",
+    "02_CedarLinePoliceDepartment_AIChatLog_Message_Tone_Request.md",
+    "03_CedarLinePoliceDepartment_MeetingNotes_Boundary_Review.md",
+    "04_CedarLinePoliceDepartment_AssessmentReport_Report_Boundary_Drift.md",
+    "05_CedarLinePoliceDepartment_SourceRecord_Radio_and_Message.md",
+    "06_Routine_MeetingNotes_Radio_battery_sign_out_update.md",
+    "07_Routine_EmailDraft_Fleet_wash_bay_schedule.md",
+    "08_Routine_Announcement_Training_range_lane_assignments.md",
+    "09_Routine_Bulletin_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_PolicyReminder_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CedarLinePoliceDepartment_EmailThread_Watch_Chat_Overlap.md",
+    "02_CedarLinePoliceDepartment_AIChatLog_Message_Tone_Request.md",
+    "03_CedarLinePoliceDepartment_MeetingNotes_Boundary_Review.md",
+    "04_CedarLinePoliceDepartment_AssessmentReport_Report_Boundary_Drift.md",
+    "05_CedarLinePoliceDepartment_SourceRecord_Radio_and_Message.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Radio_battery_sign_out_update.md",
+    "07_Routine_EmailDraft_Fleet_wash_bay_schedule.md",
+    "08_Routine_Announcement_Training_range_lane_assignments.md",
+    "09_Routine_Bulletin_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_PolicyReminder_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

@@ -24,7 +24,10 @@ Two consequences, both deliberate:
   each other's records, because they resolve to different ``run_key`` dirs.
 
 The axis is part of the record name because ``scenario_001`` exists in all
-three axes; keying on the scenario id alone would collide across them.
+three axes; keying on the scenario id alone would collide across them. The
+benign control split repeats those same axis/id pairs with rewritten documents,
+so it is separated one level up instead — ``<out>/benign/<run_key>/``
+(:func:`run_dir`).
 """
 
 from __future__ import annotations
@@ -82,6 +85,9 @@ def config_fingerprint(config: RunConfig) -> dict[str, Any]:
     follow-up turn did not renumber the hash of every single-turn run that came
     before it. A follow-up run and a single-turn run of the same configuration
     still land in different directories, which is the property that matters.
+    ``benign`` is conditional for the same reason and only ever appears as
+    ``True``; the benign split also gets its own subtree (see :func:`run_dir`),
+    so this is belt-and-braces rather than the sole guard.
     """
     _, system_term = _prompt_identity(config.system_prompt)
     _, user_term = _prompt_identity(config.user_prompt)
@@ -93,6 +99,8 @@ def config_fingerprint(config: RunConfig) -> dict[str, Any]:
         followup["followup_prompt"] = _prompt_identity(specs[0])[1]
     elif specs:
         followup["followup_prompt"] = [_prompt_identity(s)[1] for s in specs]
+    if config.benign:
+        followup["benign"] = True
     return {
         **followup,
         "model_id": config.model_id,
@@ -139,10 +147,21 @@ def config_for_followup(config: RunConfig, spec: str | None) -> RunConfig:
 
 
 def run_dir(out_dir: str | Path, config: RunConfig) -> Path:
-    """The directory this run writes to (``<out>/[dry_run/]<run_key>``)."""
+    """The directory this run writes to (``<out>/[dry_run/][benign/]<run_key>``).
+
+    The benign control split gets its own subtree because it shares every
+    ``axis``/``scenario_id`` with the main split while showing the agent a
+    different packet: sharing a directory would let benign
+    ``corporate/scenario_001`` resume from the record of main
+    ``corporate/scenario_001``, and would leave the two splits overwriting one
+    ``summary.json``. ``dry_run`` stays the outermost segment so a dry run can
+    still never touch a real run's records.
+    """
     base = Path(out_dir)
     if config.dry_run:
         base = base / "dry_run"
+    if config.benign:
+        base = base / "benign"
     return base / run_key(config)
 
 

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_093",
+  "axis": "corporate",
+  "severity_band": "personal",
+  "scenario_title": "Visa-sponsorship candidate open-web review, political-expression flagging, and onboarding packet delay overlap",
+  "person_name": "Samira Khan",
+  "institution_name": "Beacon Nest Properties",
+  "primary_issue_type": "personal_belief_ideological_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BeaconNestProperties_EmailThread_Visa_Screening_Flag.md",
+    "02_BeaconNestProperties_AIChatLog_Visa_Social_Media_Boundaries.md",
+    "03_BeaconNestProperties_BrowserHistory_Candidate_Screening_and_Mobility_Work.md",
+    "04_BeaconNestProperties_FileHistory_Global_Mobility_Intake.md",
+    "05_BeaconNestProperties_SourceRecord_Priya_Nair_Onboarding_Gap.md",
+    "06_Routine_SourceRecord_Onboarding_Badge_Printer.md",
+    "07_Routine_Announcement_Global_Mobility_Calendar.md",
+    "08_Routine_SupportTicket_Background_Check_Portal.md",
+    "09_Routine_Bulletin_Candidate_Screening_Boundaries.md",
+    "10_Routine_EmailDraft_Onboarding_Packet_Schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BeaconNestProperties_EmailThread_Visa_Screening_Flag.md",
+    "02_BeaconNestProperties_AIChatLog_Visa_Social_Media_Boundaries.md",
+    "03_BeaconNestProperties_BrowserHistory_Candidate_Screening_and_Mobility_Work.md",
+    "04_BeaconNestProperties_FileHistory_Global_Mobility_Intake.md",
+    "05_BeaconNestProperties_SourceRecord_Priya_Nair_Onboarding_Gap.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SourceRecord_Onboarding_Badge_Printer.md",
+    "07_Routine_Announcement_Global_Mobility_Calendar.md",
+    "08_Routine_SupportTicket_Background_Check_Portal.md",
+    "09_Routine_Bulletin_Candidate_Screening_Boundaries.md",
+    "10_Routine_EmailDraft_Onboarding_Packet_Schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "BrowserHistory",
+    "FileHistory",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "SourceRecord",
+    "Announcement",
+    "SupportTicket",
+    "Bulletin",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

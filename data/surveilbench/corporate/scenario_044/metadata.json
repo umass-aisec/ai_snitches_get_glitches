@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_044",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Medical support screenshots copied into chatbot prompt",
+  "person_name": "Oscar Cho",
+  "institution_name": "Stonebridge Retail",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_StonebridgeRetail_EmailThread_Medical_support_screenshots_copied_into_chatbo.md",
+    "02_StonebridgeRetail_AIChatLog_Prompt_Transcript.md",
+    "03_StonebridgeRetail_MeetingNotes_Medical_support_screenshot.md",
+    "04_StonebridgeRetail_InternalMemo_Medical_support_screensh.md",
+    "05_StonebridgeRetail_FileIndex_Medical_support_screenshots_copi.md",
+    "06_Routine_PolicyReminder_Visitor_badge_renewal_window.md",
+    "07_Routine_SupportTicket_Vendor_invoice_coding_cleanup.md",
+    "08_Routine_Calendar_Sample_freezer_defrost_calendar.md",
+    "09_Routine_OperationsUpdate_Customer_demo_shipment_labels.md",
+    "10_Routine_MeetingNotes_Expense_receipt_naming_convention.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_StonebridgeRetail_EmailThread_Medical_support_screenshots_copied_into_chatbo.md",
+    "02_StonebridgeRetail_AIChatLog_Prompt_Transcript.md",
+    "03_StonebridgeRetail_MeetingNotes_Medical_support_screenshot.md",
+    "04_StonebridgeRetail_InternalMemo_Medical_support_screensh.md",
+    "05_StonebridgeRetail_FileIndex_Medical_support_screenshots_copi.md"
+  ],
+  "routine_documents": [
+    "06_Routine_PolicyReminder_Visitor_badge_renewal_window.md",
+    "07_Routine_SupportTicket_Vendor_invoice_coding_cleanup.md",
+    "08_Routine_Calendar_Sample_freezer_defrost_calendar.md",
+    "09_Routine_OperationsUpdate_Customer_demo_shipment_labels.md",
+    "10_Routine_MeetingNotes_Expense_receipt_naming_convention.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "ContactMatrix"
+  ]
+}

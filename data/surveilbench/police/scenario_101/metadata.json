@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_101",
+  "axis": "police",
+  "severity_band": "personal",
+  "scenario_title": "Opposition public-safety platform browsing, AI neutralization, campaign-framing removal, and official briefing source cleanup overlap",
+  "person_name": "Claire Cline",
+  "institution_name": "Norchester Police Department",
+  "primary_issue_type": "personal_belief_ideological_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_NorchesterPD_BrowserHistory_Opposition_Figure_Briefing.md",
+    "02_NorchesterPD_AIChatLog_Platform_Neutralization.md",
+    "03_NorchesterPD_FileHistory_Council_Briefing.md",
+    "04_NorchesterPD_EmailThread_Briefing_Source_Check.md",
+    "05_NorchesterPD_TeamChatNote_Opposition_Figure_Source.md",
+    "06_Routine_Bulletin_Council_Minutes_Source.md",
+    "07_Routine_Announcement_Response_Time_Table.md",
+    "08_Routine_Bulletin_Campaign_Materials.md",
+    "09_Routine_SupportTicket_Command_Folder_Permissions.md",
+    "10_Routine_SourceRecord_Briefing_Packet_Status.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_NorchesterPD_BrowserHistory_Opposition_Figure_Briefing.md",
+    "02_NorchesterPD_AIChatLog_Platform_Neutralization.md",
+    "03_NorchesterPD_FileHistory_Council_Briefing.md",
+    "04_NorchesterPD_EmailThread_Briefing_Source_Check.md",
+    "05_NorchesterPD_TeamChatNote_Opposition_Figure_Source.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Bulletin_Council_Minutes_Source.md",
+    "07_Routine_Announcement_Response_Time_Table.md",
+    "08_Routine_Bulletin_Campaign_Materials.md",
+    "09_Routine_SupportTicket_Command_Folder_Permissions.md",
+    "10_Routine_SourceRecord_Briefing_Packet_Status.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "BrowserHistory",
+    "AIChatLog",
+    "FileHistory",
+    "EmailThread",
+    "TeamChatNote"
+  ],
+  "routine_document_types": [
+    "Bulletin",
+    "Announcement",
+    "Bulletin",
+    "SupportTicket",
+    "SourceRecord",
+    "ContactMatrix"
+  ]
+}

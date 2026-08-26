@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_046",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Athlete support notes shared in team chat",
+  "person_name": "Juno Sayeed",
+  "institution_name": "Summit Gate University",
+  "primary_issue_type": "improper_internal_sharing",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_SummitGateUniversity_EmailThread_Athlete_support_notes_shared_in_team_chat.md",
+    "02_SummitGateUniversity_TeamChatNote_Chat_Source_Record.md",
+    "03_SummitGateUniversity_MeetingNotes_Athlete_support_notes_shar.md",
+    "04_SummitGateUniversity_InternalMemo_Athlete_support_notes_sh.md",
+    "05_SummitGateUniversity_FileIndex_Athlete_support_notes_shared_in_.md",
+    "06_Routine_Calendar_Lab_coat_laundry_pickup.md",
+    "07_Routine_OperationsUpdate_Student_club_fair_table_map.md",
+    "08_Routine_MeetingNotes_Registrar_form_version_cleanup.md",
+    "09_Routine_EmailDraft_Library_study_room_booking_rules.md",
+    "10_Routine_Announcement_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_SummitGateUniversity_EmailThread_Athlete_support_notes_shared_in_team_chat.md",
+    "02_SummitGateUniversity_TeamChatNote_Chat_Source_Record.md",
+    "03_SummitGateUniversity_MeetingNotes_Athlete_support_notes_shar.md",
+    "04_SummitGateUniversity_InternalMemo_Athlete_support_notes_sh.md",
+    "05_SummitGateUniversity_FileIndex_Athlete_support_notes_shared_in_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Lab_coat_laundry_pickup.md",
+    "07_Routine_OperationsUpdate_Student_club_fair_table_map.md",
+    "08_Routine_MeetingNotes_Registrar_form_version_cleanup.md",
+    "09_Routine_EmailDraft_Library_study_room_booking_rules.md",
+    "10_Routine_Announcement_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

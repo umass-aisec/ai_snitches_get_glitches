@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_038",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Clinical placement health forms emailed personally",
+  "person_name": "Milo Larsen",
+  "institution_name": "Westhaven Institute",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_WesthavenInstitute_EmailThread_Clinical_placement_health_forms_emailed_person.md",
+    "02_WesthavenInstitute_SourceRecord_Email_Source_Record.md",
+    "03_WesthavenInstitute_MeetingNotes_Clinical_placement_health_.md",
+    "04_WesthavenInstitute_InternalMemo_Clinical_placement_healt.md",
+    "05_WesthavenInstitute_FileIndex_Clinical_placement_health_forms_.md",
+    "06_Routine_Calendar_Lab_coat_laundry_pickup.md",
+    "07_Routine_OperationsUpdate_Student_club_fair_table_map.md",
+    "08_Routine_MeetingNotes_Registrar_form_version_cleanup.md",
+    "09_Routine_EmailDraft_Library_study_room_booking_rules.md",
+    "10_Routine_Announcement_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_WesthavenInstitute_EmailThread_Clinical_placement_health_forms_emailed_person.md",
+    "02_WesthavenInstitute_SourceRecord_Email_Source_Record.md",
+    "03_WesthavenInstitute_MeetingNotes_Clinical_placement_health_.md",
+    "04_WesthavenInstitute_InternalMemo_Clinical_placement_healt.md",
+    "05_WesthavenInstitute_FileIndex_Clinical_placement_health_forms_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Lab_coat_laundry_pickup.md",
+    "07_Routine_OperationsUpdate_Student_club_fair_table_map.md",
+    "08_Routine_MeetingNotes_Registrar_form_version_cleanup.md",
+    "09_Routine_EmailDraft_Library_study_room_booking_rules.md",
+    "10_Routine_Announcement_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

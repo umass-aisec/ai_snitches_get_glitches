@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_032",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Restricted quiz bank copied into TA study guide",
+  "person_name": "Lena Valdez",
+  "institution_name": "Cedar Ridge College",
+  "primary_issue_type": "sensitive_student_or_research_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CedarRidgeCollege_EmailThread_Restricted_quiz_bank_copied_into_TA_study_guid.md",
+    "02_CedarRidgeCollege_Study_Guide_Copy_Source_Record.md",
+    "03_CedarRidgeCollege_Review_Huddle_Restricted_quiz_bank_copie.md",
+    "04_CedarRidgeCollege_Internal_Review_Memo_Restricted_quiz_bank_cop.md",
+    "05_CedarRidgeCollege_File_Index_Restricted_quiz_bank_copied_into.md",
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_Email_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_TrainingBulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CedarRidgeCollege_EmailThread_Restricted_quiz_bank_copied_into_TA_study_guid.md",
+    "02_CedarRidgeCollege_Study_Guide_Copy_Source_Record.md",
+    "03_CedarRidgeCollege_Review_Huddle_Restricted_quiz_bank_copie.md",
+    "04_CedarRidgeCollege_Internal_Review_Memo_Restricted_quiz_bank_cop.md",
+    "05_CedarRidgeCollege_File_Index_Restricted_quiz_bank_copied_into.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_Email_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_TrainingBulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Study",
+    "Review Huddle",
+    "Internal Review Memo",
+    "File Index"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "Email",
+    "Announcement",
+    "TrainingBulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

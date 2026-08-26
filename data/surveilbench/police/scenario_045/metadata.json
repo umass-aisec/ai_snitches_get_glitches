@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_045",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Narcotics debrief translated in public tool",
+  "person_name": "Rafael Quintana",
+  "institution_name": "Harbor Point Police Department",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_HarborPointPoliceDepartment_EmailThread_Narcotics_debrief_translated_in_public_tool.md",
+    "02_HarborPointPoliceDepartment_AIChatLog_Tool_Transcript.md",
+    "03_HarborPointPoliceDepartment_MeetingNotes_Narcotics_debrief_translat.md",
+    "04_HarborPointPoliceDepartment_InternalMemo_Narcotics_debrief_transl.md",
+    "05_HarborPointPoliceDepartment_FileIndex_Narcotics_debrief_translated_in_.md",
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_HarborPointPoliceDepartment_EmailThread_Narcotics_debrief_translated_in_public_tool.md",
+    "02_HarborPointPoliceDepartment_AIChatLog_Tool_Transcript.md",
+    "03_HarborPointPoliceDepartment_MeetingNotes_Narcotics_debrief_translat.md",
+    "04_HarborPointPoliceDepartment_InternalMemo_Narcotics_debrief_transl.md",
+    "05_HarborPointPoliceDepartment_FileIndex_Narcotics_debrief_translated_in_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

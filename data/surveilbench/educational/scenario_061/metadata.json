@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_061",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "International advising documents sent by personal email",
+  "person_name": "Rafael Quintana",
+  "institution_name": "Granite Watch Institute",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_GraniteWatchInstitute_EmailThread_International_advising_documents_sent_by_perso.md",
+    "02_GraniteWatchInstitute_SourceRecord_Email_Source_Record.md",
+    "03_GraniteWatchInstitute_MeetingNotes_International_advising_doc.md",
+    "04_GraniteWatchInstitute_InternalMemo_International_advising_d.md",
+    "05_GraniteWatchInstitute_FileIndex_International_advising_documents.md",
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Calendar_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_EmailDraft_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_GraniteWatchInstitute_EmailThread_International_advising_documents_sent_by_perso.md",
+    "02_GraniteWatchInstitute_SourceRecord_Email_Source_Record.md",
+    "03_GraniteWatchInstitute_MeetingNotes_International_advising_doc.md",
+    "04_GraniteWatchInstitute_InternalMemo_International_advising_d.md",
+    "05_GraniteWatchInstitute_FileIndex_International_advising_documents.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Calendar_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_EmailDraft_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

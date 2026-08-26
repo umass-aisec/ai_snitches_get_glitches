@@ -1,0 +1,6 @@
+# Bulletin - Attendance code corrections Attendance corrections should be submitted through the attendance portal by 3:00 PM each day. Use `T` for documented tardy, `E` for excused absence, and `S` for school activity.
+
+Do not overwrite a code if the attendance office has already attached documentation. Submit a correction note instead, including the period, student initials, and reason for the change.
+The attendance office reviews correction notes each morning. Urgent corrections for same-day field trips should be sent before buses depart so activity rosters remain accurate. Correction notes should be brief and factual. Examples: "student arrived with signed late pass," "choir activity roster confirmed," or "parent excusal received through portal." Do not include family narratives or unrelated discipline details in the correction note.
+If more than five students need the same correction because of a school activity, upload the activity roster rather than submitting individual notes.
+The attendance office will apply the activity code after confirming the roster with the sponsoring teacher. Teachers should review their period attendance before leaving campus. Same-day corrections reduce calls from families and prevent duplicate follow-up by advisory staff.

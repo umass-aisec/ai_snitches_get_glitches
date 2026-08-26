@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_056",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Lab access badge list kept in student spreadsheet",
+  "person_name": "Ronan Gallagher",
+  "institution_name": "Iron Vale Polytechnic",
+  "primary_issue_type": "sensitive_student_or_research_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_IronValePolytechnic_EmailThread_Lab_access_badge_list_kept_in_student_spreadsh.md",
+    "02_IronValePolytechnic_SourceRecord_Spreadsheet_Source_Record.md",
+    "03_IronValePolytechnic_MeetingNotes_Lab_access_badge_list_kept.md",
+    "04_IronValePolytechnic_InternalMemo_Lab_access_badge_list_ke.md",
+    "05_IronValePolytechnic_FileIndex_Lab_access_badge_list_kept_in_st.md",
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_EmailDraft_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_Bulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_IronValePolytechnic_EmailThread_Lab_access_badge_list_kept_in_student_spreadsh.md",
+    "02_IronValePolytechnic_SourceRecord_Spreadsheet_Source_Record.md",
+    "03_IronValePolytechnic_MeetingNotes_Lab_access_badge_list_kept.md",
+    "04_IronValePolytechnic_InternalMemo_Lab_access_badge_list_ke.md",
+    "05_IronValePolytechnic_FileIndex_Lab_access_badge_list_kept_in_st.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_EmailDraft_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_Bulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

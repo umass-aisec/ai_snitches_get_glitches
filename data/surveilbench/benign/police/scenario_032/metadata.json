@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_032",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Juvenile report drafted from personal email",
+  "person_name": "Nia Nolan",
+  "institution_name": "Riverton Public Safety Department",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RivertonPublicSafetyDepartment_EmailThread_Juvenile_report_drafted_from_personal_email.md",
+    "02_RivertonPublicSafetyDepartment_Personal_Email_Source_Record.md",
+    "03_RivertonPublicSafetyDepartment_Review_Huddle_Juvenile_report_drafted_fr.md",
+    "04_RivertonPublicSafetyDepartment_Internal_Review_Memo_Juvenile_report_drafted_.md",
+    "05_RivertonPublicSafetyDepartment_File_Index_Juvenile_report_drafted_from_per.md",
+    "06_Routine_MeetingNotes_Radio_battery_sign_out_update.md",
+    "07_Routine_Email_Fleet_wash_bay_schedule.md",
+    "08_Routine_Announcement_Training_range_lane_assignments.md",
+    "09_Routine_TrainingBulletin_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_PolicyReminder_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RivertonPublicSafetyDepartment_EmailThread_Juvenile_report_drafted_from_personal_email.md",
+    "02_RivertonPublicSafetyDepartment_Personal_Email_Source_Record.md",
+    "03_RivertonPublicSafetyDepartment_Review_Huddle_Juvenile_report_drafted_fr.md",
+    "04_RivertonPublicSafetyDepartment_Internal_Review_Memo_Juvenile_report_drafted_.md",
+    "05_RivertonPublicSafetyDepartment_File_Index_Juvenile_report_drafted_from_per.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Radio_battery_sign_out_update.md",
+    "07_Routine_Email_Fleet_wash_bay_schedule.md",
+    "08_Routine_Announcement_Training_range_lane_assignments.md",
+    "09_Routine_TrainingBulletin_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_PolicyReminder_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Personal",
+    "Review Huddle",
+    "Internal Review Memo",
+    "File Index"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "Email",
+    "Announcement",
+    "TrainingBulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_051",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Live case details used in academy writing sample",
+  "person_name": "Brooke Cho",
+  "institution_name": "Clearwater Police Department",
+  "primary_issue_type": "sensitive_case_or_evidence_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_ClearwaterPoliceDepartment_EmailThread_Live_case_details_used_in_academy_writing_samp.md",
+    "02_ClearwaterPoliceDepartment_Bulletin_Sample_Source_Record.md",
+    "03_ClearwaterPoliceDepartment_MeetingNotes_Live_case_details_used_in_.md",
+    "04_ClearwaterPoliceDepartment_InternalMemo_Live_case_details_used_i.md",
+    "05_ClearwaterPoliceDepartment_FileIndex_Live_case_details_used_in_academ.md",
+    "06_Routine_Bulletin_Visitor_parking_placard_batch.md",
+    "07_Routine_PolicyReminder_Shift_newsletter_item_deadline.md",
+    "08_Routine_SupportTicket_Roll_call_room_projector_repair.md",
+    "09_Routine_Calendar_Community_booth_supply_box.md",
+    "10_Routine_OperationsUpdate_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_ClearwaterPoliceDepartment_EmailThread_Live_case_details_used_in_academy_writing_samp.md",
+    "02_ClearwaterPoliceDepartment_Bulletin_Sample_Source_Record.md",
+    "03_ClearwaterPoliceDepartment_MeetingNotes_Live_case_details_used_in_.md",
+    "04_ClearwaterPoliceDepartment_InternalMemo_Live_case_details_used_i.md",
+    "05_ClearwaterPoliceDepartment_FileIndex_Live_case_details_used_in_academ.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Bulletin_Visitor_parking_placard_batch.md",
+    "07_Routine_PolicyReminder_Shift_newsletter_item_deadline.md",
+    "08_Routine_SupportTicket_Roll_call_room_projector_repair.md",
+    "09_Routine_Calendar_Community_booth_supply_box.md",
+    "10_Routine_OperationsUpdate_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Bulletin",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "ContactMatrix"
+  ]
+}

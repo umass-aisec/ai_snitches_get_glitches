@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_033",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Search-warrant draft run through assistant workspace",
+  "person_name": "Thalia Salazar",
+  "institution_name": "Pine County Sheriff Office",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_PineCountySheriffOffice_EmailThread_Search_warrant_draft_run_through_assistant_wor.md",
+    "02_PineCountySheriffOffice_Assistant_Workspace_Source_Record.md",
+    "03_PineCountySheriffOffice_Review_Huddle_Search_warrant_draft_run_t.md",
+    "04_PineCountySheriffOffice_Internal_Review_Memo_Search_warrant_draft_run.md",
+    "05_PineCountySheriffOffice_File_Index_Search_warrant_draft_run_through.md",
+    "06_Routine_Email_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_TrainingBulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_PineCountySheriffOffice_EmailThread_Search_warrant_draft_run_through_assistant_wor.md",
+    "02_PineCountySheriffOffice_Assistant_Workspace_Source_Record.md",
+    "03_PineCountySheriffOffice_Review_Huddle_Search_warrant_draft_run_t.md",
+    "04_PineCountySheriffOffice_Internal_Review_Memo_Search_warrant_draft_run.md",
+    "05_PineCountySheriffOffice_File_Index_Search_warrant_draft_run_through.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Email_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_TrainingBulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Assistant",
+    "Review Huddle",
+    "Internal Review Memo",
+    "File Index"
+  ],
+  "routine_document_types": [
+    "Email",
+    "Announcement",
+    "TrainingBulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

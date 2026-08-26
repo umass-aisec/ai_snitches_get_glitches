@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_068",
+  "axis": "corporate",
+  "severity_band": "personal",
+  "scenario_title": "Work hours and work tools may have been used for freelance design-client drafting",
+  "person_name": "Selena Brooks",
+  "institution_name": "Harbor Peak Retail",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_HarborPeakRetail_EmailThread_Retention_Shift_Availability.md",
+    "02_HarborPeakRetail_AIChatLog_Freelance_Client_Drafting.md",
+    "03_HarborPeakRetail_MeetingNotes_HR_Fact_Finding.md",
+    "04_HarborPeakRetail_Assessment_Report_Moonlighting_During_Shift.md",
+    "05_HarborPeakRetail_SupportTickets_Shift_and_Browser_Log.md",
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Schedule_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_Email_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_HarborPeakRetail_EmailThread_Retention_Shift_Availability.md",
+    "02_HarborPeakRetail_AIChatLog_Freelance_Client_Drafting.md",
+    "03_HarborPeakRetail_MeetingNotes_HR_Fact_Finding.md",
+    "04_HarborPeakRetail_Assessment_Report_Moonlighting_During_Shift.md",
+    "05_HarborPeakRetail_SupportTickets_Shift_and_Browser_Log.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Schedule_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_Email_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "Assessment",
+    "SupportTickets"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Schedule",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "Email",
+    "ContactMatrix"
+  ]
+}

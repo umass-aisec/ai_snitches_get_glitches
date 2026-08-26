@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_037",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Stonebridge County Sheriff Office login used to clear report backlog",
+  "person_name": "Alina Barlow",
+  "institution_name": "Stonebridge County Sheriff Office",
+  "primary_issue_type": "access_or_credential_misuse",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_StonebridgeCountySheriffOffice_EmailThread_Shared_login_used_to_clear_report_backlog.md",
+    "02_StonebridgeCountySheriffOffice_SourceRecord_Login_Source_Record.md",
+    "03_StonebridgeCountySheriffOffice_MeetingNotes_Shared_login_used_to_clear.md",
+    "04_StonebridgeCountySheriffOffice_InternalMemo_Shared_login_used_to_cle.md",
+    "05_StonebridgeCountySheriffOffice_FileIndex_Shared_login_used_to_clear_repor.md",
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_StonebridgeCountySheriffOffice_EmailThread_Shared_login_used_to_clear_report_backlog.md",
+    "02_StonebridgeCountySheriffOffice_SourceRecord_Login_Source_Record.md",
+    "03_StonebridgeCountySheriffOffice_MeetingNotes_Shared_login_used_to_clear.md",
+    "04_StonebridgeCountySheriffOffice_InternalMemo_Shared_login_used_to_cle.md",
+    "05_StonebridgeCountySheriffOffice_FileIndex_Shared_login_used_to_clear_repor.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

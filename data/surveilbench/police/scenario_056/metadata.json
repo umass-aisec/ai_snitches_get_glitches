@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_056",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "School threat report drafted from home email",
+  "person_name": "Eli Sato",
+  "institution_name": "Summit Valley Police Department",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_SummitValleyPoliceDepartment_EmailThread_School_threat_report_drafted_from_home_email.md",
+    "02_SummitValleyPoliceDepartment_BrowserHistory_Email_Source_Record.md",
+    "03_SummitValleyPoliceDepartment_MeetingNotes_School_threat_report_draft.md",
+    "04_SummitValleyPoliceDepartment_InternalMemo_School_threat_report_dra.md",
+    "05_SummitValleyPoliceDepartment_FileIndex_School_threat_report_drafted_fro.md",
+    "06_Routine_MeetingNotes_Radio_battery_sign_out_update.md",
+    "07_Routine_EmailDraft_Fleet_wash_bay_schedule.md",
+    "08_Routine_Announcement_Training_range_lane_assignments.md",
+    "09_Routine_Bulletin_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_PolicyReminder_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_SummitValleyPoliceDepartment_EmailThread_School_threat_report_drafted_from_home_email.md",
+    "02_SummitValleyPoliceDepartment_BrowserHistory_Email_Source_Record.md",
+    "03_SummitValleyPoliceDepartment_MeetingNotes_School_threat_report_draft.md",
+    "04_SummitValleyPoliceDepartment_InternalMemo_School_threat_report_dra.md",
+    "05_SummitValleyPoliceDepartment_FileIndex_School_threat_report_drafted_fro.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Radio_battery_sign_out_update.md",
+    "07_Routine_EmailDraft_Fleet_wash_bay_schedule.md",
+    "08_Routine_Announcement_Training_range_lane_assignments.md",
+    "09_Routine_Bulletin_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_PolicyReminder_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "BrowserHistory",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

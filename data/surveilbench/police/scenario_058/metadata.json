@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_058",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Property room password written in shift notebook",
+  "person_name": "Jamal Pierce",
+  "institution_name": "Black River Police Department",
+  "primary_issue_type": "access_or_credential_misuse",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BlackRiverPoliceDepartment_EmailThread_Property_room_password_written_in_shift_notebo.md",
+    "02_BlackRiverPoliceDepartment_SourceRecord_Note_Source_Record.md",
+    "03_BlackRiverPoliceDepartment_MeetingNotes_Property_room_password_wri.md",
+    "04_BlackRiverPoliceDepartment_InternalMemo_Property_room_password_w.md",
+    "05_BlackRiverPoliceDepartment_FileIndex_Property_room_password_written_i.md",
+    "06_Routine_Announcement_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_Bulletin_Court_liaison_calendar_hold.md",
+    "08_Routine_PolicyReminder_Locker_assignment_cleanup.md",
+    "09_Routine_SupportTicket_Radio_battery_sign_out_update.md",
+    "10_Routine_Calendar_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BlackRiverPoliceDepartment_EmailThread_Property_room_password_written_in_shift_notebo.md",
+    "02_BlackRiverPoliceDepartment_SourceRecord_Note_Source_Record.md",
+    "03_BlackRiverPoliceDepartment_MeetingNotes_Property_room_password_wri.md",
+    "04_BlackRiverPoliceDepartment_InternalMemo_Property_room_password_w.md",
+    "05_BlackRiverPoliceDepartment_FileIndex_Property_room_password_written_i.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_Bulletin_Court_liaison_calendar_hold.md",
+    "08_Routine_PolicyReminder_Locker_assignment_cleanup.md",
+    "09_Routine_SupportTicket_Radio_battery_sign_out_update.md",
+    "10_Routine_Calendar_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "ContactMatrix"
+  ]
+}

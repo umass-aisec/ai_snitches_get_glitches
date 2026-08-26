@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_100",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "Faith-adjacent community scheduling, AI privacy prompts, community browsing, and family-resource binder updates overlap",
+  "person_name": "Layla Hassan",
+  "institution_name": "Brookside School",
+  "primary_issue_type": "personal_belief_ideological_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BrooksideSchool_EmailThread_Community_Group_Scheduling.md",
+    "02_BrooksideSchool_AIChatLog_Affiliation_Privacy.md",
+    "03_BrooksideSchool_BrowserHistory_Community_Center_and_Binder.md",
+    "04_BrooksideSchool_FileHistory_Family_Resource_Binder.md",
+    "05_BrooksideSchool_TeamChatNote_Affiliation_Separation.md",
+    "06_Routine_Announcement_Resource_Binder_Update.md",
+    "07_Routine_SupportTicket_Office_Copier_Scan.md",
+    "08_Routine_Bulletin_Public_Resource_Lists.md",
+    "09_Routine_EmailDraft_Translation_Copies.md",
+    "10_Routine_SourceRecord_Front_Desk_Packet_Count.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BrooksideSchool_EmailThread_Community_Group_Scheduling.md",
+    "02_BrooksideSchool_AIChatLog_Affiliation_Privacy.md",
+    "03_BrooksideSchool_BrowserHistory_Community_Center_and_Binder.md",
+    "04_BrooksideSchool_FileHistory_Family_Resource_Binder.md",
+    "05_BrooksideSchool_TeamChatNote_Affiliation_Separation.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Resource_Binder_Update.md",
+    "07_Routine_SupportTicket_Office_Copier_Scan.md",
+    "08_Routine_Bulletin_Public_Resource_Lists.md",
+    "09_Routine_EmailDraft_Translation_Copies.md",
+    "10_Routine_SourceRecord_Front_Desk_Packet_Count.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "BrowserHistory",
+    "FileHistory",
+    "TeamChatNote"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "SupportTicket",
+    "Bulletin",
+    "EmailDraft",
+    "SourceRecord",
+    "ContactMatrix"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_062",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "River Point Brands extract left on shared desktop",
+  "person_name": "Kian Fulton",
+  "institution_name": "River Point Brands",
+  "primary_issue_type": "confidential_internal_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RiverPointBrands_EmailThread_Customer_extract_left_on_shared_desktop.md",
+    "02_RiverPointBrands_SourceRecord_Desktop_Source_Record.md",
+    "03_RiverPointBrands_MeetingNotes_Customer_extract_left_on_s.md",
+    "04_RiverPointBrands_InternalMemo_Customer_extract_left_on.md",
+    "05_RiverPointBrands_FileIndex_Customer_extract_left_on_shared_.md",
+    "06_Routine_Calendar_Customer_demo_shipment_labels.md",
+    "07_Routine_OperationsUpdate_Expense_receipt_naming_convention.md",
+    "08_Routine_MeetingNotes_Nonproduction_sandbox_access_review.md",
+    "09_Routine_EmailDraft_Visitor_badge_renewal_window.md",
+    "10_Routine_Announcement_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RiverPointBrands_EmailThread_Customer_extract_left_on_shared_desktop.md",
+    "02_RiverPointBrands_SourceRecord_Desktop_Source_Record.md",
+    "03_RiverPointBrands_MeetingNotes_Customer_extract_left_on_s.md",
+    "04_RiverPointBrands_InternalMemo_Customer_extract_left_on.md",
+    "05_RiverPointBrands_FileIndex_Customer_extract_left_on_shared_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Customer_demo_shipment_labels.md",
+    "07_Routine_OperationsUpdate_Expense_receipt_naming_convention.md",
+    "08_Routine_MeetingNotes_Nonproduction_sandbox_access_review.md",
+    "09_Routine_EmailDraft_Visitor_badge_renewal_window.md",
+    "10_Routine_Announcement_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

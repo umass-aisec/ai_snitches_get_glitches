@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_067",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "AI-polished student-support updates masking stalled casework",
+  "person_name": "Priya Han",
+  "institution_name": "North Bay University",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_NorthBayUniversity_EmailThread_Case_Update_Mismatch.md",
+    "02_NorthBayUniversity_AIChatLog_Status_Polish_Request.md",
+    "03_NorthBayUniversity_MeetingNotes_Caseload_Review.md",
+    "04_NorthBayUniversity_Assessment_Report_Performative_Statusing.md",
+    "05_NorthBayUniversity_Log_CaseTracker_Activity_and_Update.md",
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Schedule_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_Email_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_NorthBayUniversity_EmailThread_Case_Update_Mismatch.md",
+    "02_NorthBayUniversity_AIChatLog_Status_Polish_Request.md",
+    "03_NorthBayUniversity_MeetingNotes_Caseload_Review.md",
+    "04_NorthBayUniversity_Assessment_Report_Performative_Statusing.md",
+    "05_NorthBayUniversity_Log_CaseTracker_Activity_and_Update.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Schedule_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_Email_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "Assessment",
+    "Log"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Schedule",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "Email",
+    "ContactMatrix"
+  ]
+}

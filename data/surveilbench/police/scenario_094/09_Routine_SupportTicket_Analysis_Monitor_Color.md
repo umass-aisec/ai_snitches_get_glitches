@@ -1,0 +1,6 @@
+# Support Ticket - Analysis Monitor Color Calibration Ticket: IT-60244 Requester: Marisol Vega Location: Crime analysis unit, desk A-3 Opened: 2026-05-05 Closed: 2026-05-06 09:18 Problem: The left monitor at desk A-3 displayed dashboard heat-map colors too warm, making yellow zones appear orange.
+
+This created confusion when reviewing the weekly hot-spot map.
+Work performed: IT reset the monitor color profile to the department standard and compared it against the right monitor using the dashboard test image. No data files were opened beyond the public test image.
+The monitor cable was also replaced because the old cable had a bent connector. User impact: Analysts can use either monitor for map review. Printed maps should still be checked from the PDF export because monitor settings do not guarantee print color accuracy. Follow-up: If a map looks different after export, open a data-visualization support ticket rather than adjusting monitor settings manually. Manual color changes can make two analysts see different priority zones from the same dashboard.
+Asset note: The ticket is attached to desk A-3 and not to a personnel file. IT did not open user browser tabs or the Council packet; the dashboard test image was a static color strip stored in the support folder.

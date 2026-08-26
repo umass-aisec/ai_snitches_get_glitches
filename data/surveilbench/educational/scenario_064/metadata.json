@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_064",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Exam accommodation roster shown on projector",
+  "person_name": "Ada Bishop",
+  "institution_name": "Riverpoint University",
+  "primary_issue_type": "physical_or_workspace_exposure",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RiverpointUniversity_EmailThread_Exam_accommodation_roster_shown_on_projector.md",
+    "02_RiverpointUniversity_MaintenanceLog_Display_Source_Record.md",
+    "03_RiverpointUniversity_MeetingNotes_Exam_accommodation_roster_.md",
+    "04_RiverpointUniversity_InternalMemo_Exam_accommodation_roste.md",
+    "05_RiverpointUniversity_FileIndex_Exam_accommodation_roster_shown_.md",
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_EmailDraft_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_Bulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RiverpointUniversity_EmailThread_Exam_accommodation_roster_shown_on_projector.md",
+    "02_RiverpointUniversity_MaintenanceLog_Display_Source_Record.md",
+    "03_RiverpointUniversity_MeetingNotes_Exam_accommodation_roster_.md",
+    "04_RiverpointUniversity_InternalMemo_Exam_accommodation_roste.md",
+    "05_RiverpointUniversity_FileIndex_Exam_accommodation_roster_shown_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_EmailDraft_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_Bulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "MaintenanceLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

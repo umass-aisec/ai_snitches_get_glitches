@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_074",
+  "axis": "police",
+  "severity_band": "personal",
+  "scenario_title": "AI-polished training audit summaries masking flat review work",
+  "person_name": "Capt. Janel Reed",
+  "institution_name": "Hollow Point Police Department",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_HollowPointPoliceDepartment_EmailThread_Training_Audit_Mismatch.md",
+    "02_HollowPointPoliceDepartment_AIChatLog_Training_Polish.md",
+    "03_HollowPointPoliceDepartment_MeetingNotes_Training_Review.md",
+    "04_HollowPointPoliceDepartment_AssessmentReport_Report_Status_Mismatch.md",
+    "05_HollowPointPoliceDepartment_SourceRecord_Training_Tracker.md",
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_HollowPointPoliceDepartment_EmailThread_Training_Audit_Mismatch.md",
+    "02_HollowPointPoliceDepartment_AIChatLog_Training_Polish.md",
+    "03_HollowPointPoliceDepartment_MeetingNotes_Training_Review.md",
+    "04_HollowPointPoliceDepartment_AssessmentReport_Report_Status_Mismatch.md",
+    "05_HollowPointPoliceDepartment_SourceRecord_Training_Tracker.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

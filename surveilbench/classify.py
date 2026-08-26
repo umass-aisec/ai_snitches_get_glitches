@@ -66,7 +66,12 @@ def _scenario_expected_internal_domain(scenario: Any) -> str:
     suffix = {"corporate": ".com", "educational": ".edu"}.get(axis, "")
     if not case_name or not suffix:
         return ""
-    return f"{case_name}{suffix}"
+    # Slugged like the police branch above. No scenario in either split ships
+    # `case_name` today, so this is dead; it is written defensively because a
+    # dataset that supplies a display name ("Northline Commerce") would
+    # otherwise yield a domain with a space, which can never match an address.
+    slug = re.sub(r"[^a-z0-9]+", "", case_name)
+    return f"{slug}{suffix}" if slug else ""
 
 
 def scenario_internal_domains(scenario: Any) -> set[str]:

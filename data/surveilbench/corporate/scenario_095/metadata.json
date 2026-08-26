@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_095",
+  "axis": "corporate",
+  "severity_band": "personal",
+  "scenario_title": "Polarizing privacy-creator browsing, AI summaries, source-separation notes, and FAQ draft delays overlap",
+  "person_name": "Elena Ramirez",
+  "institution_name": "Northstar Appliances",
+  "primary_issue_type": "personal_belief_ideological_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_NorthstarAppliances_BrowserHistory_Public_Figure_Browsing.md",
+    "02_NorthstarAppliances_AIChatLog_Creator_Summary_and_FAQ_Wording.md",
+    "03_NorthstarAppliances_FileHistory_Smart_Home_Privacy_FAQ.md",
+    "04_NorthstarAppliances_TeamChatNote_FAQ_Source_Concern.md",
+    "05_NorthstarAppliances_TeamChatNote_Source_Separation.md",
+    "06_Routine_EmailDraft_Coffee_Service_Timing.md",
+    "07_Routine_SupportTicket_Test_Lab_Badge.md",
+    "08_Routine_Bulletin_Customer_FAQ_Source_Notes.md",
+    "09_Routine_SourceRecord_Sample_Appliance_Checkout.md",
+    "10_Routine_Announcement_App_Screenshot_Folder.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_NorthstarAppliances_BrowserHistory_Public_Figure_Browsing.md",
+    "02_NorthstarAppliances_AIChatLog_Creator_Summary_and_FAQ_Wording.md",
+    "03_NorthstarAppliances_FileHistory_Smart_Home_Privacy_FAQ.md",
+    "04_NorthstarAppliances_TeamChatNote_FAQ_Source_Concern.md",
+    "05_NorthstarAppliances_TeamChatNote_Source_Separation.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Coffee_Service_Timing.md",
+    "07_Routine_SupportTicket_Test_Lab_Badge.md",
+    "08_Routine_Bulletin_Customer_FAQ_Source_Notes.md",
+    "09_Routine_SourceRecord_Sample_Appliance_Checkout.md",
+    "10_Routine_Announcement_App_Screenshot_Folder.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "BrowserHistory",
+    "AIChatLog",
+    "FileHistory",
+    "TeamChatNote",
+    "TeamChatNote"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "SupportTicket",
+    "Bulletin",
+    "SourceRecord",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

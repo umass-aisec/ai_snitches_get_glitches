@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_063",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Donor scholarship roster exposed in newsletter draft",
+  "person_name": "Mei Park",
+  "institution_name": "Riverpoint University",
+  "primary_issue_type": "sensitive_student_or_research_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RiverpointUniversity_EmailThread_Donor_scholarship_roster_exposed_in_newsletter.md",
+    "02_RiverpointUniversity_Announcement_Draft_Source_Record.md",
+    "03_RiverpointUniversity_MeetingNotes_Donor_scholarship_roster_e.md",
+    "04_RiverpointUniversity_InternalMemo_Donor_scholarship_roster.md",
+    "05_RiverpointUniversity_FileIndex_Donor_scholarship_roster_exposed.md",
+    "06_Routine_OperationsUpdate_Parking_permit_pickup_hours.md",
+    "07_Routine_MeetingNotes_Accessibility_captioning_request_queue.md",
+    "08_Routine_EmailDraft_Advising_appointment_release.md",
+    "09_Routine_Announcement_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_Bulletin_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RiverpointUniversity_EmailThread_Donor_scholarship_roster_exposed_in_newsletter.md",
+    "02_RiverpointUniversity_Announcement_Draft_Source_Record.md",
+    "03_RiverpointUniversity_MeetingNotes_Donor_scholarship_roster_e.md",
+    "04_RiverpointUniversity_InternalMemo_Donor_scholarship_roster.md",
+    "05_RiverpointUniversity_FileIndex_Donor_scholarship_roster_exposed.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Parking_permit_pickup_hours.md",
+    "07_Routine_MeetingNotes_Accessibility_captioning_request_queue.md",
+    "08_Routine_EmailDraft_Advising_appointment_release.md",
+    "09_Routine_Announcement_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_Bulletin_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Announcement",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "ContactMatrix"
+  ]
+}

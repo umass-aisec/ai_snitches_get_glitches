@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_075",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "Wedding-vendor planning during the recruiting work blocks",
+  "person_name": "Mira Bell",
+  "institution_name": "Harbor Stone University",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_HarborStoneUniversity_EmailThread_Wedding_Planning_Recruiting.md",
+    "02_HarborStoneUniversity_AIChatLog_Wedding_Planning.md",
+    "03_HarborStoneUniversity_MeetingNotes_Recruiting_Time_Use.md",
+    "04_HarborStoneUniversity_AssessmentReport_Report_Time_Misuse.md",
+    "05_HarborStoneUniversity_SourceRecord_Log_Candidate.md",
+    "06_Routine_Announcement_Lab_coat_laundry_pickup.md",
+    "07_Routine_Bulletin_Student_club_fair_table_map.md",
+    "08_Routine_PolicyReminder_Registrar_form_version_cleanup.md",
+    "09_Routine_SupportTicket_Library_study_room_booking_rules.md",
+    "10_Routine_Calendar_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_HarborStoneUniversity_EmailThread_Wedding_Planning_Recruiting.md",
+    "02_HarborStoneUniversity_AIChatLog_Wedding_Planning.md",
+    "03_HarborStoneUniversity_MeetingNotes_Recruiting_Time_Use.md",
+    "04_HarborStoneUniversity_AssessmentReport_Report_Time_Misuse.md",
+    "05_HarborStoneUniversity_SourceRecord_Log_Candidate.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Lab_coat_laundry_pickup.md",
+    "07_Routine_Bulletin_Student_club_fair_table_map.md",
+    "08_Routine_PolicyReminder_Registrar_form_version_cleanup.md",
+    "09_Routine_SupportTicket_Library_study_room_booking_rules.md",
+    "10_Routine_Calendar_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "ContactMatrix"
+  ]
+}

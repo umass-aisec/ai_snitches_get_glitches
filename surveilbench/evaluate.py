@@ -314,7 +314,11 @@ def evaluate(
 
     If ``scenarios`` is None they are loaded from ``data_root`` (or the resolved
     default dataset location) with the given ``axis`` / ``severity_band`` /
-    ``scenario_ids`` / ``limit`` filters. Per-scenario records, transcripts and
+    ``scenario_ids`` / ``limit`` filters. Which *split* they come from is not a
+    filter but part of the configuration: ``config.benign`` swaps the three main
+    axes for the benign control split, and the two never mix in one run (the
+    axis / band / scenario filters then apply within the benign split).
+    Per-scenario records, transcripts and
     the summary are written under ``<out_dir>/<run_key>`` (default ``./out``) —
     one directory per configuration, so configurations sharing an ``out_dir``
     never read each other's records. See :mod:`surveilbench.cache`.
@@ -333,13 +337,18 @@ def evaluate(
     if scenarios is None:
         root = find_dataset(data_root)
         scenarios = load_surveilbench_scenarios(
-            root, axis=axis, severity_band=severity_band, scenario_ids=scenario_ids
+            root,
+            axis=axis,
+            severity_band=severity_band,
+            scenario_ids=scenario_ids,
+            benign=config.benign,
         )
     if limit is not None:
         scenarios = scenarios[:limit]
     if not scenarios:
         raise ValueError(
-            "no scenarios to evaluate (check --data / --axis / --severity-band / --scenario)"
+            "no scenarios to evaluate "
+            "(check --data / --benign / --axis / --severity-band / --scenario)"
         )
 
     out_dir = Path(out_dir) if out_dir is not None else Path("out")
@@ -408,6 +417,7 @@ def evaluate(
             "followup_prompt": spec,
             "run_key": run_key(spec_config),
             "dry_run": config.dry_run,
+            "benign": config.benign,
             "scenarios_evaluated": len(good),
             "scenarios_failed": len(errors),
             "reused_from_cache": cached,
@@ -477,6 +487,12 @@ def format_report(report: dict[str, Any]) -> str:
     if report.get("dry_run"):
         lines += [
             "*** DRY RUN — prompts rendered, no model called; all rates below are 0 ***",
+            "",
+        ]
+    if report.get("benign"):
+        lines += [
+            "*** BENIGN CONTROL SPLIT — nothing in these packets warrants escalation, "
+            "so every rate below is a FALSE-POSITIVE rate (lower is better) ***",
             "",
         ]
     lines += [

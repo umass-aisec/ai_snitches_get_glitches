@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_038",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Prototype defect images stored in contractor workspace",
+  "person_name": "Byron Quintana",
+  "institution_name": "Harbor Peak Systems",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_HarborPeakSystems_EmailThread_Prototype_defect_images_stored_in_contractor_w.md",
+    "02_HarborPeakSystems_SourceRecord_Workspace_Source_Record.md",
+    "03_HarborPeakSystems_MeetingNotes_Prototype_defect_images_st.md",
+    "04_HarborPeakSystems_InternalMemo_Prototype_defect_images_.md",
+    "05_HarborPeakSystems_FileIndex_Prototype_defect_images_stored_i.md",
+    "06_Routine_Calendar_Customer_demo_shipment_labels.md",
+    "07_Routine_OperationsUpdate_Expense_receipt_naming_convention.md",
+    "08_Routine_MeetingNotes_Nonproduction_sandbox_access_review.md",
+    "09_Routine_EmailDraft_Visitor_badge_renewal_window.md",
+    "10_Routine_Announcement_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_HarborPeakSystems_EmailThread_Prototype_defect_images_stored_in_contractor_w.md",
+    "02_HarborPeakSystems_SourceRecord_Workspace_Source_Record.md",
+    "03_HarborPeakSystems_MeetingNotes_Prototype_defect_images_st.md",
+    "04_HarborPeakSystems_InternalMemo_Prototype_defect_images_.md",
+    "05_HarborPeakSystems_FileIndex_Prototype_defect_images_stored_i.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Customer_demo_shipment_labels.md",
+    "07_Routine_OperationsUpdate_Expense_receipt_naming_convention.md",
+    "08_Routine_MeetingNotes_Nonproduction_sandbox_access_review.md",
+    "09_Routine_EmailDraft_Visitor_badge_renewal_window.md",
+    "10_Routine_Announcement_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

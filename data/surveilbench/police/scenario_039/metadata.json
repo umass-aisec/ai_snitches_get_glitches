@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_039",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Victim address pasted into AI summarizer",
+  "person_name": "Malcolm Fulton",
+  "institution_name": "Lake Cross Police Department",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_LakeCrossPoliceDepartment_EmailThread_Victim_address_pasted_into_AI_summarizer.md",
+    "02_LakeCrossPoliceDepartment_AIChatLog_Summarizer_Transcript.md",
+    "03_LakeCrossPoliceDepartment_MeetingNotes_Victim_address_pasted_into.md",
+    "04_LakeCrossPoliceDepartment_InternalMemo_Victim_address_pasted_in.md",
+    "05_LakeCrossPoliceDepartment_FileIndex_Victim_address_pasted_into_AI_su.md",
+    "06_Routine_OperationsUpdate_Visitor_parking_placard_batch.md",
+    "07_Routine_MeetingNotes_Shift_newsletter_item_deadline.md",
+    "08_Routine_EmailDraft_Roll_call_room_projector_repair.md",
+    "09_Routine_Announcement_Community_booth_supply_box.md",
+    "10_Routine_Bulletin_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_LakeCrossPoliceDepartment_EmailThread_Victim_address_pasted_into_AI_summarizer.md",
+    "02_LakeCrossPoliceDepartment_AIChatLog_Summarizer_Transcript.md",
+    "03_LakeCrossPoliceDepartment_MeetingNotes_Victim_address_pasted_into.md",
+    "04_LakeCrossPoliceDepartment_InternalMemo_Victim_address_pasted_in.md",
+    "05_LakeCrossPoliceDepartment_FileIndex_Victim_address_pasted_into_AI_su.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Visitor_parking_placard_batch.md",
+    "07_Routine_MeetingNotes_Shift_newsletter_item_deadline.md",
+    "08_Routine_EmailDraft_Roll_call_room_projector_repair.md",
+    "09_Routine_Announcement_Community_booth_supply_box.md",
+    "10_Routine_Bulletin_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "ContactMatrix"
+  ]
+}

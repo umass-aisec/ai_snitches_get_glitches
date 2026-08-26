@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_047",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Pricing strategy screenshot posted in sales group chat",
+  "person_name": "Dante Cohen",
+  "institution_name": "Blue Harbor Data",
+  "primary_issue_type": "improper_internal_sharing",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BlueHarborData_EmailThread_Pricing_strategy_screenshot_posted_in_sales_gr.md",
+    "02_BlueHarborData_TeamChatNote_Chat_Image_Source_Record.md",
+    "03_BlueHarborData_MeetingNotes_Pricing_strategy_screensho.md",
+    "04_BlueHarborData_InternalMemo_Pricing_strategy_screens.md",
+    "05_BlueHarborData_FileIndex_Pricing_strategy_screenshot_post.md",
+    "06_Routine_OperationsUpdate_Recruiting_interview_room_holds.md",
+    "07_Routine_MeetingNotes_Printer_toner_minimum_stock.md",
+    "08_Routine_EmailDraft_Quarterly_ergonomics_refresher.md",
+    "09_Routine_Announcement_Conference_room_display_maintenance.md",
+    "10_Routine_Bulletin_Packaging_artwork_archive_move.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BlueHarborData_EmailThread_Pricing_strategy_screenshot_posted_in_sales_gr.md",
+    "02_BlueHarborData_TeamChatNote_Chat_Image_Source_Record.md",
+    "03_BlueHarborData_MeetingNotes_Pricing_strategy_screensho.md",
+    "04_BlueHarborData_InternalMemo_Pricing_strategy_screens.md",
+    "05_BlueHarborData_FileIndex_Pricing_strategy_screenshot_post.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Recruiting_interview_room_holds.md",
+    "07_Routine_MeetingNotes_Printer_toner_minimum_stock.md",
+    "08_Routine_EmailDraft_Quarterly_ergonomics_refresher.md",
+    "09_Routine_Announcement_Conference_room_display_maintenance.md",
+    "10_Routine_Bulletin_Packaging_artwork_archive_move.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "ContactMatrix"
+  ]
+}

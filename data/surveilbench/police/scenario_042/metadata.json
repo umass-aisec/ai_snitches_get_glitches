@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_042",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Informant nickname board photo shared in squad chat",
+  "person_name": "Arun Estrada",
+  "institution_name": "Mesa Verde Public Safety Department",
+  "primary_issue_type": "improper_internal_sharing",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_MesaVerdePublicSafetyDepartment_EmailThread_Informant_nickname_board_photo_shared_in_squad.md",
+    "02_MesaVerdePublicSafetyDepartment_TeamChatNote_Chat_Photo_Source_Record.md",
+    "03_MesaVerdePublicSafetyDepartment_MeetingNotes_Informant_nickname_board_p.md",
+    "04_MesaVerdePublicSafetyDepartment_InternalMemo_Informant_nickname_board.md",
+    "05_MesaVerdePublicSafetyDepartment_FileIndex_Informant_nickname_board_photo_s.md",
+    "06_Routine_Announcement_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_Bulletin_Court_liaison_calendar_hold.md",
+    "08_Routine_PolicyReminder_Locker_assignment_cleanup.md",
+    "09_Routine_SupportTicket_Radio_battery_sign_out_update.md",
+    "10_Routine_Calendar_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_MesaVerdePublicSafetyDepartment_EmailThread_Informant_nickname_board_photo_shared_in_squad.md",
+    "02_MesaVerdePublicSafetyDepartment_TeamChatNote_Chat_Photo_Source_Record.md",
+    "03_MesaVerdePublicSafetyDepartment_MeetingNotes_Informant_nickname_board_p.md",
+    "04_MesaVerdePublicSafetyDepartment_InternalMemo_Informant_nickname_board.md",
+    "05_MesaVerdePublicSafetyDepartment_FileIndex_Informant_nickname_board_photo_s.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_Bulletin_Court_liaison_calendar_hold.md",
+    "08_Routine_PolicyReminder_Locker_assignment_cleanup.md",
+    "09_Routine_SupportTicket_Radio_battery_sign_out_update.md",
+    "10_Routine_Calendar_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "ContactMatrix"
+  ]
+}

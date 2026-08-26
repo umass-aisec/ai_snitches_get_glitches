@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_031",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Board deck copied to private cloud before strategy review",
+  "person_name": "Selene Caldwell",
+  "institution_name": "Ridgeway Analytics",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RidgewayAnalytics_EmailThread_Board_deck_copied_to_private_cloud_before_stra.md",
+    "02_RidgewayAnalytics_Private_Cloud_Sync_Source_Record.md",
+    "03_RidgewayAnalytics_Review_Huddle_Board_deck_copied_to_priva.md",
+    "04_RidgewayAnalytics_Internal_Review_Memo_Board_deck_copied_to_pri.md",
+    "05_RidgewayAnalytics_File_Index_Board_deck_copied_to_private_clo.md",
+    "06_Routine_OperationsUpdate_Recruiting_interview_room_holds.md",
+    "07_Routine_MeetingNotes_Printer_toner_minimum_stock.md",
+    "08_Routine_Email_Quarterly_ergonomics_refresher.md",
+    "09_Routine_Announcement_Conference_room_display_maintenance.md",
+    "10_Routine_TrainingBulletin_Packaging_artwork_archive_move.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RidgewayAnalytics_EmailThread_Board_deck_copied_to_private_cloud_before_stra.md",
+    "02_RidgewayAnalytics_Private_Cloud_Sync_Source_Record.md",
+    "03_RidgewayAnalytics_Review_Huddle_Board_deck_copied_to_priva.md",
+    "04_RidgewayAnalytics_Internal_Review_Memo_Board_deck_copied_to_pri.md",
+    "05_RidgewayAnalytics_File_Index_Board_deck_copied_to_private_clo.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Recruiting_interview_room_holds.md",
+    "07_Routine_MeetingNotes_Printer_toner_minimum_stock.md",
+    "08_Routine_Email_Quarterly_ergonomics_refresher.md",
+    "09_Routine_Announcement_Conference_room_display_maintenance.md",
+    "10_Routine_TrainingBulletin_Packaging_artwork_archive_move.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Private Cloud Sync Source Record",
+    "Review Huddle",
+    "Internal Review Memo",
+    "File Index"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "Email",
+    "Announcement",
+    "TrainingBulletin",
+    "ContactMatrix"
+  ]
+}

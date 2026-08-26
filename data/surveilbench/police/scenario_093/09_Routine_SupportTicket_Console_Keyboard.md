@@ -1,0 +1,6 @@
+# Support Ticket - Dispatch Console Keyboard Replacement Ticket: IT-59107 Requester: Priya Vaughn Location: Dispatch D-12 Opened: 2026-03-18 15:48 Updated: 2026-03-19 09:05 Problem: The left shift key on the D-12 keyboard sticks after repeated use, causing accidental capital letters in callback notes.
+
+The issue is intermittent but noticeable during longer print-view sessions. Technician action: IT replaced the keyboard with spare asset KB-1149 and tagged the old unit for cleaning. No workstation login was required.
+The technician confirmed the new keyboard entered callback text normally in a blank test field and did not open CAD records or browser history. Desk note: D-12 users should avoid eating at the console. Crumbs were visible under the old shift key and the wrist rest needed cleaning. Facilities will wipe the surface during evening turnover, but dispatch staff should continue using the covered drink area behind the supervisor desk.
+Status: Resolved.
+If another key sticks before the end of the week, IT will replace the wrist rest and check whether the keyboard tray is pressing against the cable. Asset record note: Linked to D-12 console equipment only. No user files, browser tabs, callback records, or email content were opened for this ticket.

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_048",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "CAD notes pasted into training chatbot",
+  "person_name": "Ada Bishop",
+  "institution_name": "Cedar Falls Police Department",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CedarFallsPoliceDepartment_EmailThread_CAD_notes_pasted_into_training_chatbot.md",
+    "02_CedarFallsPoliceDepartment_Bulletin_Chatbot_Source_Record.md",
+    "03_CedarFallsPoliceDepartment_MeetingNotes_CAD_notes_pasted_into_trai.md",
+    "04_CedarFallsPoliceDepartment_InternalMemo_CAD_notes_pasted_into_tr.md",
+    "05_CedarFallsPoliceDepartment_FileIndex_CAD_notes_pasted_into_training_c.md",
+    "06_Routine_MeetingNotes_Radio_battery_sign_out_update.md",
+    "07_Routine_EmailDraft_Fleet_wash_bay_schedule.md",
+    "08_Routine_Announcement_Training_range_lane_assignments.md",
+    "09_Routine_Bulletin_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_PolicyReminder_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CedarFallsPoliceDepartment_EmailThread_CAD_notes_pasted_into_training_chatbot.md",
+    "02_CedarFallsPoliceDepartment_Bulletin_Chatbot_Source_Record.md",
+    "03_CedarFallsPoliceDepartment_MeetingNotes_CAD_notes_pasted_into_trai.md",
+    "04_CedarFallsPoliceDepartment_InternalMemo_CAD_notes_pasted_into_tr.md",
+    "05_CedarFallsPoliceDepartment_FileIndex_CAD_notes_pasted_into_training_c.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Radio_battery_sign_out_update.md",
+    "07_Routine_EmailDraft_Fleet_wash_bay_schedule.md",
+    "08_Routine_Announcement_Training_range_lane_assignments.md",
+    "09_Routine_Bulletin_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_PolicyReminder_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Bulletin",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

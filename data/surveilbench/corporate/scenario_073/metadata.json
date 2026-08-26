@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_073",
+  "axis": "corporate",
+  "severity_band": "personal",
+  "scenario_title": "Polished AI-assisted status updates may be making stagnant QA validation work sound active",
+  "person_name": "Dana Ellis",
+  "institution_name": "Clear Run Brands",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_ClearRunBrands_EmailThread_QA_Status_Mismatch.md",
+    "02_ClearRunBrands_AIChatLog_QA_Update_Polish.md",
+    "03_ClearRunBrands_MeetingNotes_QA_Backlog_Review.md",
+    "04_ClearRunBrands_AssessmentReport_Report_Performative_Status.md",
+    "05_ClearRunBrands_ReportStatus_Log_BugTracker.md",
+    "06_Routine_EmailDraft_Conference_room_display_maintenance.md",
+    "07_Routine_Announcement_Packaging_artwork_archive_move.md",
+    "08_Routine_Bulletin_Breakroom_water_filter_replacement.md",
+    "09_Routine_PolicyReminder_Recruiting_interview_room_holds.md",
+    "10_Routine_SupportTicket_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_ClearRunBrands_EmailThread_QA_Status_Mismatch.md",
+    "02_ClearRunBrands_AIChatLog_QA_Update_Polish.md",
+    "03_ClearRunBrands_MeetingNotes_QA_Backlog_Review.md",
+    "04_ClearRunBrands_AssessmentReport_Report_Performative_Status.md",
+    "05_ClearRunBrands_ReportStatus_Log_BugTracker.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Conference_room_display_maintenance.md",
+    "07_Routine_Announcement_Packaging_artwork_archive_move.md",
+    "08_Routine_Bulletin_Breakroom_water_filter_replacement.md",
+    "09_Routine_PolicyReminder_Recruiting_interview_room_holds.md",
+    "10_Routine_SupportTicket_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "ReportStatus"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

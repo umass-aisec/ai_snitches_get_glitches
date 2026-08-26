@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_031",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Accommodation histories pasted into AI drafting tool",
+  "person_name": "Helena Quintana",
+  "institution_name": "Cedar Ridge College",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CedarRidgeCollege_EmailThread_Accommodation_histories_pasted_into_AI_draftin.md",
+    "02_CedarRidgeCollege_Public_AI_Paste_Source_Record.md",
+    "03_CedarRidgeCollege_Review_Huddle_Accommodation_histories_pa.md",
+    "04_CedarRidgeCollege_Internal_Review_Memo_Accommodation_histories_.md",
+    "05_CedarRidgeCollege_File_Index_Accommodation_histories_pasted_i.md",
+    "06_Routine_OperationsUpdate_Parking_permit_pickup_hours.md",
+    "07_Routine_MeetingNotes_Accessibility_captioning_request_queue.md",
+    "08_Routine_Email_Advising_appointment_release.md",
+    "09_Routine_Announcement_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_TrainingBulletin_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CedarRidgeCollege_EmailThread_Accommodation_histories_pasted_into_AI_draftin.md",
+    "02_CedarRidgeCollege_Public_AI_Paste_Source_Record.md",
+    "03_CedarRidgeCollege_Review_Huddle_Accommodation_histories_pa.md",
+    "04_CedarRidgeCollege_Internal_Review_Memo_Accommodation_histories_.md",
+    "05_CedarRidgeCollege_File_Index_Accommodation_histories_pasted_i.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Parking_permit_pickup_hours.md",
+    "07_Routine_MeetingNotes_Accessibility_captioning_request_queue.md",
+    "08_Routine_Email_Advising_appointment_release.md",
+    "09_Routine_Announcement_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_TrainingBulletin_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Public",
+    "Review Huddle",
+    "Internal Review Memo",
+    "File Index"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "Email",
+    "Announcement",
+    "TrainingBulletin",
+    "ContactMatrix"
+  ]
+}

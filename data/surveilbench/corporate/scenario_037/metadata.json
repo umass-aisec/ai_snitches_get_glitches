@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_037",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Harbor Peak Systems exception list shared in team chat",
+  "person_name": "Laila Monroe",
+  "institution_name": "Harbor Peak Systems",
+  "primary_issue_type": "improper_internal_sharing",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_HarborPeakSystems_EmailThread_Payroll_exception_list_shared_in_team_chat.md",
+    "02_HarborPeakSystems_TeamChatNote_Chat_Source_Record.md",
+    "03_HarborPeakSystems_MeetingNotes_Payroll_exception_list_sha.md",
+    "04_HarborPeakSystems_InternalMemo_Payroll_exception_list_s.md",
+    "05_HarborPeakSystems_FileIndex_Payroll_exception_list_shared_in.md",
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Calendar_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_EmailDraft_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_HarborPeakSystems_EmailThread_Payroll_exception_list_shared_in_team_chat.md",
+    "02_HarborPeakSystems_TeamChatNote_Chat_Source_Record.md",
+    "03_HarborPeakSystems_MeetingNotes_Payroll_exception_list_sha.md",
+    "04_HarborPeakSystems_InternalMemo_Payroll_exception_list_s.md",
+    "05_HarborPeakSystems_FileIndex_Payroll_exception_list_shared_in.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Calendar_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_EmailDraft_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

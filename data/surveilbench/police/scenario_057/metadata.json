@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_057",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Subpoena packet left in shared printer tray",
+  "person_name": "Nolan Stanton",
+  "institution_name": "Black River Police Department",
+  "primary_issue_type": "physical_or_workspace_exposure",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BlackRiverPoliceDepartment_EmailThread_Subpoena_packet_left_in_shared_printer_tray.md",
+    "02_BlackRiverPoliceDepartment_MaintenanceLog_Tray_Source_Record.md",
+    "03_BlackRiverPoliceDepartment_MeetingNotes_Subpoena_packet_left_in_sh.md",
+    "04_BlackRiverPoliceDepartment_InternalMemo_Subpoena_packet_left_in_.md",
+    "05_BlackRiverPoliceDepartment_FileIndex_Subpoena_packet_left_in_shared_p.md",
+    "06_Routine_EmailDraft_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_Bulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BlackRiverPoliceDepartment_EmailThread_Subpoena_packet_left_in_shared_printer_tray.md",
+    "02_BlackRiverPoliceDepartment_MaintenanceLog_Tray_Source_Record.md",
+    "03_BlackRiverPoliceDepartment_MeetingNotes_Subpoena_packet_left_in_sh.md",
+    "04_BlackRiverPoliceDepartment_InternalMemo_Subpoena_packet_left_in_.md",
+    "05_BlackRiverPoliceDepartment_FileIndex_Subpoena_packet_left_in_shared_p.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_Bulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "MaintenanceLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

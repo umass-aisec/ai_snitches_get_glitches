@@ -6,9 +6,17 @@ A dataset root looks like::
       corporate/scenario_001/ ... scenario_101/
       educational/scenario_001/ ...
       police/scenario_001/ ...
+      benign/corporate/scenario_001/ ...    # the benign control split
 
 Each scenario folder holds 11 Markdown documents (5 core + 5 routine
 distractors + ``A1_Contact_Matrix.md``) and a ``metadata.json``.
+
+``benign/`` mirrors the axis layout one level deeper and is loaded **only** when
+``benign=True`` is asked for. Each benign scenario is the *same* scenario as the
+main-split one with its ``axis``/``scenario_id`` — same organization, same
+people, same contact matrix — rewritten so that nothing in the packet warrants
+escalation. The two splits therefore share every id, and mixing them in one run
+would collide on it.
 
 To match the evaluation harness, document paths shown to the agent are
 anonymized (``doc_<hash>.md``) and the five "core" documents are ordered to
@@ -25,6 +33,12 @@ from typing import Any, Callable, Iterable
 from .types import Document, Scenario, normalize_severity_band
 
 AXES = ("corporate", "educational", "police")
+
+#: Sub-directory of the dataset root holding the benign control split, and the
+#: value written into ``Scenario.metadata["split"]`` for its scenarios.
+BENIGN_DIR = "benign"
+BENIGN_SPLIT = "benign"
+MAIN_SPLIT = "main"
 
 
 def _read_md(path: Path) -> str:
@@ -117,13 +131,32 @@ def _load_docs_from_scenario_dir(
     return docs
 
 
+def _split_root(root: Path, benign: bool) -> Path:
+    """The directory whose sub-directories are the axes, for the chosen split."""
+    if not benign:
+        return root
+    benign_root = root / BENIGN_DIR
+    if not benign_root.is_dir():
+        raise FileNotFoundError(
+            f"--benign asked for, but {root} has no {BENIGN_DIR}/ directory.\n"
+            "The benign control split ships with the full dataset; it is not part "
+            "of the bundled --sample scenarios."
+        )
+    return benign_root
+
+
 def load_surveilbench_scenarios(
     root: str | Path,
     axis: str | None = None,
     severity_band: str | None = None,
     scenario_ids: str | Iterable[str] | None = None,
+    benign: bool = False,
 ) -> list[Scenario]:
     """Load scenarios under ``root`` (the ``surveilbench/`` directory).
+
+    ``benign`` picks the split: False (default) walks the axis directories at
+    the root and **skips** ``benign/``; True walks ``benign/`` instead and
+    nothing else. The two splits are never mixed — see the module docstring.
 
     Optionally filter by ``axis`` (corporate/educational/police),
     ``severity_band`` (public / organizational / personal; the dataset's
@@ -145,7 +178,17 @@ def load_surveilbench_scenarios(
     selectors = _parse_selectors(scenario_ids)
     matched: set[tuple[str | None, str]] = set()
 
-    axis_dirs = sorted(p for p in root.iterdir() if p.is_dir() and not _is_hidden_dir(p))
+    split = BENIGN_SPLIT if benign else MAIN_SPLIT
+    split_root = _split_root(root, benign)
+    # Skipping ``benign/`` is what keeps the splits apart: its scenarios carry a
+    # main-split axis in their metadata, so without this a plain run would load
+    # them as extra corporate/educational/police scenarios whose ids collide.
+    skip = set() if benign else {BENIGN_DIR}
+    axis_dirs = sorted(
+        p
+        for p in split_root.iterdir()
+        if p.is_dir() and not _is_hidden_dir(p) and p.name not in skip
+    )
     for axis_dir in axis_dirs:
         axis_name = _normalized_axis(axis_dir.name)
         if target_axis is not None and axis_name != target_axis:
@@ -179,6 +222,9 @@ def load_surveilbench_scenarios(
                 continue
             scenario_metadata = dict(metadata)
             scenario_metadata.setdefault("axis", axis_dir.name)
+            # Not `setdefault`: the split is a property of where the scenario was
+            # loaded from, and must never be overridable from metadata.json.
+            scenario_metadata["split"] = split
             scenarios.append(
                 Scenario(
                     scenario_id=scenario_dir.name,
@@ -193,7 +239,7 @@ def load_surveilbench_scenarios(
         if missing:
             names = ", ".join(f"{ax}/{sid}" if ax else sid for ax, sid in missing)
             raise ValueError(
-                f"--scenario matched no scenario under {root}: {names}"
+                f"--scenario matched no scenario under {split_root}: {names}"
                 + (f" (with --axis {target_axis})" if target_axis else "")
             )
     return scenarios

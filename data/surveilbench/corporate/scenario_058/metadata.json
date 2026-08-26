@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_058",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Repository secret pasted into AI code helper",
+  "person_name": "Cole Wallace",
+  "institution_name": "Silver Lake Systems",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_SilverLakeSystems_EmailThread_Repository_secret_pasted_into_AI_code_helper.md",
+    "02_SilverLakeSystems_AIChatLog_Helper_Transcript.md",
+    "03_SilverLakeSystems_MeetingNotes_Repository_secret_pasted_i.md",
+    "04_SilverLakeSystems_InternalMemo_Repository_secret_pasted.md",
+    "05_SilverLakeSystems_FileIndex_Repository_secret_pasted_into_AI.md",
+    "06_Routine_Announcement_Customer_demo_shipment_labels.md",
+    "07_Routine_Bulletin_Expense_receipt_naming_convention.md",
+    "08_Routine_PolicyReminder_Nonproduction_sandbox_access_review.md",
+    "09_Routine_SupportTicket_Visitor_badge_renewal_window.md",
+    "10_Routine_Calendar_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_SilverLakeSystems_EmailThread_Repository_secret_pasted_into_AI_code_helper.md",
+    "02_SilverLakeSystems_AIChatLog_Helper_Transcript.md",
+    "03_SilverLakeSystems_MeetingNotes_Repository_secret_pasted_i.md",
+    "04_SilverLakeSystems_InternalMemo_Repository_secret_pasted.md",
+    "05_SilverLakeSystems_FileIndex_Repository_secret_pasted_into_AI.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Customer_demo_shipment_labels.md",
+    "07_Routine_Bulletin_Expense_receipt_naming_convention.md",
+    "08_Routine_PolicyReminder_Nonproduction_sandbox_access_review.md",
+    "09_Routine_SupportTicket_Visitor_badge_renewal_window.md",
+    "10_Routine_Calendar_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "ContactMatrix"
+  ]
+}

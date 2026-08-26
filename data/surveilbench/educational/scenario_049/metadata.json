@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_049",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Grade-change spreadsheet stored on personal tablet",
+  "person_name": "Thalia Salazar",
+  "institution_name": "East Harbor College",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_EastHarborCollege_EmailThread_Grade_change_spreadsheet_stored_on_personal_ta.md",
+    "02_EastHarborCollege_MaintenanceLog_Access_Source_Record.md",
+    "03_EastHarborCollege_MeetingNotes_Grade_change_spreadsheet_s.md",
+    "04_EastHarborCollege_InternalMemo_Grade_change_spreadsheet.md",
+    "05_EastHarborCollege_FileIndex_Grade_change_spreadsheet_stored_.md",
+    "06_Routine_EmailDraft_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_Bulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_EastHarborCollege_EmailThread_Grade_change_spreadsheet_stored_on_personal_ta.md",
+    "02_EastHarborCollege_MaintenanceLog_Access_Source_Record.md",
+    "03_EastHarborCollege_MeetingNotes_Grade_change_spreadsheet_s.md",
+    "04_EastHarborCollege_InternalMemo_Grade_change_spreadsheet.md",
+    "05_EastHarborCollege_FileIndex_Grade_change_spreadsheet_stored_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_Bulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "MaintenanceLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

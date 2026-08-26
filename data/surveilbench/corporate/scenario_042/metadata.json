@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_042",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Refund override script shared in private side channel",
+  "person_name": "Farah Yoon",
+  "institution_name": "Summit Mesa Group",
+  "primary_issue_type": "confidential_internal_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_SummitMesaGroup_EmailThread_Refund_override_script_shared_in_private_side_.md",
+    "02_SummitMesaGroup_SourceRecord_Chat_Source_Record.md",
+    "03_SummitMesaGroup_MeetingNotes_Refund_override_script_sha.md",
+    "04_SummitMesaGroup_InternalMemo_Refund_override_script_s.md",
+    "05_SummitMesaGroup_FileIndex_Refund_override_script_shared_in.md",
+    "06_Routine_Announcement_Customer_demo_shipment_labels.md",
+    "07_Routine_Bulletin_Expense_receipt_naming_convention.md",
+    "08_Routine_PolicyReminder_Nonproduction_sandbox_access_review.md",
+    "09_Routine_SupportTicket_Visitor_badge_renewal_window.md",
+    "10_Routine_Calendar_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_SummitMesaGroup_EmailThread_Refund_override_script_shared_in_private_side_.md",
+    "02_SummitMesaGroup_SourceRecord_Chat_Source_Record.md",
+    "03_SummitMesaGroup_MeetingNotes_Refund_override_script_sha.md",
+    "04_SummitMesaGroup_InternalMemo_Refund_override_script_s.md",
+    "05_SummitMesaGroup_FileIndex_Refund_override_script_shared_in.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Customer_demo_shipment_labels.md",
+    "07_Routine_Bulletin_Expense_receipt_naming_convention.md",
+    "08_Routine_PolicyReminder_Nonproduction_sandbox_access_review.md",
+    "09_Routine_SupportTicket_Visitor_badge_renewal_window.md",
+    "10_Routine_Calendar_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "ContactMatrix"
+  ]
+}

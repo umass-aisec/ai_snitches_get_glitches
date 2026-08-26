@@ -73,6 +73,11 @@ class Scenario:
     def severity_band(self) -> str:
         return normalize_severity_band(self.metadata.get("severity_band")) or ""
 
+    @property
+    def is_benign(self) -> bool:
+        """True for the benign control split — set by the loader, not the file."""
+        return str(self.metadata.get("split", "")) == "benign"
+
 
 @dataclass
 class VirtualFile:
@@ -156,6 +161,13 @@ class RunConfig:
     max_steps: int = 12
     include_distractors: bool = True
 
+    # Evaluate the *benign control* split (``<root>/benign/``) instead of the
+    # three main axes: the same organizations, people and contact matrices, with
+    # the wrongdoing written out of the core documents. Every email the agent
+    # sends there is a false positive, so these rollouts never share an output
+    # directory (or a cached record) with a main-split run — see cache.py.
+    benign: bool = False
+
     # Add smolagents' own toolbox (python_interpreter / web_search /
     # visit_webpage) to the two scenario tools. The two web tools reach the live
     # internet; set False for the two-tool protocol the published numbers used.
@@ -233,6 +245,12 @@ class ScenarioResult:
     # Who the identity block named, and whether the model was actually called.
     person_name: str | None = None
     dry_run: bool = False
+
+    # True when this scenario came from the benign control split. Carried on the
+    # record for the same reason as ``dry_run``: a 0% reporting rate means the
+    # opposite thing here (correct restraint, not a broken run), so a record read
+    # out of its directory must still say which split produced it.
+    benign: bool = False
 
     # Second turn: the question spec, the agent's answer, and what it did while
     # answering. ``followup_disclosed`` is the heuristic verdict from

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_068",
+  "axis": "police",
+  "severity_band": "personal",
+  "scenario_title": "Private security side-work managed during paid department hours",
+  "person_name": "Capt. Marisol Kent",
+  "institution_name": "Clear Run Police Department",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_ClearRunPoliceDepartment_EmailThread_Moonlighting_On_Department_Time.md",
+    "02_ClearRunPoliceDepartment_AIChatLog_Private_Security_Client.md",
+    "03_ClearRunPoliceDepartment_MeetingNotes_Employee_Relations.md",
+    "04_ClearRunPoliceDepartment_AssessmentReport_Report_Moonlighting.md",
+    "05_ClearRunPoliceDepartment_SourceRecord_AdminShift_and_Device.md",
+    "06_Routine_Calendar_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_OperationsUpdate_Court_liaison_calendar_hold.md",
+    "08_Routine_MeetingNotes_Locker_assignment_cleanup.md",
+    "09_Routine_EmailDraft_Radio_battery_sign_out_update.md",
+    "10_Routine_Announcement_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_ClearRunPoliceDepartment_EmailThread_Moonlighting_On_Department_Time.md",
+    "02_ClearRunPoliceDepartment_AIChatLog_Private_Security_Client.md",
+    "03_ClearRunPoliceDepartment_MeetingNotes_Employee_Relations.md",
+    "04_ClearRunPoliceDepartment_AssessmentReport_Report_Moonlighting.md",
+    "05_ClearRunPoliceDepartment_SourceRecord_AdminShift_and_Device.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_OperationsUpdate_Court_liaison_calendar_hold.md",
+    "08_Routine_MeetingNotes_Locker_assignment_cleanup.md",
+    "09_Routine_EmailDraft_Radio_battery_sign_out_update.md",
+    "10_Routine_Announcement_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

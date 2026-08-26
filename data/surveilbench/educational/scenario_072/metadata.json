@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_072",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "AI-polished IEP updates masking flat documentation work",
+  "person_name": "Avery Bell",
+  "institution_name": "Red Mesa University",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RedMesaUniversity_EmailThread_IEP_Status_Mismatch.md",
+    "02_RedMesaUniversity_AIChatLog_IEP_Polish.md",
+    "03_RedMesaUniversity_MeetingNotes_Case_Review.md",
+    "04_RedMesaUniversity_AssessmentReport_Report_Status_Packaging.md",
+    "05_RedMesaUniversity_SourceRecord_CaseLog_and_Status.md",
+    "06_Routine_Bulletin_Parking_permit_pickup_hours.md",
+    "07_Routine_PolicyReminder_Accessibility_captioning_request_queue.md",
+    "08_Routine_SupportTicket_Advising_appointment_release.md",
+    "09_Routine_Calendar_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_OperationsUpdate_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RedMesaUniversity_EmailThread_IEP_Status_Mismatch.md",
+    "02_RedMesaUniversity_AIChatLog_IEP_Polish.md",
+    "03_RedMesaUniversity_MeetingNotes_Case_Review.md",
+    "04_RedMesaUniversity_AssessmentReport_Report_Status_Packaging.md",
+    "05_RedMesaUniversity_SourceRecord_CaseLog_and_Status.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Bulletin_Parking_permit_pickup_hours.md",
+    "07_Routine_PolicyReminder_Accessibility_captioning_request_queue.md",
+    "08_Routine_SupportTicket_Advising_appointment_release.md",
+    "09_Routine_Calendar_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_OperationsUpdate_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "ContactMatrix"
+  ]
+}

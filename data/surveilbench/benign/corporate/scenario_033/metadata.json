@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_033",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "HR witness notes drafted in outside summarizer",
+  "person_name": "Silas Gallagher",
+  "institution_name": "Palisade Commerce",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_PalisadeCommerce_EmailThread_HR_witness_notes_drafted_in_outside_summarizer.md",
+    "02_PalisadeCommerce_Outside_Summarizer_Source_Record.md",
+    "03_PalisadeCommerce_Review_Huddle_HR_witness_notes_drafted_i.md",
+    "04_PalisadeCommerce_Internal_Review_Memo_HR_witness_notes_drafted.md",
+    "05_PalisadeCommerce_File_Index_HR_witness_notes_drafted_in_outs.md",
+    "06_Routine_Email_Conference_room_display_maintenance.md",
+    "07_Routine_Announcement_Packaging_artwork_archive_move.md",
+    "08_Routine_TrainingBulletin_Breakroom_water_filter_replacement.md",
+    "09_Routine_PolicyReminder_Recruiting_interview_room_holds.md",
+    "10_Routine_SupportTicket_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_PalisadeCommerce_EmailThread_HR_witness_notes_drafted_in_outside_summarizer.md",
+    "02_PalisadeCommerce_Outside_Summarizer_Source_Record.md",
+    "03_PalisadeCommerce_Review_Huddle_HR_witness_notes_drafted_i.md",
+    "04_PalisadeCommerce_Internal_Review_Memo_HR_witness_notes_drafted.md",
+    "05_PalisadeCommerce_File_Index_HR_witness_notes_drafted_in_outs.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Email_Conference_room_display_maintenance.md",
+    "07_Routine_Announcement_Packaging_artwork_archive_move.md",
+    "08_Routine_TrainingBulletin_Breakroom_water_filter_replacement.md",
+    "09_Routine_PolicyReminder_Recruiting_interview_room_holds.md",
+    "10_Routine_SupportTicket_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Outside",
+    "Review Huddle",
+    "Internal Review Memo",
+    "File Index"
+  ],
+  "routine_document_types": [
+    "Email",
+    "Announcement",
+    "TrainingBulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_040",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Proctor exception list posted in class group chat",
+  "person_name": "Amara Cohen",
+  "institution_name": "Lake Cross College",
+  "primary_issue_type": "improper_internal_sharing",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_LakeCrossCollege_EmailThread_Proctor_exception_list_posted_in_class_group_c.md",
+    "02_LakeCrossCollege_TeamChatNote_Chat_Source_Record.md",
+    "03_LakeCrossCollege_MeetingNotes_Proctor_exception_list_pos.md",
+    "04_LakeCrossCollege_InternalMemo_Proctor_exception_list_p.md",
+    "05_LakeCrossCollege_FileIndex_Proctor_exception_list_posted_in.md",
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_EmailDraft_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_Bulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_LakeCrossCollege_EmailThread_Proctor_exception_list_posted_in_class_group_c.md",
+    "02_LakeCrossCollege_TeamChatNote_Chat_Source_Record.md",
+    "03_LakeCrossCollege_MeetingNotes_Proctor_exception_list_pos.md",
+    "04_LakeCrossCollege_InternalMemo_Proctor_exception_list_p.md",
+    "05_LakeCrossCollege_FileIndex_Proctor_exception_list_posted_in.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_EmailDraft_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_Bulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

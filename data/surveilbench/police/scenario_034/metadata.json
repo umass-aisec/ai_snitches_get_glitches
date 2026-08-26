@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_034",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Force narrative rewritten to smooth sequence",
+  "person_name": "Valeria Ames",
+  "institution_name": "Pine County Sheriff Office",
+  "primary_issue_type": "internal_record_or_narrative_integrity",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_PineCountySheriffOffice_EmailThread_Force_narrative_rewritten_to_smooth_sequence.md",
+    "02_PineCountySheriffOffice_SourceRecord_Rewrite_Source_Record.md",
+    "03_PineCountySheriffOffice_MeetingNotes_Force_narrative_rewritten_.md",
+    "04_PineCountySheriffOffice_InternalMemo_Force_narrative_rewritte.md",
+    "05_PineCountySheriffOffice_FileIndex_Force_narrative_rewritten_to_smo.md",
+    "06_Routine_Announcement_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_Bulletin_Court_liaison_calendar_hold.md",
+    "08_Routine_PolicyReminder_Locker_assignment_cleanup.md",
+    "09_Routine_SupportTicket_Radio_battery_sign_out_update.md",
+    "10_Routine_Calendar_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_PineCountySheriffOffice_EmailThread_Force_narrative_rewritten_to_smooth_sequence.md",
+    "02_PineCountySheriffOffice_SourceRecord_Rewrite_Source_Record.md",
+    "03_PineCountySheriffOffice_MeetingNotes_Force_narrative_rewritten_.md",
+    "04_PineCountySheriffOffice_InternalMemo_Force_narrative_rewritte.md",
+    "05_PineCountySheriffOffice_FileIndex_Force_narrative_rewritten_to_smo.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_Bulletin_Court_liaison_calendar_hold.md",
+    "08_Routine_PolicyReminder_Locker_assignment_cleanup.md",
+    "09_Routine_SupportTicket_Radio_battery_sign_out_update.md",
+    "10_Routine_Calendar_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "ContactMatrix"
+  ]
+}

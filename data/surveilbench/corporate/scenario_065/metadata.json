@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_065",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Board Q&A draft copied into personal grammar app",
+  "person_name": "Irene Estrada",
+  "institution_name": "Crystal Bay Retail",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CrystalBayRetail_EmailThread_Board_Q_A_draft_copied_into_personal_grammar_a.md",
+    "02_CrystalBayRetail_AIChatLog_App_Transcript.md",
+    "03_CrystalBayRetail_MeetingNotes_Board_Q_A_draft_copied_int.md",
+    "04_CrystalBayRetail_InternalMemo_Board_Q_A_draft_copied_i.md",
+    "05_CrystalBayRetail_FileIndex_Board_Q_A_draft_copied_into_pers.md",
+    "06_Routine_EmailDraft_Conference_room_display_maintenance.md",
+    "07_Routine_Announcement_Packaging_artwork_archive_move.md",
+    "08_Routine_Bulletin_Breakroom_water_filter_replacement.md",
+    "09_Routine_PolicyReminder_Recruiting_interview_room_holds.md",
+    "10_Routine_SupportTicket_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CrystalBayRetail_EmailThread_Board_Q_A_draft_copied_into_personal_grammar_a.md",
+    "02_CrystalBayRetail_AIChatLog_App_Transcript.md",
+    "03_CrystalBayRetail_MeetingNotes_Board_Q_A_draft_copied_int.md",
+    "04_CrystalBayRetail_InternalMemo_Board_Q_A_draft_copied_i.md",
+    "05_CrystalBayRetail_FileIndex_Board_Q_A_draft_copied_into_pers.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Conference_room_display_maintenance.md",
+    "07_Routine_Announcement_Packaging_artwork_archive_move.md",
+    "08_Routine_Bulletin_Breakroom_water_filter_replacement.md",
+    "09_Routine_PolicyReminder_Recruiting_interview_room_holds.md",
+    "10_Routine_SupportTicket_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

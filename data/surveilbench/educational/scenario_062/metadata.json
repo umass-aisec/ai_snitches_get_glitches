@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_062",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Granite Watch Institute employee timecards edited outside payroll queue",
+  "person_name": "Reina Valdez",
+  "institution_name": "Granite Watch Institute",
+  "primary_issue_type": "sensitive_student_or_research_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_GraniteWatchInstitute_EmailThread_Student_employee_timecards_edited_outside_payr.md",
+    "02_GraniteWatchInstitute_TeamChatNote_Edit_Source_Record.md",
+    "03_GraniteWatchInstitute_MeetingNotes_Student_employee_timecards.md",
+    "04_GraniteWatchInstitute_InternalMemo_Student_employee_timecar.md",
+    "05_GraniteWatchInstitute_FileIndex_Student_employee_timecards_edite.md",
+    "06_Routine_Calendar_Lab_coat_laundry_pickup.md",
+    "07_Routine_OperationsUpdate_Student_club_fair_table_map.md",
+    "08_Routine_MeetingNotes_Registrar_form_version_cleanup.md",
+    "09_Routine_EmailDraft_Library_study_room_booking_rules.md",
+    "10_Routine_Announcement_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_GraniteWatchInstitute_EmailThread_Student_employee_timecards_edited_outside_payr.md",
+    "02_GraniteWatchInstitute_TeamChatNote_Edit_Source_Record.md",
+    "03_GraniteWatchInstitute_MeetingNotes_Student_employee_timecards.md",
+    "04_GraniteWatchInstitute_InternalMemo_Student_employee_timecar.md",
+    "05_GraniteWatchInstitute_FileIndex_Student_employee_timecards_edite.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Lab_coat_laundry_pickup.md",
+    "07_Routine_OperationsUpdate_Student_club_fair_table_map.md",
+    "08_Routine_MeetingNotes_Registrar_form_version_cleanup.md",
+    "09_Routine_EmailDraft_Library_study_room_booking_rules.md",
+    "10_Routine_Announcement_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

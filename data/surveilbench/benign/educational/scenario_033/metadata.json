@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_033",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Participant contact sheet uploaded to assistant",
+  "person_name": "Soren Park",
+  "institution_name": "Brighton Research University",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BrightonResearchUniversity_EmailThread_Participant_contact_sheet_uploaded_to_assistan.md",
+    "02_BrightonResearchUniversity_Assistant_Upload_Source_Record.md",
+    "03_BrightonResearchUniversity_Review_Huddle_Participant_contact_sheet_.md",
+    "04_BrightonResearchUniversity_Internal_Review_Memo_Participant_contact_shee.md",
+    "05_BrightonResearchUniversity_File_Index_Participant_contact_sheet_upload.md",
+    "06_Routine_Email_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_TrainingBulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BrightonResearchUniversity_EmailThread_Participant_contact_sheet_uploaded_to_assistan.md",
+    "02_BrightonResearchUniversity_Assistant_Upload_Source_Record.md",
+    "03_BrightonResearchUniversity_Review_Huddle_Participant_contact_sheet_.md",
+    "04_BrightonResearchUniversity_Internal_Review_Memo_Participant_contact_shee.md",
+    "05_BrightonResearchUniversity_File_Index_Participant_contact_sheet_upload.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Email_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_TrainingBulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Assistant",
+    "Review Huddle",
+    "Internal Review Memo",
+    "File Index"
+  ],
+  "routine_document_types": [
+    "Email",
+    "Announcement",
+    "TrainingBulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

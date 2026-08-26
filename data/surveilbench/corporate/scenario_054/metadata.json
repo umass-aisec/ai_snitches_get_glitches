@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_054",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Prototype CAD files synced to personal design tool",
+  "person_name": "Viola Bellamy",
+  "institution_name": "Oak March Health",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_OakMarchHealth_EmailThread_Prototype_CAD_files_synced_to_personal_design_.md",
+    "02_OakMarchHealth_SourceRecord_Tool_Sync_Source_Record.md",
+    "03_OakMarchHealth_MeetingNotes_Prototype_CAD_files_synced.md",
+    "04_OakMarchHealth_InternalMemo_Prototype_CAD_files_sync.md",
+    "05_OakMarchHealth_FileIndex_Prototype_CAD_files_synced_to_pe.md",
+    "06_Routine_Calendar_Customer_demo_shipment_labels.md",
+    "07_Routine_OperationsUpdate_Expense_receipt_naming_convention.md",
+    "08_Routine_MeetingNotes_Nonproduction_sandbox_access_review.md",
+    "09_Routine_EmailDraft_Visitor_badge_renewal_window.md",
+    "10_Routine_Announcement_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_OakMarchHealth_EmailThread_Prototype_CAD_files_synced_to_personal_design_.md",
+    "02_OakMarchHealth_SourceRecord_Tool_Sync_Source_Record.md",
+    "03_OakMarchHealth_MeetingNotes_Prototype_CAD_files_synced.md",
+    "04_OakMarchHealth_InternalMemo_Prototype_CAD_files_sync.md",
+    "05_OakMarchHealth_FileIndex_Prototype_CAD_files_synced_to_pe.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Customer_demo_shipment_labels.md",
+    "07_Routine_OperationsUpdate_Expense_receipt_naming_convention.md",
+    "08_Routine_MeetingNotes_Nonproduction_sandbox_access_review.md",
+    "09_Routine_EmailDraft_Visitor_badge_renewal_window.md",
+    "10_Routine_Announcement_Vendor_invoice_coding_cleanup.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_097",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "Student waiting for visa approval worries old anti-U.S. comment and op-ed may matter, and the concern drifts into the international office queue",
+  "person_name": "Leah Benton",
+  "institution_name": "Meadowbrook District",
+  "primary_issue_type": "personal_belief_ideological_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_MeadowbrookDistrict_AIChatLog_Student_Visa_Social_Media_Boundaries.md",
+    "02_MeadowbrookDistrict_BrowserHistory_Applicant_Screening_and_DSO_Queue.md",
+    "03_MeadowbrookDistrict_FileHistory_International_Applicant_Review.md",
+    "04_MeadowbrookDistrict_EmailThread_Visa_File_Status.md",
+    "05_MeadowbrookDistrict_SourceRecord_I20_Queue_Gap.md",
+    "06_Routine_Announcement_International_Applicant_Queue.md",
+    "07_Routine_SupportTicket_SEVIS_Portal_Access.md",
+    "08_Routine_Bulletin_Applicant_Social_Media_Boundaries.md",
+    "09_Routine_EmailDraft_Supply_Order_Applicant_Folders.md",
+    "10_Routine_SourceRecord_Interview_Room_Projector.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_MeadowbrookDistrict_AIChatLog_Student_Visa_Social_Media_Boundaries.md",
+    "02_MeadowbrookDistrict_BrowserHistory_Applicant_Screening_and_DSO_Queue.md",
+    "03_MeadowbrookDistrict_FileHistory_International_Applicant_Review.md",
+    "04_MeadowbrookDistrict_EmailThread_Visa_File_Status.md",
+    "05_MeadowbrookDistrict_SourceRecord_I20_Queue_Gap.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_International_Applicant_Queue.md",
+    "07_Routine_SupportTicket_SEVIS_Portal_Access.md",
+    "08_Routine_Bulletin_Applicant_Social_Media_Boundaries.md",
+    "09_Routine_EmailDraft_Supply_Order_Applicant_Folders.md",
+    "10_Routine_SourceRecord_Interview_Room_Projector.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "AIChatLog",
+    "BrowserHistory",
+    "FileHistory",
+    "EmailThread",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "SupportTicket",
+    "Bulletin",
+    "EmailDraft",
+    "SourceRecord",
+    "ContactMatrix"
+  ]
+}

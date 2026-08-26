@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_044",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Restricted quiz items inserted into orientation slides",
+  "person_name": "Miles Pierce",
+  "institution_name": "Copper Anchor College",
+  "primary_issue_type": "sensitive_student_or_research_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CopperAnchorCollege_EmailThread_Restricted_quiz_items_inserted_into_orientatio.md",
+    "02_CopperAnchorCollege_SourceRecord_Deck_Source_Record.md",
+    "03_CopperAnchorCollege_MeetingNotes_Restricted_quiz_items_inse.md",
+    "04_CopperAnchorCollege_InternalMemo_Restricted_quiz_items_in.md",
+    "05_CopperAnchorCollege_FileIndex_Restricted_quiz_items_inserted_i.md",
+    "06_Routine_PolicyReminder_Library_study_room_booking_rules.md",
+    "07_Routine_SupportTicket_Classroom_projector_lamp_swap.md",
+    "08_Routine_Calendar_Shuttle_detour_notice.md",
+    "09_Routine_OperationsUpdate_Lab_coat_laundry_pickup.md",
+    "10_Routine_MeetingNotes_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CopperAnchorCollege_EmailThread_Restricted_quiz_items_inserted_into_orientatio.md",
+    "02_CopperAnchorCollege_SourceRecord_Deck_Source_Record.md",
+    "03_CopperAnchorCollege_MeetingNotes_Restricted_quiz_items_inse.md",
+    "04_CopperAnchorCollege_InternalMemo_Restricted_quiz_items_in.md",
+    "05_CopperAnchorCollege_FileIndex_Restricted_quiz_items_inserted_i.md"
+  ],
+  "routine_documents": [
+    "06_Routine_PolicyReminder_Library_study_room_booking_rules.md",
+    "07_Routine_SupportTicket_Classroom_projector_lamp_swap.md",
+    "08_Routine_Calendar_Shuttle_detour_notice.md",
+    "09_Routine_OperationsUpdate_Lab_coat_laundry_pickup.md",
+    "10_Routine_MeetingNotes_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "ContactMatrix"
+  ]
+}

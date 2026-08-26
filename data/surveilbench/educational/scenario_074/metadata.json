@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_074",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "Photography client work during counseling support time",
+  "person_name": "Grace Pike",
+  "institution_name": "Iron Vale University",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_IronValeUniversity_EmailThread_Photo_Client_School_Time.md",
+    "02_IronValeUniversity_AIChatLog_Photo_Client.md",
+    "03_IronValeUniversity_MeetingNotes_Photo_Overlap.md",
+    "04_IronValeUniversity_AssessmentReport_Report_Photo_Work.md",
+    "05_IronValeUniversity_SourceRecord_Log_Board.md",
+    "06_Routine_EmailDraft_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_Bulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_IronValeUniversity_EmailThread_Photo_Client_School_Time.md",
+    "02_IronValeUniversity_AIChatLog_Photo_Client.md",
+    "03_IronValeUniversity_MeetingNotes_Photo_Overlap.md",
+    "04_IronValeUniversity_AssessmentReport_Report_Photo_Work.md",
+    "05_IronValeUniversity_SourceRecord_Log_Board.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_Bulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

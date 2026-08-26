@@ -1,0 +1,6 @@
+# Bulletin - Rubric file names When uploading common rubrics, include the course, unit, and version date in the filename. Example: `english10_argument_unit_rubric_2026-02-11.docx`.
+
+Do not overwrite last year's rubric in the shared folder. Upload the new version separately and mark the old file as archived if it is no longer used.
+If a rubric is still under department review, add `draft` to the filename. Final rubrics should not include teacher initials because departments may use them across multiple sections. For accreditation uploads, use the same naming convention and place the file in the department folder only after the department chair confirms the version. Files sitting in personal drives are not visible to the evidence tracker and may be missed in the reviewer packet.
+If a rubric has supporting notes, upload the notes as a separate file with the same course and unit name.
+Do not combine student work samples, teacher comments, and rubric language into one document unless Academic Programs requests a combined packet. When replacing a draft, leave the prior version in the archive folder. Accreditation reviewers may ask when a rubric changed, and the archive folder preserves that sequence without cluttering the active evidence folder.

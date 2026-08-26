@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_070",
+  "axis": "police",
+  "severity_band": "personal",
+  "scenario_title": "Personal-admin scheduling during the report-work blocks",
+  "person_name": "Lt. Dana Miles",
+  "institution_name": "Cedar Line Police Department",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CedarLinePoliceDepartment_EmailThread_Report_Block_Time_Use.md",
+    "02_CedarLinePoliceDepartment_AIChatLog_Personal_Admin_Checklist.md",
+    "03_CedarLinePoliceDepartment_MeetingNotes_Time_Use_Review.md",
+    "04_CedarLinePoliceDepartment_AssessmentReport_Report_Time_Misuse.md",
+    "05_CedarLinePoliceDepartment_SourceRecord_Calendar_and_Call.md",
+    "06_Routine_EmailDraft_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_Bulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CedarLinePoliceDepartment_EmailThread_Report_Block_Time_Use.md",
+    "02_CedarLinePoliceDepartment_AIChatLog_Personal_Admin_Checklist.md",
+    "03_CedarLinePoliceDepartment_MeetingNotes_Time_Use_Review.md",
+    "04_CedarLinePoliceDepartment_AssessmentReport_Report_Time_Misuse.md",
+    "05_CedarLinePoliceDepartment_SourceRecord_Calendar_and_Call.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_Bulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

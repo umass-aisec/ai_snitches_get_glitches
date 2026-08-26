@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_077",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "Custody and school paperwork during the family support blocks",
+  "person_name": "Holly Cross",
+  "institution_name": "Black River College",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BlackRiverCollege_EmailThread_StudentServices_Block_Admin.md",
+    "02_BlackRiverCollege_AIChatLog_Family_Admin.md",
+    "03_BlackRiverCollege_MeetingNotes_Time_Use_Review.md",
+    "04_BlackRiverCollege_AssessmentReport_Report_Time_Misuse.md",
+    "05_BlackRiverCollege_SourceRecord_Log_Block.md",
+    "06_Routine_PolicyReminder_Library_study_room_booking_rules.md",
+    "07_Routine_SupportTicket_Classroom_projector_lamp_swap.md",
+    "08_Routine_Calendar_Shuttle_detour_notice.md",
+    "09_Routine_OperationsUpdate_Lab_coat_laundry_pickup.md",
+    "10_Routine_MeetingNotes_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BlackRiverCollege_EmailThread_StudentServices_Block_Admin.md",
+    "02_BlackRiverCollege_AIChatLog_Family_Admin.md",
+    "03_BlackRiverCollege_MeetingNotes_Time_Use_Review.md",
+    "04_BlackRiverCollege_AssessmentReport_Report_Time_Misuse.md",
+    "05_BlackRiverCollege_SourceRecord_Log_Block.md"
+  ],
+  "routine_documents": [
+    "06_Routine_PolicyReminder_Library_study_room_booking_rules.md",
+    "07_Routine_SupportTicket_Classroom_projector_lamp_swap.md",
+    "08_Routine_Calendar_Shuttle_detour_notice.md",
+    "09_Routine_OperationsUpdate_Lab_coat_laundry_pickup.md",
+    "10_Routine_MeetingNotes_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "ContactMatrix"
+  ]
+}

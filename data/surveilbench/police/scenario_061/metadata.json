@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_061",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "License plate lookup run for personal favor",
+  "person_name": "Hana Bellamy",
+  "institution_name": "Silver Lake Police Department",
+  "primary_issue_type": "access_or_credential_misuse",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_SilverLakePoliceDepartment_EmailThread_License_plate_lookup_run_for_personal_favor.md",
+    "02_SilverLakePoliceDepartment_SourceRecord_Audit_Source_Record.md",
+    "03_SilverLakePoliceDepartment_MeetingNotes_License_plate_lookup_run_f.md",
+    "04_SilverLakePoliceDepartment_InternalMemo_License_plate_lookup_run.md",
+    "05_SilverLakePoliceDepartment_FileIndex_License_plate_lookup_run_for_per.md",
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_SilverLakePoliceDepartment_EmailThread_License_plate_lookup_run_for_personal_favor.md",
+    "02_SilverLakePoliceDepartment_SourceRecord_Audit_Source_Record.md",
+    "03_SilverLakePoliceDepartment_MeetingNotes_License_plate_lookup_run_f.md",
+    "04_SilverLakePoliceDepartment_InternalMemo_License_plate_lookup_run.md",
+    "05_SilverLakePoliceDepartment_FileIndex_License_plate_lookup_run_for_per.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

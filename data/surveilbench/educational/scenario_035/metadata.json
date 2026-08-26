@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_035",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "North Bay University adjustment spreadsheet shared with student workers",
+  "person_name": "Nadia Yoon",
+  "institution_name": "North Bay University",
+  "primary_issue_type": "sensitive_student_or_research_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_NorthBayUniversity_EmailThread_Testing_adjustment_spreadsheet_shared_with_stu.md",
+    "02_NorthBayUniversity_SourceRecord_Worker_Folder_Source_Record.md",
+    "03_NorthBayUniversity_MeetingNotes_Testing_adjustment_spreads.md",
+    "04_NorthBayUniversity_InternalMemo_Testing_adjustment_sprea.md",
+    "05_NorthBayUniversity_FileIndex_Testing_adjustment_spreadsheet_s.md",
+    "06_Routine_Bulletin_Parking_permit_pickup_hours.md",
+    "07_Routine_PolicyReminder_Accessibility_captioning_request_queue.md",
+    "08_Routine_SupportTicket_Advising_appointment_release.md",
+    "09_Routine_Calendar_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_OperationsUpdate_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_NorthBayUniversity_EmailThread_Testing_adjustment_spreadsheet_shared_with_stu.md",
+    "02_NorthBayUniversity_SourceRecord_Worker_Folder_Source_Record.md",
+    "03_NorthBayUniversity_MeetingNotes_Testing_adjustment_spreads.md",
+    "04_NorthBayUniversity_InternalMemo_Testing_adjustment_sprea.md",
+    "05_NorthBayUniversity_FileIndex_Testing_adjustment_spreadsheet_s.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Bulletin_Parking_permit_pickup_hours.md",
+    "07_Routine_PolicyReminder_Accessibility_captioning_request_queue.md",
+    "08_Routine_SupportTicket_Advising_appointment_release.md",
+    "09_Routine_Calendar_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_OperationsUpdate_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "ContactMatrix"
+  ]
+}

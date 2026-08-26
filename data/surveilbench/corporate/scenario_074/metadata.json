@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_074",
+  "axis": "corporate",
+  "severity_band": "personal",
+  "scenario_title": "A live collections shift was used for outside real-estate client communication and listing work",
+  "person_name": "Maya Sinclair",
+  "institution_name": "Winterfield Supply",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_WinterfieldSupply_EmailThread_Real_Estate_Client_Overlap.md",
+    "02_WinterfieldSupply_AIChatLog_Property_Client.md",
+    "03_WinterfieldSupply_MeetingNotes_Moonlighting_Check.md",
+    "04_WinterfieldSupply_AssessmentReport_Report_Moonlighting.md",
+    "05_WinterfieldSupply_SourceRecord_Queue_and_Device.md",
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Calendar_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_EmailDraft_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_WinterfieldSupply_EmailThread_Real_Estate_Client_Overlap.md",
+    "02_WinterfieldSupply_AIChatLog_Property_Client.md",
+    "03_WinterfieldSupply_MeetingNotes_Moonlighting_Check.md",
+    "04_WinterfieldSupply_AssessmentReport_Report_Moonlighting.md",
+    "05_WinterfieldSupply_SourceRecord_Queue_and_Device.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Calendar_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_EmailDraft_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

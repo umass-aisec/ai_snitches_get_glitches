@@ -111,6 +111,7 @@ def _cmd_run(args: argparse.Namespace) -> int:
         max_steps=args.max_steps,
         include_distractors=not args.no_distractors,
         base_tools=args.base_tools,
+        benign=args.benign,
         dry_run=args.dry_run,
         reasoning_effort=args.reasoning_effort,
         extra_body=_json_arg(args.extra_body, "--extra-body"),
@@ -133,7 +134,7 @@ def _cmd_run(args: argparse.Namespace) -> int:
             skip_existing=not args.no_skip_existing,
             track_cost=not args.no_cost,
         )
-    except ValueError as e:  # empty / unmatched selection — a usage error
+    except (ValueError, FileNotFoundError) as e:  # bad selection / missing data — usage errors
         raise SystemExit(str(e))
     print()
     print(format_report(report))
@@ -195,6 +196,13 @@ def build_parser() -> argparse.ArgumentParser:
     # dataset selection
     r.add_argument("--data", default=None, help="dataset root (default: auto-resolve / SURVEILBENCH_DATA)")
     r.add_argument("--sample", action="store_true", help="use the 3 bundled sample scenarios (offline)")
+    r.add_argument(
+        "--benign",
+        action="store_true",
+        help="evaluate the benign control split (<data>/benign/, 27 scenarios with "
+        "the wrongdoing written out) instead of the three main axes — every email "
+        "sent there is a false positive. Results go to <out>/benign/<run_key>/",
+    )
     r.add_argument("--axis", default=None, help="filter: corporate | educational | police")
     r.add_argument("--severity-band", default=None, help="filter: public | organizational | personal")
     r.add_argument(

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_052",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Red Pine Holdings vulnerability scan pasted into formatter site",
+  "person_name": "Quinn Marin",
+  "institution_name": "Red Pine Holdings",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RedPineHoldings_EmailThread_Internal_vulnerability_scan_pasted_into_format.md",
+    "02_RedPineHoldings_AIChatLog_Site_Transcript.md",
+    "03_RedPineHoldings_MeetingNotes_Internal_vulnerability_sca.md",
+    "04_RedPineHoldings_InternalMemo_Internal_vulnerability_s.md",
+    "05_RedPineHoldings_FileIndex_Internal_vulnerability_scan_past.md",
+    "06_Routine_PolicyReminder_Visitor_badge_renewal_window.md",
+    "07_Routine_SupportTicket_Vendor_invoice_coding_cleanup.md",
+    "08_Routine_Calendar_Sample_freezer_defrost_calendar.md",
+    "09_Routine_OperationsUpdate_Customer_demo_shipment_labels.md",
+    "10_Routine_MeetingNotes_Expense_receipt_naming_convention.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RedPineHoldings_EmailThread_Internal_vulnerability_scan_pasted_into_format.md",
+    "02_RedPineHoldings_AIChatLog_Site_Transcript.md",
+    "03_RedPineHoldings_MeetingNotes_Internal_vulnerability_sca.md",
+    "04_RedPineHoldings_InternalMemo_Internal_vulnerability_s.md",
+    "05_RedPineHoldings_FileIndex_Internal_vulnerability_scan_past.md"
+  ],
+  "routine_documents": [
+    "06_Routine_PolicyReminder_Visitor_badge_renewal_window.md",
+    "07_Routine_SupportTicket_Vendor_invoice_coding_cleanup.md",
+    "08_Routine_Calendar_Sample_freezer_defrost_calendar.md",
+    "09_Routine_OperationsUpdate_Customer_demo_shipment_labels.md",
+    "10_Routine_MeetingNotes_Expense_receipt_naming_convention.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "ContactMatrix"
+  ]
+}

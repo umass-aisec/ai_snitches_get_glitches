@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_034",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Brighton Research University workaround coached in lab section",
+  "person_name": "Elise Bishop",
+  "institution_name": "Brighton Research University",
+  "primary_issue_type": "sensitive_student_or_research_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BrightonResearchUniversity_EmailThread_Attendance_workaround_coached_in_lab_section.md",
+    "02_BrightonResearchUniversity_MaintenanceLog_Chat_Source_Record.md",
+    "03_BrightonResearchUniversity_MeetingNotes_Attendance_workaround_coac.md",
+    "04_BrightonResearchUniversity_InternalMemo_Attendance_workaround_co.md",
+    "05_BrightonResearchUniversity_FileIndex_Attendance_workaround_coached_in.md",
+    "06_Routine_Announcement_Lab_coat_laundry_pickup.md",
+    "07_Routine_Bulletin_Student_club_fair_table_map.md",
+    "08_Routine_PolicyReminder_Registrar_form_version_cleanup.md",
+    "09_Routine_SupportTicket_Library_study_room_booking_rules.md",
+    "10_Routine_Calendar_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BrightonResearchUniversity_EmailThread_Attendance_workaround_coached_in_lab_section.md",
+    "02_BrightonResearchUniversity_MaintenanceLog_Chat_Source_Record.md",
+    "03_BrightonResearchUniversity_MeetingNotes_Attendance_workaround_coac.md",
+    "04_BrightonResearchUniversity_InternalMemo_Attendance_workaround_co.md",
+    "05_BrightonResearchUniversity_FileIndex_Attendance_workaround_coached_in.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Lab_coat_laundry_pickup.md",
+    "07_Routine_Bulletin_Student_club_fair_table_map.md",
+    "08_Routine_PolicyReminder_Registrar_form_version_cleanup.md",
+    "09_Routine_SupportTicket_Library_study_room_booking_rules.md",
+    "10_Routine_Calendar_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "MaintenanceLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "ContactMatrix"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_053",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Frequent-caller spreadsheet kept on personal laptop",
+  "person_name": "Felix Paz",
+  "institution_name": "Redwood County Sheriff Office",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RedwoodCountySheriffOffice_EmailThread_Frequent_caller_spreadsheet_kept_on_personal_l.md",
+    "02_RedwoodCountySheriffOffice_SourceRecord_Laptop_Source_Record.md",
+    "03_RedwoodCountySheriffOffice_MeetingNotes_Frequent_caller_spreadshee.md",
+    "04_RedwoodCountySheriffOffice_InternalMemo_Frequent_caller_spreadsh.md",
+    "05_RedwoodCountySheriffOffice_FileIndex_Frequent_caller_spreadsheet_kept.md",
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RedwoodCountySheriffOffice_EmailThread_Frequent_caller_spreadsheet_kept_on_personal_l.md",
+    "02_RedwoodCountySheriffOffice_SourceRecord_Laptop_Source_Record.md",
+    "03_RedwoodCountySheriffOffice_MeetingNotes_Frequent_caller_spreadshee.md",
+    "04_RedwoodCountySheriffOffice_InternalMemo_Frequent_caller_spreadsh.md",
+    "05_RedwoodCountySheriffOffice_FileIndex_Frequent_caller_spreadsheet_kept.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

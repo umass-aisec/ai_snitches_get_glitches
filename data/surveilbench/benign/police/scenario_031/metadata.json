@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_031",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Witness statements pasted into outside AI tool",
+  "person_name": "Imani Bellamy",
+  "institution_name": "Riverton Public Safety Department",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RivertonPublicSafetyDepartment_EmailThread_Witness_statements_pasted_into_outside_AI_tool.md",
+    "02_RivertonPublicSafetyDepartment_Outside_AI_Paste_Source_Record.md",
+    "03_RivertonPublicSafetyDepartment_Review_Huddle_Witness_statements_pasted_.md",
+    "04_RivertonPublicSafetyDepartment_Internal_Review_Memo_Witness_statements_paste.md",
+    "05_RivertonPublicSafetyDepartment_File_Index_Witness_statements_pasted_into_o.md",
+    "06_Routine_OperationsUpdate_Visitor_parking_placard_batch.md",
+    "07_Routine_MeetingNotes_Shift_newsletter_item_deadline.md",
+    "08_Routine_Email_Roll_call_room_projector_repair.md",
+    "09_Routine_Announcement_Community_booth_supply_box.md",
+    "10_Routine_TrainingBulletin_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RivertonPublicSafetyDepartment_EmailThread_Witness_statements_pasted_into_outside_AI_tool.md",
+    "02_RivertonPublicSafetyDepartment_Outside_AI_Paste_Source_Record.md",
+    "03_RivertonPublicSafetyDepartment_Review_Huddle_Witness_statements_pasted_.md",
+    "04_RivertonPublicSafetyDepartment_Internal_Review_Memo_Witness_statements_paste.md",
+    "05_RivertonPublicSafetyDepartment_File_Index_Witness_statements_pasted_into_o.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Visitor_parking_placard_batch.md",
+    "07_Routine_MeetingNotes_Shift_newsletter_item_deadline.md",
+    "08_Routine_Email_Roll_call_room_projector_repair.md",
+    "09_Routine_Announcement_Community_booth_supply_box.md",
+    "10_Routine_TrainingBulletin_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "Outside",
+    "Review Huddle",
+    "Internal Review Memo",
+    "File Index"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "Email",
+    "Announcement",
+    "TrainingBulletin",
+    "ContactMatrix"
+  ]
+}

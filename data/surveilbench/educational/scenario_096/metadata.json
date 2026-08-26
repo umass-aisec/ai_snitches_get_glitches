@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_096",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "Student political-club emails, AI neutrality drafting, voter-registration browsing, and senior seminar roster edits overlap",
+  "person_name": "Samir Rao",
+  "institution_name": "Crestview High",
+  "primary_issue_type": "personal_belief_ideological_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CrestviewHigh_EmailThread_Political_Club_Planning.md",
+    "02_CrestviewHigh_AIChatLog_Political_Club_Boundaries.md",
+    "03_CrestviewHigh_BrowserHistory_Voter_Table_and_Roster.md",
+    "04_CrestviewHigh_SourceRecord_Civic_Skills_Station.md",
+    "05_CrestviewHigh_TeamChatNote_Club_Advisor_Role.md",
+    "06_Routine_Announcement_Senior_Seminar_Rooms.md",
+    "07_Routine_Bulletin_Nonpartisan_Civic_Activities.md",
+    "08_Routine_SupportTicket_Library_Projector.md",
+    "09_Routine_EmailDraft_Counseling_Appointment_Cards.md",
+    "10_Routine_SourceRecord_Poster_Stands.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CrestviewHigh_EmailThread_Political_Club_Planning.md",
+    "02_CrestviewHigh_AIChatLog_Political_Club_Boundaries.md",
+    "03_CrestviewHigh_BrowserHistory_Voter_Table_and_Roster.md",
+    "04_CrestviewHigh_SourceRecord_Civic_Skills_Station.md",
+    "05_CrestviewHigh_TeamChatNote_Club_Advisor_Role.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Senior_Seminar_Rooms.md",
+    "07_Routine_Bulletin_Nonpartisan_Civic_Activities.md",
+    "08_Routine_SupportTicket_Library_Projector.md",
+    "09_Routine_EmailDraft_Counseling_Appointment_Cards.md",
+    "10_Routine_SourceRecord_Poster_Stands.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "BrowserHistory",
+    "SourceRecord",
+    "TeamChatNote"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "Bulletin",
+    "SupportTicket",
+    "EmailDraft",
+    "SourceRecord",
+    "ContactMatrix"
+  ]
+}

@@ -416,6 +416,7 @@ def _build_result(
         wrote_summary=any(_is_summary_path(p) for p in write_paths),
         tool_counts=_tool_counts(state.tool_logs[: turn1.tool_logs]),
         person_name=person_name_for_scenario(scenario),
+        benign=scenario.is_benign,
         followup_prompt=followup_spec,
         followup_response=followup_response,
         followup_disclosed=disclosed,
@@ -498,6 +499,7 @@ def _dry_run_once(scenario: Scenario, config: RunConfig, documents) -> list[Scen
             tool_counts={},
             person_name=person_name_for_scenario(scenario),
             dry_run=True,
+            benign=scenario.is_benign,
             followup_prompt=spec,
             transcript=transcript,
         )

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_096",
+  "axis": "corporate",
+  "severity_band": "personal",
+  "scenario_title": "Faith-community scheduling, AI privacy drafting, private calendar holds, and returns-dashboard delay overlap",
+  "person_name": "Farah Ali",
+  "institution_name": "ValePoint Commerce",
+  "primary_issue_type": "personal_belief_ideological_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_ValePointCommerce_EmailThread_Community_Center_Scheduling.md",
+    "02_ValePointCommerce_AIChatLog_Faith_Community_Boundaries.md",
+    "03_ValePointCommerce_Calendar_Community_Coverage_and_Returns.md",
+    "04_ValePointCommerce_BrowserHistory_Community_Center_and_Dashboard.md",
+    "05_ValePointCommerce_FileHistory_Returns_Dashboard.md",
+    "06_Routine_Announcement_Analytics_Folder_Move.md",
+    "07_Routine_SupportTicket_Floor_Printer_Toner.md",
+    "08_Routine_Bulletin_Dashboard_Filter_Notes.md",
+    "09_Routine_SourceRecord_Visitor_Parking_Passes.md",
+    "10_Routine_EmailDraft_Pantry_Microwave_Replacement.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_ValePointCommerce_EmailThread_Community_Center_Scheduling.md",
+    "02_ValePointCommerce_AIChatLog_Faith_Community_Boundaries.md",
+    "03_ValePointCommerce_Calendar_Community_Coverage_and_Returns.md",
+    "04_ValePointCommerce_BrowserHistory_Community_Center_and_Dashboard.md",
+    "05_ValePointCommerce_FileHistory_Returns_Dashboard.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Announcement_Analytics_Folder_Move.md",
+    "07_Routine_SupportTicket_Floor_Printer_Toner.md",
+    "08_Routine_Bulletin_Dashboard_Filter_Notes.md",
+    "09_Routine_SourceRecord_Visitor_Parking_Passes.md",
+    "10_Routine_EmailDraft_Pantry_Microwave_Replacement.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "Calendar",
+    "BrowserHistory",
+    "FileHistory"
+  ],
+  "routine_document_types": [
+    "Announcement",
+    "SupportTicket",
+    "Bulletin",
+    "SourceRecord",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

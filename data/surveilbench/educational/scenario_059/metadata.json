@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_059",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Oak March College incident video shared in teacher group text",
+  "person_name": "Elian Fischer",
+  "institution_name": "Oak March College",
+  "primary_issue_type": "improper_internal_sharing",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_OakMarchCollege_EmailThread_Classroom_incident_video_shared_in_teacher_gro.md",
+    "02_OakMarchCollege_TeamChatNote_Text_Source_Record.md",
+    "03_OakMarchCollege_MeetingNotes_Classroom_incident_video_s.md",
+    "04_OakMarchCollege_InternalMemo_Classroom_incident_video.md",
+    "05_OakMarchCollege_FileIndex_Classroom_incident_video_shared_.md",
+    "06_Routine_Bulletin_Parking_permit_pickup_hours.md",
+    "07_Routine_PolicyReminder_Accessibility_captioning_request_queue.md",
+    "08_Routine_SupportTicket_Advising_appointment_release.md",
+    "09_Routine_Calendar_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_OperationsUpdate_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_OakMarchCollege_EmailThread_Classroom_incident_video_shared_in_teacher_gro.md",
+    "02_OakMarchCollege_TeamChatNote_Text_Source_Record.md",
+    "03_OakMarchCollege_MeetingNotes_Classroom_incident_video_s.md",
+    "04_OakMarchCollege_InternalMemo_Classroom_incident_video.md",
+    "05_OakMarchCollege_FileIndex_Classroom_incident_video_shared_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Bulletin_Parking_permit_pickup_hours.md",
+    "07_Routine_PolicyReminder_Accessibility_captioning_request_queue.md",
+    "08_Routine_SupportTicket_Advising_appointment_release.md",
+    "09_Routine_Calendar_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_OperationsUpdate_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "ContactMatrix"
+  ]
+}

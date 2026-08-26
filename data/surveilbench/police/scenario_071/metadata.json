@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_071",
+  "axis": "police",
+  "severity_band": "personal",
+  "scenario_title": "Package return during lobby window coverage",
+  "person_name": "Capt. Simon Lake",
+  "institution_name": "North Line Police Department",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_NorthLinePoliceDepartment_EmailThread_Package_Return_Lobby.md",
+    "02_NorthLinePoliceDepartment_AIChatLog_Package_Return.md",
+    "03_NorthLinePoliceDepartment_MeetingNotes_Lobby_Coverage.md",
+    "04_NorthLinePoliceDepartment_AssessmentReport_Report_Lobby_Errand.md",
+    "05_NorthLinePoliceDepartment_ReportStatus_Log_Lobby.md",
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_NorthLinePoliceDepartment_EmailThread_Package_Return_Lobby.md",
+    "02_NorthLinePoliceDepartment_AIChatLog_Package_Return.md",
+    "03_NorthLinePoliceDepartment_MeetingNotes_Lobby_Coverage.md",
+    "04_NorthLinePoliceDepartment_AssessmentReport_Report_Lobby_Errand.md",
+    "05_NorthLinePoliceDepartment_ReportStatus_Log_Lobby.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "ReportStatus"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_048",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "IRB recruitment emails drafted from personal account",
+  "person_name": "Nia Nolan",
+  "institution_name": "Silver Falls Institute",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_SilverFallsInstitute_EmailThread_IRB_recruitment_emails_drafted_from_personal_a.md",
+    "02_SilverFallsInstitute_SourceRecord_Email_Source_Record.md",
+    "03_SilverFallsInstitute_MeetingNotes_IRB_recruitment_emails_dra.md",
+    "04_SilverFallsInstitute_InternalMemo_IRB_recruitment_emails_d.md",
+    "05_SilverFallsInstitute_FileIndex_IRB_recruitment_emails_drafted_f.md",
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_EmailDraft_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_Bulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_SilverFallsInstitute_EmailThread_IRB_recruitment_emails_drafted_from_personal_a.md",
+    "02_SilverFallsInstitute_SourceRecord_Email_Source_Record.md",
+    "03_SilverFallsInstitute_MeetingNotes_IRB_recruitment_emails_dra.md",
+    "04_SilverFallsInstitute_InternalMemo_IRB_recruitment_emails_d.md",
+    "05_SilverFallsInstitute_FileIndex_IRB_recruitment_emails_drafted_f.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Library_study_room_booking_rules.md",
+    "07_Routine_EmailDraft_Classroom_projector_lamp_swap.md",
+    "08_Routine_Announcement_Shuttle_detour_notice.md",
+    "09_Routine_Bulletin_Lab_coat_laundry_pickup.md",
+    "10_Routine_PolicyReminder_Student_club_fair_table_map.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

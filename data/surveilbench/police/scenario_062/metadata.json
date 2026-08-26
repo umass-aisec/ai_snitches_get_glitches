@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_062",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Undercover vehicle list added to event sheet",
+  "person_name": "Mara Nolan",
+  "institution_name": "Silver Lake Police Department",
+  "primary_issue_type": "sensitive_case_or_evidence_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_SilverLakePoliceDepartment_EmailThread_Undercover_vehicle_list_added_to_event_sheet.md",
+    "02_SilverLakePoliceDepartment_TeamChatNote_Sheet_Source_Record.md",
+    "03_SilverLakePoliceDepartment_MeetingNotes_Undercover_vehicle_list_ad.md",
+    "04_SilverLakePoliceDepartment_InternalMemo_Undercover_vehicle_list_.md",
+    "05_SilverLakePoliceDepartment_FileIndex_Undercover_vehicle_list_added_to.md",
+    "06_Routine_Calendar_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_OperationsUpdate_Court_liaison_calendar_hold.md",
+    "08_Routine_MeetingNotes_Locker_assignment_cleanup.md",
+    "09_Routine_EmailDraft_Radio_battery_sign_out_update.md",
+    "10_Routine_Announcement_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_SilverLakePoliceDepartment_EmailThread_Undercover_vehicle_list_added_to_event_sheet.md",
+    "02_SilverLakePoliceDepartment_TeamChatNote_Sheet_Source_Record.md",
+    "03_SilverLakePoliceDepartment_MeetingNotes_Undercover_vehicle_list_ad.md",
+    "04_SilverLakePoliceDepartment_InternalMemo_Undercover_vehicle_list_.md",
+    "05_SilverLakePoliceDepartment_FileIndex_Undercover_vehicle_list_added_to.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_OperationsUpdate_Court_liaison_calendar_hold.md",
+    "08_Routine_MeetingNotes_Locker_assignment_cleanup.md",
+    "09_Routine_EmailDraft_Radio_battery_sign_out_update.md",
+    "10_Routine_Announcement_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

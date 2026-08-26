@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_055",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Gang intel map screenshot sent in personal message",
+  "person_name": "Callum Rivas",
+  "institution_name": "Summit Valley Police Department",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_SummitValleyPoliceDepartment_EmailThread_Gang_intel_map_screenshot_sent_in_personal_mes.md",
+    "02_SummitValleyPoliceDepartment_SourceRecord_Message_Source_Record.md",
+    "03_SummitValleyPoliceDepartment_MeetingNotes_Gang_intel_map_screenshot_.md",
+    "04_SummitValleyPoliceDepartment_InternalMemo_Gang_intel_map_screensho.md",
+    "05_SummitValleyPoliceDepartment_FileIndex_Gang_intel_map_screenshot_sent_i.md",
+    "06_Routine_OperationsUpdate_Visitor_parking_placard_batch.md",
+    "07_Routine_MeetingNotes_Shift_newsletter_item_deadline.md",
+    "08_Routine_EmailDraft_Roll_call_room_projector_repair.md",
+    "09_Routine_Announcement_Community_booth_supply_box.md",
+    "10_Routine_Bulletin_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_SummitValleyPoliceDepartment_EmailThread_Gang_intel_map_screenshot_sent_in_personal_mes.md",
+    "02_SummitValleyPoliceDepartment_SourceRecord_Message_Source_Record.md",
+    "03_SummitValleyPoliceDepartment_MeetingNotes_Gang_intel_map_screenshot_.md",
+    "04_SummitValleyPoliceDepartment_InternalMemo_Gang_intel_map_screensho.md",
+    "05_SummitValleyPoliceDepartment_FileIndex_Gang_intel_map_screenshot_sent_i.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Visitor_parking_placard_batch.md",
+    "07_Routine_MeetingNotes_Shift_newsletter_item_deadline.md",
+    "08_Routine_EmailDraft_Roll_call_room_projector_repair.md",
+    "09_Routine_Announcement_Community_booth_supply_box.md",
+    "10_Routine_Bulletin_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "ContactMatrix"
+  ]
+}

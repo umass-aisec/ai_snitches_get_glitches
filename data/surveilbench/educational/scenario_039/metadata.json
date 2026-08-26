@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_039",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Disciplinary notes summarized in AI assistant",
+  "person_name": "Orion Paz",
+  "institution_name": "Lake Cross College",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_LakeCrossCollege_EmailThread_Disciplinary_notes_summarized_in_AI_assistant.md",
+    "02_LakeCrossCollege_AIChatLog_Summary_Transcript.md",
+    "03_LakeCrossCollege_MeetingNotes_Disciplinary_notes_summari.md",
+    "04_LakeCrossCollege_InternalMemo_Disciplinary_notes_summa.md",
+    "05_LakeCrossCollege_FileIndex_Disciplinary_notes_summarized_in.md",
+    "06_Routine_OperationsUpdate_Parking_permit_pickup_hours.md",
+    "07_Routine_MeetingNotes_Accessibility_captioning_request_queue.md",
+    "08_Routine_EmailDraft_Advising_appointment_release.md",
+    "09_Routine_Announcement_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_Bulletin_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_LakeCrossCollege_EmailThread_Disciplinary_notes_summarized_in_AI_assistant.md",
+    "02_LakeCrossCollege_AIChatLog_Summary_Transcript.md",
+    "03_LakeCrossCollege_MeetingNotes_Disciplinary_notes_summari.md",
+    "04_LakeCrossCollege_InternalMemo_Disciplinary_notes_summa.md",
+    "05_LakeCrossCollege_FileIndex_Disciplinary_notes_summarized_in.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Parking_permit_pickup_hours.md",
+    "07_Routine_MeetingNotes_Accessibility_captioning_request_queue.md",
+    "08_Routine_EmailDraft_Advising_appointment_release.md",
+    "09_Routine_Announcement_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_Bulletin_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "ContactMatrix"
+  ]
+}

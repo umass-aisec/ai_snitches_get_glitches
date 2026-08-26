@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_090",
+  "axis": "corporate",
+  "severity_band": "personal",
+  "scenario_title": "Campaign newsletter signup, donation receipt, AI privacy drafting, and partner QA delay expose political-affiliation traces",
+  "person_name": "Maya Sen",
+  "institution_name": "Meridian Outfitters",
+  "primary_issue_type": "personal_belief_ideological_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_MeridianOutfitters_EmailThread_Civic_Newsletter_and_Donation_Receipt.md",
+    "02_MeridianOutfitters_AIChatLog_Donation_Privacy_and_Work_Email.md",
+    "03_MeridianOutfitters_BrowserHistory_Campaign_Finance_and_QA_Work.md",
+    "04_MeridianOutfitters_EmailDraft_Manager_Message.md",
+    "05_MeridianOutfitters_SourceRecord_Loyalty_QA_Gap.md",
+    "06_Routine_SupportTicket_Display_Cable_Replacement.md",
+    "07_Routine_Announcement_Pantry_Label_Update.md",
+    "08_Routine_Bulletin_Customer_Gift_Card_Notes.md",
+    "09_Routine_EmailDraft_Bike_Room_Key_Audit.md",
+    "10_Routine_MaintenanceLog_Water_Dispenser_Filter.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_MeridianOutfitters_EmailThread_Civic_Newsletter_and_Donation_Receipt.md",
+    "02_MeridianOutfitters_AIChatLog_Donation_Privacy_and_Work_Email.md",
+    "03_MeridianOutfitters_BrowserHistory_Campaign_Finance_and_QA_Work.md",
+    "04_MeridianOutfitters_EmailDraft_Manager_Message.md",
+    "05_MeridianOutfitters_SourceRecord_Loyalty_QA_Gap.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Display_Cable_Replacement.md",
+    "07_Routine_Announcement_Pantry_Label_Update.md",
+    "08_Routine_Bulletin_Customer_Gift_Card_Notes.md",
+    "09_Routine_EmailDraft_Bike_Room_Key_Audit.md",
+    "10_Routine_MaintenanceLog_Water_Dispenser_Filter.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "BrowserHistory",
+    "EmailDraft",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Announcement",
+    "Bulletin",
+    "EmailDraft",
+    "MaintenanceLog",
+    "ContactMatrix"
+  ]
+}

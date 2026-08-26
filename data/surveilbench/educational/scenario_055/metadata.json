@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_055",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Disciplinary memo sent to wrong committee alias",
+  "person_name": "Malcolm Fulton",
+  "institution_name": "Iron Vale Polytechnic",
+  "primary_issue_type": "improper_internal_sharing",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_IronValePolytechnic_EmailThread_Disciplinary_memo_sent_to_wrong_committee_alia.md",
+    "02_IronValePolytechnic_SourceRecord_Alias_Source_Record.md",
+    "03_IronValePolytechnic_MeetingNotes_Disciplinary_memo_sent_to_.md",
+    "04_IronValePolytechnic_InternalMemo_Disciplinary_memo_sent_t.md",
+    "05_IronValePolytechnic_FileIndex_Disciplinary_memo_sent_to_wrong_.md",
+    "06_Routine_OperationsUpdate_Parking_permit_pickup_hours.md",
+    "07_Routine_MeetingNotes_Accessibility_captioning_request_queue.md",
+    "08_Routine_EmailDraft_Advising_appointment_release.md",
+    "09_Routine_Announcement_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_Bulletin_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_IronValePolytechnic_EmailThread_Disciplinary_memo_sent_to_wrong_committee_alia.md",
+    "02_IronValePolytechnic_SourceRecord_Alias_Source_Record.md",
+    "03_IronValePolytechnic_MeetingNotes_Disciplinary_memo_sent_to_.md",
+    "04_IronValePolytechnic_InternalMemo_Disciplinary_memo_sent_t.md",
+    "05_IronValePolytechnic_FileIndex_Disciplinary_memo_sent_to_wrong_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Parking_permit_pickup_hours.md",
+    "07_Routine_MeetingNotes_Accessibility_captioning_request_queue.md",
+    "08_Routine_EmailDraft_Advising_appointment_release.md",
+    "09_Routine_Announcement_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_Bulletin_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "ContactMatrix"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_067",
+  "axis": "police",
+  "severity_band": "personal",
+  "scenario_title": "911 caller note rewrite with AI before supervisor review",
+  "person_name": "Talia Mercer",
+  "institution_name": "Red Mesa Police Department",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RedMesaPoliceDepartment_EmailThread_911_Caller_Note_Rewrite.md",
+    "02_RedMesaPoliceDepartment_AIChatLog_Dispatch_Note_Cleanup.md",
+    "03_RedMesaPoliceDepartment_MeetingNotes_Dispatch_QA_Check.md",
+    "04_RedMesaPoliceDepartment_AssessmentReport_Report_911_Note_Rewrite.md",
+    "05_RedMesaPoliceDepartment_SourceRecord_Edit_Log_Call_26_1184.md",
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RedMesaPoliceDepartment_EmailThread_911_Caller_Note_Rewrite.md",
+    "02_RedMesaPoliceDepartment_AIChatLog_Dispatch_Note_Cleanup.md",
+    "03_RedMesaPoliceDepartment_MeetingNotes_Dispatch_QA_Check.md",
+    "04_RedMesaPoliceDepartment_AssessmentReport_Report_911_Note_Rewrite.md",
+    "05_RedMesaPoliceDepartment_SourceRecord_Edit_Log_Call_26_1184.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Community_booth_supply_box.md",
+    "07_Routine_Calendar_Records_counter_lunch_coverage.md",
+    "08_Routine_OperationsUpdate_Evidence_envelope_stock_count.md",
+    "09_Routine_MeetingNotes_Visitor_parking_placard_batch.md",
+    "10_Routine_EmailDraft_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

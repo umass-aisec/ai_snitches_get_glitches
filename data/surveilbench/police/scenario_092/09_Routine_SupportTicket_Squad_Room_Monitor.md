@@ -1,0 +1,6 @@
+# Support Ticket - Squad Room Monitor Flicker Ticket: IT-58931 Requester: Riley Han Location: Station 2 squad room, north wall display Opened: 2026-04-14 06:58 Closed: 2026-04-14 14:20 Issue: The north wall monitor used for call-board display flickered twice during briefing and then showed the input menu instead of CAD mirror.
+
+The briefing laptop still projected normally, so the likely issue was the HDMI switch behind the wall plate.
+Work performed: IT reseated the HDMI switch, replaced one short cable, and taped the switch position after confirming the display held a stable CAD mirror for 20 minutes. No user files were accessed.
+The technician also removed an old wireless keyboard receiver that was taped to the back of the monitor and no longer assigned to any workstation. User impact: Briefing notes were read from the laptop screen while the display was down. Patrol call response and CAD access were not interrupted.
+The wall display should be considered informational only; officers should continue using MDTs or dispatch confirmation for assigned calls. Follow-up: If the screen returns to the input menu again, note whether it happens after the lights are turned off in the squad room. Facilities is checking whether the wall outlet shares a circuit with the new vending machine.

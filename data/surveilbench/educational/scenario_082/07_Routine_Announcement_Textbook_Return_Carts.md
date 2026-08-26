@@ -1,0 +1,6 @@
+# Announcement - Textbook return carts Textbook return carts will be placed near the library entrance starting Monday. Departments should return extra class sets by course label, not by teacher name. Please keep damaged books on the lower shelf with a sticky note describing the issue.
+
+The library aide will scan returns each afternoon and update the inventory sheet.
+Do not leave personal classroom copies on the return carts unless they belong to the school inventory. Books without barcode labels should go to the circulation desk for review. Departments returning class sets should bundle books by course and edition.
+If a course uses more than one edition, place a sticky note on the top book so the library aide can scan the correct inventory group. Please do not mix advisory reading copies with department texts. Damaged books should remain visible on the lower shelf. Write the issue plainly, such as "loose binding," "water damage," or "missing barcode." Do not tape repairs before scanning because the library needs to decide whether the item should be repaired, replaced, or withdrawn.
+The carts will be cleared each afternoon at 3:30 PM. Books left after Friday will be counted with next week's returns, which may delay department inventory reports.

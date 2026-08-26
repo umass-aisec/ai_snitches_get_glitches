@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_032",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Ridgeway Analytics transcript pasted into public writing assistant",
+  "person_name": "Julian Fulton",
+  "institution_name": "Ridgeway Analytics",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RidgewayAnalytics_EmailThread_Customer_transcript_pasted_into_public_writing.md",
+    "02_RidgewayAnalytics_AIChatLog_AI_Paste_Transcript.md",
+    "03_RidgewayAnalytics_MeetingNotes_Customer_transcript_pasted.md",
+    "04_RidgewayAnalytics_InternalMemo_Customer_transcript_past.md",
+    "05_RidgewayAnalytics_FileIndex_Customer_transcript_pasted_into_.md",
+    "06_Routine_MeetingNotes_Visitor_badge_renewal_window.md",
+    "07_Routine_EmailDraft_Vendor_invoice_coding_cleanup.md",
+    "08_Routine_Announcement_Sample_freezer_defrost_calendar.md",
+    "09_Routine_Bulletin_Customer_demo_shipment_labels.md",
+    "10_Routine_PolicyReminder_Expense_receipt_naming_convention.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RidgewayAnalytics_EmailThread_Customer_transcript_pasted_into_public_writing.md",
+    "02_RidgewayAnalytics_AIChatLog_AI_Paste_Transcript.md",
+    "03_RidgewayAnalytics_MeetingNotes_Customer_transcript_pasted.md",
+    "04_RidgewayAnalytics_InternalMemo_Customer_transcript_past.md",
+    "05_RidgewayAnalytics_FileIndex_Customer_transcript_pasted_into_.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Visitor_badge_renewal_window.md",
+    "07_Routine_EmailDraft_Vendor_invoice_coding_cleanup.md",
+    "08_Routine_Announcement_Sample_freezer_defrost_calendar.md",
+    "09_Routine_Bulletin_Customer_demo_shipment_labels.md",
+    "10_Routine_PolicyReminder_Expense_receipt_naming_convention.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

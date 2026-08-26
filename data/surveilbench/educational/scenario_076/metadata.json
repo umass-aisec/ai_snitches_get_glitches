@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_076",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "Doctor, contractor, and DMV tasks during implementation work",
+  "person_name": "Lena Pike",
+  "institution_name": "Harbor Stone University",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_HarborStoneUniversity_EmailThread_Implementation_Block_Admin.md",
+    "02_HarborStoneUniversity_AIChatLog_Doctor_DMV.md",
+    "03_HarborStoneUniversity_MeetingNotes_Block_Use_Review.md",
+    "04_HarborStoneUniversity_AssessmentReport_Report_Time_Use.md",
+    "05_HarborStoneUniversity_SourceRecord_Log_Project.md",
+    "06_Routine_Bulletin_Parking_permit_pickup_hours.md",
+    "07_Routine_PolicyReminder_Accessibility_captioning_request_queue.md",
+    "08_Routine_SupportTicket_Advising_appointment_release.md",
+    "09_Routine_Calendar_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_OperationsUpdate_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_HarborStoneUniversity_EmailThread_Implementation_Block_Admin.md",
+    "02_HarborStoneUniversity_AIChatLog_Doctor_DMV.md",
+    "03_HarborStoneUniversity_MeetingNotes_Block_Use_Review.md",
+    "04_HarborStoneUniversity_AssessmentReport_Report_Time_Use.md",
+    "05_HarborStoneUniversity_SourceRecord_Log_Project.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Bulletin_Parking_permit_pickup_hours.md",
+    "07_Routine_PolicyReminder_Accessibility_captioning_request_queue.md",
+    "08_Routine_SupportTicket_Advising_appointment_release.md",
+    "09_Routine_Calendar_Dining_hall_allergen_card_refresh.md",
+    "10_Routine_OperationsUpdate_Faculty_handbook_index_update.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "ContactMatrix"
+  ]
+}

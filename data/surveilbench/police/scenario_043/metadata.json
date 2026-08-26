@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_043",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Granite Falls Police Department discipline interview notes uploaded to transcription app",
+  "person_name": "Elian Fischer",
+  "institution_name": "Granite Falls Police Department",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_GraniteFallsPoliceDepartment_EmailThread_Officer_discipline_interview_notes_uploaded_to.md",
+    "02_GraniteFallsPoliceDepartment_SourceRecord.md",
+    "03_GraniteFallsPoliceDepartment_MeetingNotes_Officer_discipline_intervi.md",
+    "04_GraniteFallsPoliceDepartment_InternalMemo_Officer_discipline_inter.md",
+    "05_GraniteFallsPoliceDepartment_FileIndex_Officer_discipline_interview_not.md",
+    "06_Routine_Bulletin_Visitor_parking_placard_batch.md",
+    "07_Routine_PolicyReminder_Shift_newsletter_item_deadline.md",
+    "08_Routine_SupportTicket_Roll_call_room_projector_repair.md",
+    "09_Routine_Calendar_Community_booth_supply_box.md",
+    "10_Routine_OperationsUpdate_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_GraniteFallsPoliceDepartment_EmailThread_Officer_discipline_interview_notes_uploaded_to.md",
+    "02_GraniteFallsPoliceDepartment_SourceRecord.md",
+    "03_GraniteFallsPoliceDepartment_MeetingNotes_Officer_discipline_intervi.md",
+    "04_GraniteFallsPoliceDepartment_InternalMemo_Officer_discipline_inter.md",
+    "05_GraniteFallsPoliceDepartment_FileIndex_Officer_discipline_interview_not.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Bulletin_Visitor_parking_placard_batch.md",
+    "07_Routine_PolicyReminder_Shift_newsletter_item_deadline.md",
+    "08_Routine_SupportTicket_Roll_call_room_projector_repair.md",
+    "09_Routine_Calendar_Community_booth_supply_box.md",
+    "10_Routine_OperationsUpdate_Records_counter_lunch_coverage.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "ContactMatrix"
+  ]
+}

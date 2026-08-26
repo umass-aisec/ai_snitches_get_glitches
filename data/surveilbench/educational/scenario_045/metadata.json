@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_045",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Lab incident statements copied to TA personal drive",
+  "person_name": "Zara Marin",
+  "institution_name": "Summit Gate University",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_SummitGateUniversity_EmailThread_Lab_incident_statements_copied_to_TA_personal_.md",
+    "02_SummitGateUniversity_SourceRecord_Drive_Source_Record.md",
+    "03_SummitGateUniversity_MeetingNotes_Lab_incident_statements_co.md",
+    "04_SummitGateUniversity_InternalMemo_Lab_incident_statements_.md",
+    "05_SummitGateUniversity_FileIndex_Lab_incident_statements_copied_t.md",
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Calendar_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_EmailDraft_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_SummitGateUniversity_EmailThread_Lab_incident_statements_copied_to_TA_personal_.md",
+    "02_SummitGateUniversity_SourceRecord_Drive_Source_Record.md",
+    "03_SummitGateUniversity_MeetingNotes_Lab_incident_statements_co.md",
+    "04_SummitGateUniversity_InternalMemo_Lab_incident_statements_.md",
+    "05_SummitGateUniversity_FileIndex_Lab_incident_statements_copied_t.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Calendar_Faculty_handbook_index_update.md",
+    "08_Routine_OperationsUpdate_Residence_hall_package_shelf_labels.md",
+    "09_Routine_MeetingNotes_Parking_permit_pickup_hours.md",
+    "10_Routine_EmailDraft_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

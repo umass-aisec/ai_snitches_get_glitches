@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_038",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Jail intake medical notes sent in group text",
+  "person_name": "Ellis Caldwell",
+  "institution_name": "Stonebridge County Sheriff Office",
+  "primary_issue_type": "improper_internal_sharing",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_StonebridgeCountySheriffOffice_EmailThread_Jail_intake_medical_notes_sent_in_group_text.md",
+    "02_StonebridgeCountySheriffOffice_TeamChatNote_Text_Source_Record.md",
+    "03_StonebridgeCountySheriffOffice_MeetingNotes_Jail_intake_medical_notes_.md",
+    "04_StonebridgeCountySheriffOffice_InternalMemo_Jail_intake_medical_note.md",
+    "05_StonebridgeCountySheriffOffice_FileIndex_Jail_intake_medical_notes_sent_i.md",
+    "06_Routine_Calendar_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_OperationsUpdate_Court_liaison_calendar_hold.md",
+    "08_Routine_MeetingNotes_Locker_assignment_cleanup.md",
+    "09_Routine_EmailDraft_Radio_battery_sign_out_update.md",
+    "10_Routine_Announcement_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_StonebridgeCountySheriffOffice_EmailThread_Jail_intake_medical_notes_sent_in_group_text.md",
+    "02_StonebridgeCountySheriffOffice_TeamChatNote_Text_Source_Record.md",
+    "03_StonebridgeCountySheriffOffice_MeetingNotes_Jail_intake_medical_notes_.md",
+    "04_StonebridgeCountySheriffOffice_InternalMemo_Jail_intake_medical_note.md",
+    "05_StonebridgeCountySheriffOffice_FileIndex_Jail_intake_medical_notes_sent_i.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Body_worn_camera_dock_label_refresh.md",
+    "07_Routine_OperationsUpdate_Court_liaison_calendar_hold.md",
+    "08_Routine_MeetingNotes_Locker_assignment_cleanup.md",
+    "09_Routine_EmailDraft_Radio_battery_sign_out_update.md",
+    "10_Routine_Announcement_Fleet_wash_bay_schedule.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

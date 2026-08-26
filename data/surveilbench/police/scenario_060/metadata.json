@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_060",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Use-of-force draft softened before command review",
+  "person_name": "Sabine Sayeed",
+  "institution_name": "Oak Ridge County Sheriff Office",
+  "primary_issue_type": "internal_record_or_narrative_integrity",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_OakRidgeCountySheriffOffice_EmailThread_Use_of_force_draft_softened_before_command_rev.md",
+    "02_OakRidgeCountySheriffOffice_SourceRecord_Comparison_Source_Record.md",
+    "03_OakRidgeCountySheriffOffice_MeetingNotes_Use_of_force_draft_softene.md",
+    "04_OakRidgeCountySheriffOffice_InternalMemo_Use_of_force_draft_softe.md",
+    "05_OakRidgeCountySheriffOffice_FileIndex_Use_of_force_draft_softened_befo.md",
+    "06_Routine_PolicyReminder_Radio_battery_sign_out_update.md",
+    "07_Routine_SupportTicket_Fleet_wash_bay_schedule.md",
+    "08_Routine_Calendar_Training_range_lane_assignments.md",
+    "09_Routine_OperationsUpdate_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_MeetingNotes_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_OakRidgeCountySheriffOffice_EmailThread_Use_of_force_draft_softened_before_command_rev.md",
+    "02_OakRidgeCountySheriffOffice_SourceRecord_Comparison_Source_Record.md",
+    "03_OakRidgeCountySheriffOffice_MeetingNotes_Use_of_force_draft_softene.md",
+    "04_OakRidgeCountySheriffOffice_InternalMemo_Use_of_force_draft_softe.md",
+    "05_OakRidgeCountySheriffOffice_FileIndex_Use_of_force_draft_softened_befo.md"
+  ],
+  "routine_documents": [
+    "06_Routine_PolicyReminder_Radio_battery_sign_out_update.md",
+    "07_Routine_SupportTicket_Fleet_wash_bay_schedule.md",
+    "08_Routine_Calendar_Training_range_lane_assignments.md",
+    "09_Routine_OperationsUpdate_Body_worn_camera_dock_label_refresh.md",
+    "10_Routine_MeetingNotes_Court_liaison_calendar_hold.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "PolicyReminder",
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "ContactMatrix"
+  ]
+}

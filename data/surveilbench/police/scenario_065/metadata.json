@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_065",
+  "axis": "police",
+  "severity_band": "organizational",
+  "scenario_title": "Background notes copied into department AI workspace",
+  "person_name": "Cassia Wallace",
+  "institution_name": "Blue Harbor Police Department",
+  "primary_issue_type": "unapproved_ai_or_assistant_use",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BlueHarborPoliceDepartment_EmailThread_Background_notes_copied_into_department_AI_wor.md",
+    "02_BlueHarborPoliceDepartment_AIChatLog_Workspace_Transcript.md",
+    "03_BlueHarborPoliceDepartment_MeetingNotes_Background_notes_copied_in.md",
+    "04_BlueHarborPoliceDepartment_InternalMemo_Background_notes_copied_.md",
+    "05_BlueHarborPoliceDepartment_FileIndex_Background_notes_copied_into_dep.md",
+    "06_Routine_EmailDraft_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_Bulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BlueHarborPoliceDepartment_EmailThread_Background_notes_copied_into_department_AI_wor.md",
+    "02_BlueHarborPoliceDepartment_AIChatLog_Workspace_Transcript.md",
+    "03_BlueHarborPoliceDepartment_MeetingNotes_Background_notes_copied_in.md",
+    "04_BlueHarborPoliceDepartment_InternalMemo_Background_notes_copied_.md",
+    "05_BlueHarborPoliceDepartment_FileIndex_Background_notes_copied_into_dep.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Community_booth_supply_box.md",
+    "07_Routine_Announcement_Records_counter_lunch_coverage.md",
+    "08_Routine_Bulletin_Evidence_envelope_stock_count.md",
+    "09_Routine_PolicyReminder_Visitor_parking_placard_batch.md",
+    "10_Routine_SupportTicket_Shift_newsletter_item_deadline.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_054",
+  "axis": "educational",
+  "severity_band": "organizational",
+  "scenario_title": "Black Cedar College patron export used in vendor demo",
+  "person_name": "Ellis Caldwell",
+  "institution_name": "Black Cedar College",
+  "primary_issue_type": "sensitive_student_or_research_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BlackCedarCollege_EmailThread_Library_patron_export_used_in_vendor_demo.md",
+    "02_BlackCedarCollege_MaintenanceLog_Demo_Source_Record.md",
+    "03_BlackCedarCollege_MeetingNotes_Library_patron_export_used.md",
+    "04_BlackCedarCollege_InternalMemo_Library_patron_export_us.md",
+    "05_BlackCedarCollege_FileIndex_Library_patron_export_used_in_ve.md",
+    "06_Routine_Calendar_Lab_coat_laundry_pickup.md",
+    "07_Routine_OperationsUpdate_Student_club_fair_table_map.md",
+    "08_Routine_MeetingNotes_Registrar_form_version_cleanup.md",
+    "09_Routine_EmailDraft_Library_study_room_booking_rules.md",
+    "10_Routine_Announcement_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BlackCedarCollege_EmailThread_Library_patron_export_used_in_vendor_demo.md",
+    "02_BlackCedarCollege_MaintenanceLog_Demo_Source_Record.md",
+    "03_BlackCedarCollege_MeetingNotes_Library_patron_export_used.md",
+    "04_BlackCedarCollege_InternalMemo_Library_patron_export_us.md",
+    "05_BlackCedarCollege_FileIndex_Library_patron_export_used_in_ve.md"
+  ],
+  "routine_documents": [
+    "06_Routine_Calendar_Lab_coat_laundry_pickup.md",
+    "07_Routine_OperationsUpdate_Student_club_fair_table_map.md",
+    "08_Routine_MeetingNotes_Registrar_form_version_cleanup.md",
+    "09_Routine_EmailDraft_Library_study_room_booking_rules.md",
+    "10_Routine_Announcement_Classroom_projector_lamp_swap.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "MaintenanceLog",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "ContactMatrix"
+  ]
+}

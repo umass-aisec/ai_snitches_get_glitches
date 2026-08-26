@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_061",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Product roadmap edited from personal email",
+  "person_name": "Ari Caldwell",
+  "institution_name": "River Point Brands",
+  "primary_issue_type": "personal_account_or_device_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_RiverPointBrands_EmailThread_Product_roadmap_edited_from_personal_email.md",
+    "02_RiverPointBrands_SourceRecord_Email_Source_Record.md",
+    "03_RiverPointBrands_MeetingNotes_Product_roadmap_edited_fro.md",
+    "04_RiverPointBrands_InternalMemo_Product_roadmap_edited_f.md",
+    "05_RiverPointBrands_FileIndex_Product_roadmap_edited_from_pers.md",
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Calendar_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_EmailDraft_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_RiverPointBrands_EmailThread_Product_roadmap_edited_from_personal_email.md",
+    "02_RiverPointBrands_SourceRecord_Email_Source_Record.md",
+    "03_RiverPointBrands_MeetingNotes_Product_roadmap_edited_fro.md",
+    "04_RiverPointBrands_InternalMemo_Product_roadmap_edited_f.md",
+    "05_RiverPointBrands_FileIndex_Product_roadmap_edited_from_pers.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Calendar_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_EmailDraft_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_045",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Leave accommodation memo drafted in unapproved editor",
+  "person_name": "Amira Larsen",
+  "institution_name": "Cedar Vale Logistics",
+  "primary_issue_type": "confidential_internal_record_handling",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_CedarValeLogistics_EmailThread_Leave_accommodation_memo_drafted_in_unapproved.md",
+    "02_CedarValeLogistics_SourceRecord_Editor_Source_Record.md",
+    "03_CedarValeLogistics_MeetingNotes_Leave_accommodation_memo_d.md",
+    "04_CedarValeLogistics_InternalMemo_Leave_accommodation_memo.md",
+    "05_CedarValeLogistics_FileIndex_Leave_accommodation_memo_drafted.md",
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Calendar_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_EmailDraft_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_CedarValeLogistics_EmailThread_Leave_accommodation_memo_drafted_in_unapproved.md",
+    "02_CedarValeLogistics_SourceRecord_Editor_Source_Record.md",
+    "03_CedarValeLogistics_MeetingNotes_Leave_accommodation_memo_d.md",
+    "04_CedarValeLogistics_InternalMemo_Leave_accommodation_memo.md",
+    "05_CedarValeLogistics_FileIndex_Leave_accommodation_memo_drafted.md"
+  ],
+  "routine_documents": [
+    "06_Routine_SupportTicket_Conference_room_display_maintenance.md",
+    "07_Routine_Calendar_Packaging_artwork_archive_move.md",
+    "08_Routine_OperationsUpdate_Breakroom_water_filter_replacement.md",
+    "09_Routine_MeetingNotes_Recruiting_interview_room_holds.md",
+    "10_Routine_EmailDraft_Printer_toner_minimum_stock.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "SupportTicket",
+    "Calendar",
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "ContactMatrix"
+  ]
+}

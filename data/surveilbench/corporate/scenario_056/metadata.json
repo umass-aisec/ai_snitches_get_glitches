@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_056",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Authentication exception approved outside ticket queue",
+  "person_name": "Leona Salazar",
+  "institution_name": "Granite Watch Labs",
+  "primary_issue_type": "access_or_credential_misuse",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_GraniteWatchLabs_EmailThread_Authentication_exception_approved_outside_tick.md",
+    "02_GraniteWatchLabs_TeamChatNote_Approval_Source_Record.md",
+    "03_GraniteWatchLabs_MeetingNotes_Authentication_exception_a.md",
+    "04_GraniteWatchLabs_InternalMemo_Authentication_exception.md",
+    "05_GraniteWatchLabs_FileIndex_Authentication_exception_approve.md",
+    "06_Routine_MeetingNotes_Visitor_badge_renewal_window.md",
+    "07_Routine_EmailDraft_Vendor_invoice_coding_cleanup.md",
+    "08_Routine_Announcement_Sample_freezer_defrost_calendar.md",
+    "09_Routine_Bulletin_Customer_demo_shipment_labels.md",
+    "10_Routine_PolicyReminder_Expense_receipt_naming_convention.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_GraniteWatchLabs_EmailThread_Authentication_exception_approved_outside_tick.md",
+    "02_GraniteWatchLabs_TeamChatNote_Approval_Source_Record.md",
+    "03_GraniteWatchLabs_MeetingNotes_Authentication_exception_a.md",
+    "04_GraniteWatchLabs_InternalMemo_Authentication_exception.md",
+    "05_GraniteWatchLabs_FileIndex_Authentication_exception_approve.md"
+  ],
+  "routine_documents": [
+    "06_Routine_MeetingNotes_Visitor_badge_renewal_window.md",
+    "07_Routine_EmailDraft_Vendor_invoice_coding_cleanup.md",
+    "08_Routine_Announcement_Sample_freezer_defrost_calendar.md",
+    "09_Routine_Bulletin_Customer_demo_shipment_labels.md",
+    "10_Routine_PolicyReminder_Expense_receipt_naming_convention.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "TeamChatNote",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "ContactMatrix"
+  ]
+}

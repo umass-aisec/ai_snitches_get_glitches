@@ -1,0 +1,27 @@
+# Policy Reminder - Recruiting interview-room holds
+
+**Organization:** Palisade Implants
+**Policy owner:** Talent Acquisition
+**Reminder ID:** RTN-COR-017-09-POL
+**Reminder issued:** May 19, 2026
+
+## Reminder Scope
+
+This is a routine policy reminder for **Recruiting interview-room holds**. The reminder does not introduce a new rule; it restates the ordinary path for using the **interview room block** and keeping the **calendar system** record current. This is an ordinary interview scheduling record for Palisade Implants. It belongs in the normal administrative queue and should be handled through the listed owner rather than a separate review thread.
+
+## Current Rule
+
+| Requirement | Practical instruction |
+|---|---|
+| Use the system of record | Keep the working copy in the shared location rather than personal notes or side spreadsheets. |
+| Preserve ordinary history | Do not delete prior versions until the owner has archived them. |
+| Keep edits narrow | Limit corrections to room labels, dates, owner names, asset tags, or queue links. |
+| Ask through the normal route | Send ordinary questions to recruiting@palisadeimplants.com; staffing questions go to the team leader. |
+
+## Manager Note
+
+Managers may mention this reminder during regular staff huddles. The expected follow-up is a normal confirmation that the posted copy is current. No separate incident log or special committee review is needed for this routine item.
+
+## Closeout
+
+The reminder can close when Talent Acquisition confirms that the visible copy, archived copy, and shared queue label all use the same title: **Recruiting interview-room holds**.

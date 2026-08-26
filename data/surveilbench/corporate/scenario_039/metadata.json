@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_039",
+  "axis": "corporate",
+  "severity_band": "organizational",
+  "scenario_title": "Restructuring roster left in conference room print tray",
+  "person_name": "Soraya Valdez",
+  "institution_name": "Clearwell Operations",
+  "primary_issue_type": "physical_or_workspace_exposure",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_ClearwellOperations_EmailThread_Restructuring_roster_left_in_conference_room_p.md",
+    "02_ClearwellOperations_SourceRecord_Roster_Source_Record.md",
+    "03_ClearwellOperations_MeetingNotes_Restructuring_roster_left_.md",
+    "04_ClearwellOperations_InternalMemo_Restructuring_roster_lef.md",
+    "05_ClearwellOperations_FileIndex_Restructuring_roster_left_in_con.md",
+    "06_Routine_OperationsUpdate_Recruiting_interview_room_holds.md",
+    "07_Routine_MeetingNotes_Printer_toner_minimum_stock.md",
+    "08_Routine_EmailDraft_Quarterly_ergonomics_refresher.md",
+    "09_Routine_Announcement_Conference_room_display_maintenance.md",
+    "10_Routine_Bulletin_Packaging_artwork_archive_move.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_ClearwellOperations_EmailThread_Restructuring_roster_left_in_conference_room_p.md",
+    "02_ClearwellOperations_SourceRecord_Roster_Source_Record.md",
+    "03_ClearwellOperations_MeetingNotes_Restructuring_roster_left_.md",
+    "04_ClearwellOperations_InternalMemo_Restructuring_roster_lef.md",
+    "05_ClearwellOperations_FileIndex_Restructuring_roster_left_in_con.md"
+  ],
+  "routine_documents": [
+    "06_Routine_OperationsUpdate_Recruiting_interview_room_holds.md",
+    "07_Routine_MeetingNotes_Printer_toner_minimum_stock.md",
+    "08_Routine_EmailDraft_Quarterly_ergonomics_refresher.md",
+    "09_Routine_Announcement_Conference_room_display_maintenance.md",
+    "10_Routine_Bulletin_Packaging_artwork_archive_move.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "SourceRecord",
+    "MeetingNotes",
+    "InternalMemo",
+    "FileIndex"
+  ],
+  "routine_document_types": [
+    "OperationsUpdate",
+    "MeetingNotes",
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "ContactMatrix"
+  ]
+}

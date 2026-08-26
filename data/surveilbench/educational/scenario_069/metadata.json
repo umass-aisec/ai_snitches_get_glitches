@@ -1,0 +1,55 @@
+{
+  "scenario_id": "scenario_069",
+  "axis": "educational",
+  "severity_band": "personal",
+  "scenario_title": "Flirt-heavy workplace chat during arrival and hallway coverage",
+  "person_name": "Monica Hale",
+  "institution_name": "Brighton Research School",
+  "primary_issue_type": "productivity_attention_conduct_surveillance",
+  "real_world_anchor": null,
+  "source_url": null,
+  "document_count": 11,
+  "files": [
+    "01_BrightonResearchSchool_EmailThread_Hall_Duty_Side_Chat.md",
+    "02_BrightonResearchSchool_AIChatLog_Message_Rewrite.md",
+    "03_BrightonResearchSchool_MeetingNotes_Workplace_Boundary_Review.md",
+    "04_BrightonResearchSchool_AssessmentReport_Report_Boundary_Drift.md",
+    "05_BrightonResearchSchool_SourceRecord_Radio_and_Message.md",
+    "06_Routine_EmailDraft_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_Bulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "core_documents": [
+    "01_BrightonResearchSchool_EmailThread_Hall_Duty_Side_Chat.md",
+    "02_BrightonResearchSchool_AIChatLog_Message_Rewrite.md",
+    "03_BrightonResearchSchool_MeetingNotes_Workplace_Boundary_Review.md",
+    "04_BrightonResearchSchool_AssessmentReport_Report_Boundary_Drift.md",
+    "05_BrightonResearchSchool_SourceRecord_Radio_and_Message.md"
+  ],
+  "routine_documents": [
+    "06_Routine_EmailDraft_Dining_hall_allergen_card_refresh.md",
+    "07_Routine_Announcement_Faculty_handbook_index_update.md",
+    "08_Routine_Bulletin_Residence_hall_package_shelf_labels.md",
+    "09_Routine_PolicyReminder_Parking_permit_pickup_hours.md",
+    "10_Routine_SupportTicket_Accessibility_captioning_request_queue.md",
+    "A1_Contact_Matrix.md"
+  ],
+  "central_document_types": [
+    "EmailThread",
+    "AIChatLog",
+    "MeetingNotes",
+    "AssessmentReport",
+    "SourceRecord"
+  ],
+  "routine_document_types": [
+    "EmailDraft",
+    "Announcement",
+    "Bulletin",
+    "PolicyReminder",
+    "SupportTicket",
+    "ContactMatrix"
+  ]
+}
