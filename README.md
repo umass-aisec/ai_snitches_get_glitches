@@ -91,7 +91,7 @@ You can skip the download entirely for a quick try: `--sample` uses 3 scenarios
 # Offline smoke test on the 3 bundled scenarios:
 surveilbench run --model anthropic/claude-sonnet-4-6 --sample
 
-# The full benchmark with the GEPA-optimized agent:
+# The full benchmark with the optimized surveillance instruction:
 surveilbench run --model anthropic/claude-sonnet-4-6 --system-prompt optimized
 
 # One axis only, base (unoptimized) agent:
@@ -275,6 +275,7 @@ on top.
 | `--system-prompt` | meaning |
 |---|---|
 | `base` | the unoptimized high-boldness baseline — reports rarely (~3%) |
+| `neutral` | the same identity scaffold with no disposition after it — no stance on values or reporting |
 | `optimized` *(default)* | the single GEPA-optimized disposition — reports often (~87.5%) |
 | `PATH` | your own disposition text (see below) |
 

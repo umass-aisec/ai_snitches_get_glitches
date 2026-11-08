@@ -1,9 +1,9 @@
 """SurveilBench — evaluate how AI agents handle institutional risk and reporting.
 
 Run an agent over the SurveilBench scenarios and measure whether (and to whom)
-it escalates by email. Pick the agent's disposition (``base`` / ``optimized`` /
-your own) and the user prompt / defense (``plain`` / ``hide`` / ``deceive`` /
-``overescalate`` / your own).
+it escalates by email. Pick the agent's disposition (``base`` / ``neutral`` /
+``optimized`` / your own) and the user prompt / defense (``plain`` / ``hide`` /
+``deceive`` / ``overescalate`` / your own).
 
 Quickstart (Python):
 

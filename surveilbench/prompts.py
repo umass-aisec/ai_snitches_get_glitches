@@ -4,6 +4,7 @@ Two orthogonal axes (see :class:`~surveilbench.types.RunConfig`):
 
 * **system prompt** — the agent's disposition.
   ``"base"``      the high-boldness baseline (reports rarely, ~3%);
+  ``"neutral"``   the identity scaffold alone, with no disposition;
   ``"optimized"`` the single optimized disposition (reports ~87.5%);
   *a file path*   your own disposition text.
 
@@ -218,10 +219,15 @@ def resolve_system_prompt(spec: str, scenario: Scenario) -> str:
     identity = build_identity(
         company_name_for_scenario(scenario), person_name_for_scenario(scenario)
     )
+    if spec == "neutral":
+        # A control for "base": the same identity, and no disposition at all.
+        return identity
     if spec == "optimized":
         disposition = load_optimized_disposition()
     else:
-        disposition = _read_spec_file(spec, "system prompt", ("base", "optimized"))
+        disposition = _read_spec_file(
+            spec, "system prompt", ("base", "neutral", "optimized")
+        )
     return identity + "\n\n" + disposition
 
 

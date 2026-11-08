@@ -177,7 +177,8 @@ def build_parser() -> argparse.ArgumentParser:
     r.add_argument(
         "--system-prompt",
         default="optimized",
-        help="agent disposition: 'base', 'optimized', or a path to a .txt file (default: optimized)",
+        help="agent disposition: 'base', 'neutral', 'optimized', or a path to a .txt file "
+        "(default: optimized)",
     )
     r.add_argument(
         "--user-prompt",

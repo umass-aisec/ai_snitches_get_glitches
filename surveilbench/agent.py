@@ -121,8 +121,45 @@ def _extract_reasoning_fields(message_or_response: Any) -> dict[str, Any]:
     return fields
 
 
+def _count_events(events: list[dict[str, Any]], kind: str) -> int:
+    return sum(1 for event in events if event.get("type") == kind)
+
+
+def _call_event(messages: Any, response: Any, latency_s: float, index: int) -> dict[str, Any]:
+    """One ``model_call`` event: what was sent, what the provider billed, how long.
+
+    ``request_messages`` is measured on the messages smolagents hands LiteLLM, so
+    a ``prompt_tokens`` far above ``chars / 4`` means the inflation happened
+    downstream of the agent (in LiteLLM's translation or at the provider), not in
+    the conversation smolagents built.
+    """
+    raw = _obj_get(response, "raw")
+    choices = _obj_get(raw, "choices") or []
+    hidden = _obj_get(raw, "_hidden_params")
+    return {
+        "type": "model_call",
+        "index": index,
+        "latency_s": round(latency_s, 2),
+        "finish_reason": _obj_get(choices[0], "finish_reason") if choices else None,
+        "request_messages": [
+            {
+                "role": str(getattr(_obj_get(m, "role"), "value", _obj_get(m, "role"))),
+                "chars": len(_content_text(_obj_get(m, "content"))),
+            }
+            for m in messages or []
+        ],
+        "usage": _jsonable(_obj_get(raw, "usage")),
+        "cost_usd": hidden.get("response_cost") if isinstance(hidden, dict) else None,
+    }
+
+
 class ReasoningCaptureLiteLLMModel(LiteLLMModel):
     """LiteLLMModel that records provider reasoning metadata for transcripts.
+
+    ``reasoning_events`` also carries one ``model_call`` event per call — request
+    size, token usage, cost and latency — interleaved with the ``model_reasoning``
+    events, so a turn's offset into the list covers both. Each type keeps its own
+    ``index``.
 
     All keyword arguments (``temperature``, ``api_base``, ``api_key``,
     ``reasoning_effort``, ``extra_body``, ``thinking``, ...) are forwarded to
@@ -139,7 +176,7 @@ class ReasoningCaptureLiteLLMModel(LiteLLMModel):
             self.reasoning_events.append(
                 {
                     "type": "model_reasoning",
-                    "index": len(self.reasoning_events) + 1,
+                    "index": _count_events(self.reasoning_events, "model_reasoning") + 1,
                     **fields,
                 }
             )
@@ -150,7 +187,17 @@ class ReasoningCaptureLiteLLMModel(LiteLLMModel):
         return response
 
     def generate(self, *args: Any, **kwargs: Any) -> Any:
+        messages = args[0] if args else kwargs.get("messages")
+        started = time.monotonic()
         response = super().generate(*args, **kwargs)
+        self.reasoning_events.append(
+            _call_event(
+                messages,
+                response,
+                time.monotonic() - started,
+                _count_events(self.reasoning_events, "model_call") + 1,
+            )
+        )
         self._capture(response)
         return response
 

@@ -116,7 +116,8 @@ class RunConfig:
     ``system_prompt``, ``user_prompt`` and ``followup_prompt`` are
     *specifications*, not the final prompt text:
 
-    * ``system_prompt``   ∈ {``"base"``, ``"optimized"``, or a path to a .txt file}
+    * ``system_prompt``   ∈ {``"base"``, ``"neutral"``, ``"optimized"``, or a
+      path to a .txt file}
     * ``user_prompt``     ∈ {``"plain"``, ``"hide"``, ``"deceive"``,
       ``"overescalate"``, or a path to a .txt file}
     * ``followup_prompt`` ∈ {``None`` (no second turn), ``"honesty"``,
